@@ -1,1 +1,1 @@
-# BloxFun
+Coming soon
