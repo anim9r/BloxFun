@@ -29986,7 +29986,7 @@ BloxFunGui.Tab5Button1_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab5Button1_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab5Button1_Script.BorderSizePixel = 0
 BloxFunGui.Tab5Button1_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab5Button1_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab5Button1_Script.Image = "rbxassetid://7413909866"
 
 BloxFunGui.Tab5Button1_Roundify_InvisFrame.Name = "Tab5Button1_Roundify_InvisFrame"
 BloxFunGui.Tab5Button1_Roundify_InvisFrame.Parent = BloxFunGui.Tab5Button1_Roundify
@@ -30009,7 +30009,7 @@ BloxFunGui.Tab5Button1_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab5Button1_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab5Button1_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab5Button1_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab5Button1_AssetName.Text = "Still in development"
+BloxFunGui.Tab5Button1_AssetName.Text = "bhop_easyv2 (Blue)"
 BloxFunGui.Tab5Button1_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab5Button1_AssetName.TextScaled = true
 BloxFunGui.Tab5Button1_AssetName.TextSize = 11.000
@@ -51728,8 +51728,8 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button13_Frame.Tab3But
 	game.ReplicatedStorage.Viewmodels["v_dblock"].Name = "v_CT Knife"
 	game.ReplicatedStorage.Viewmodels["v_dblock"].Name = "v_T Knife"
 	wait()
-	game.ReplicatedStorage.Viewmodels["v_CT Knife"]["Present Bottom"].TextureID = "rbxassetid://0"
-	game.ReplicatedStorage.Viewmodels["v_T Knife"]["Present Bottom"].TextureID = "rbxassetid://0"
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]["Present Bottom"].TextureID = "rbxassetid://7373598000"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]["Present Bottom"].TextureID = "rbxassetid://7373598000"
 end)
 --3/14
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button14_Frame.Tab3Button14_Roundify.Tab3Button14_Roundify_Frame.Tab3Button14_Script.MouseButton1Down:connect(function()
@@ -51925,7 +51925,7 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button22_Frame.Tab3But
 end)
 --3/23
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button23_Frame.Tab3Button23_Roundify.Tab3Button23_Roundify_Frame.Tab3Button23_Script.MouseButton1Down:connect(function()
---CS:GO AK47 | Wasteland Rebel
+    --CS:GO AK47 | Wasteland Rebel
 	game.ReplicatedStorage.Viewmodels["v_AK47"]:Destroy()
 	wait()
 	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
@@ -52487,7 +52487,35 @@ end)
 ---Tab5:
 --5/1
 game.CoreGui.BloxFunGui.MainFrame1.Tab5ScrollingFrame.Tab5Button1_Frame.Tab5Button1_Roundify.Tab5Button1_Roundify_Frame.Tab5Button1_Script.MouseButton1Down:connect(function()
-	print("5/1")
+	--bhop_easyv2
+	game.Workspace.Map["AllSpawns"]:Destroy()
+	game.Workspace.Map["CTSpawns"]:Destroy()
+	game.Workspace.Map["Clips"]:Destroy()
+	game.Workspace.Map["Geometry"]:Destroy()
+	game.Workspace.Map["Ignore"]:Destroy()
+	game.Workspace.Map["Killers"]:Destroy()
+	game.Workspace.Map["Regen"]:Destroy()
+	game.Workspace.Map["SpawnPoints"]:Destroy()
+	game.Workspace.Map["TSpawns"]:Destroy()
+	game.Workspace.Map["CeeT"]:Destroy()
+	game.Workspace.Map["Gamemode"]:Destroy()
+	game.Workspace.Map["Origin"]:Destroy()
+	game.Workspace.Map["Tee"]:Destroy()
+	game.Workspace.Map["Radar"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.Workspace.Map)
+	game:GetObjects('rbxassetid://7413909282')[1].Parent = Model1
+	Model1 = game.Workspace.Map.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+		Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.Workspace.Map["unpack_bhop_easyv2"]
+	for _, Child in pairs(Model2:GetChildren()) do
+		Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
 end)
 ----------------------------------------------------------------------------------------------------
 ---Tab6:
