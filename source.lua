@@ -15885,7 +15885,7 @@ BloxFunGui.Tab1Button41_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button41_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button41_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button41_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button41_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button41_Script.Image = "rbxassetid://7661867571"
 
 BloxFunGui.Tab1Button41_Roundify_InvisFrame.Name = "Tab1Button41_Roundify_InvisFrame"
 BloxFunGui.Tab1Button41_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button41_Roundify
@@ -15908,7 +15908,7 @@ BloxFunGui.Tab1Button41_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button41_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button41_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button41_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button41_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button41_AssetName.Text = "AWP | Disco"
 BloxFunGui.Tab1Button41_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button41_AssetName.TextScaled = true
 BloxFunGui.Tab1Button41_AssetName.TextSize = 11.000
@@ -15972,7 +15972,7 @@ BloxFunGui.Tab1Button42_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button42_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button42_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button42_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button42_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button42_Script.Image = "rbxassetid://7661866120"
 
 BloxFunGui.Tab1Button42_Roundify_InvisFrame.Name = "Tab1Button42_Roundify_InvisFrame"
 BloxFunGui.Tab1Button42_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button42_Roundify
@@ -15995,7 +15995,7 @@ BloxFunGui.Tab1Button42_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button42_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button42_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button42_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button42_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button42_AssetName.Text = "AWP | Stardust"
 BloxFunGui.Tab1Button42_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button42_AssetName.TextScaled = true
 BloxFunGui.Tab1Button42_AssetName.TextSize = 11.000
@@ -25112,7 +25112,7 @@ BloxFunGui.Tab3Button46_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button46_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button46_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button46_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button46_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab3Button46_Script.Image = "rbxassetid://7661849332"
 
 BloxFunGui.Tab3Button46_Roundify_InvisFrame.Name = "Tab3Button46_Roundify_InvisFrame"
 BloxFunGui.Tab3Button46_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button46_Roundify
@@ -25135,7 +25135,7 @@ BloxFunGui.Tab3Button46_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button46_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab3Button46_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab3Button46_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab3Button46_AssetName.Text = "Asset"
+BloxFunGui.Tab3Button46_AssetName.Text = "CS:GO(Model) AK47 | Illumina"
 BloxFunGui.Tab3Button46_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button46_AssetName.TextScaled = true
 BloxFunGui.Tab3Button46_AssetName.TextSize = 11.000
@@ -51150,11 +51150,23 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button40_Frame.Tab1But
 end)
 --1/41
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button41_Frame.Tab1Button41_Roundify.Tab1Button41_Roundify_Frame.Tab1Button41_Script.MouseButton1Down:connect(function()
-	print("1/41")
+	--AWP Disco
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Handle.TextureID = "rbxassetid://7661852507"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Scope.TextureID = "rbxassetid://7661855561"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Mag.TextureID = "rbxassetid://7661852507"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Barrel.TextureID = "rbxassetid://7661852507"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Slide.TextureID = "rbxassetid://7661852507"
+	game.ReplicatedStorage.Viewmodels["v_AWP"]["Slide 2"].TextureID = "rbxassetid://7661852507"
 end)
 --1/42
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button42_Frame.Tab1Button42_Roundify.Tab1Button42_Roundify_Frame.Tab1Button42_Script.MouseButton1Down:connect(function()
-	print("1/42")
+	--AWP Stardust
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Handle.TextureID = "rbxassetid://7661850914"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Scope.TextureID = "rbxassetid://7661851787"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Mag.TextureID = "rbxassetid://7661850914"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Barrel.TextureID = "rbxassetid://7661850914"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Slide.TextureID = "rbxassetid://7661850914"
+	game.ReplicatedStorage.Viewmodels["v_AWP"]["Slide 2"].TextureID = "rbxassetid://7661850914"
 end)
 --1/43
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button43_Frame.Tab1Button43_Roundify.Tab1Button43_Roundify_Frame.Tab1Button43_Script.MouseButton1Down:connect(function()
@@ -52258,7 +52270,21 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button45_Frame.Tab3But
 end)
 --3/46
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button46_Frame.Tab3Button46_Roundify.Tab3Button46_Roundify_Frame.Tab3Button46_Script.MouseButton1Down:connect(function()
-	print("3/46")
+	--CS:GO(Model) AK47 | Illumina
+	game.ReplicatedStorage.Viewmodels["v_AK47"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7161296580')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	game.ReplicatedStorage.Viewmodels["ak5671"].Name = "v_AK47"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Handle.TextureID = "rbxassetid://7661848565"
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Bolt.TextureID = "rbxassetid://7661848565"
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Mag.TextureID = "rbxassetid://7661848565"
 end)
 --3/47
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button47_Frame.Tab3Button47_Roundify.Tab3Button47_Roundify_Frame.Tab3Button47_Script.MouseButton1Down:connect(function()
