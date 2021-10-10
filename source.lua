@@ -5908,7 +5908,127 @@ local BloxFunGui = {
 	Tab8Button20_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
 	Tab8Button20_AssetName = Instance.new("TextLabel"),
 	Tab8Button20_TextLabel_Gradient = Instance.new("UIGradient"),
-	--0/0
+	--8/21
+	Tab8Button21_Frame = Instance.new("Frame"),
+	Tab8Button21_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button21_Roundify = Instance.new("ImageLabel"),
+	Tab8Button21_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button21_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button21_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button21_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button21_Script = Instance.new("ImageButton"),
+	Tab8Button21_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button21_AssetName = Instance.new("TextLabel"),
+	Tab8Button21_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/22
+	Tab8Button22_Frame = Instance.new("Frame"),
+	Tab8Button22_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button22_Roundify = Instance.new("ImageLabel"),
+	Tab8Button22_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button22_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button22_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button22_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button22_Script = Instance.new("ImageButton"),
+	Tab8Button22_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button22_AssetName = Instance.new("TextLabel"),
+	Tab8Button22_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/23
+	Tab8Button23_Frame = Instance.new("Frame"),
+	Tab8Button23_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button23_Roundify = Instance.new("ImageLabel"),
+	Tab8Button23_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button23_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button23_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button23_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button23_Script = Instance.new("ImageButton"),
+	Tab8Button23_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button23_AssetName = Instance.new("TextLabel"),
+	Tab8Button23_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/24
+	Tab8Button24_Frame = Instance.new("Frame"),
+	Tab8Button24_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button24_Roundify = Instance.new("ImageLabel"),
+	Tab8Button24_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button24_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button24_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button24_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button24_Script = Instance.new("ImageButton"),
+	Tab8Button24_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button24_AssetName = Instance.new("TextLabel"),
+	Tab8Button24_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/25
+	Tab8Button25_Frame = Instance.new("Frame"),
+	Tab8Button25_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button25_Roundify = Instance.new("ImageLabel"),
+	Tab8Button25_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button25_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button25_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button25_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button25_Script = Instance.new("ImageButton"),
+	Tab8Button25_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button25_AssetName = Instance.new("TextLabel"),
+	Tab8Button25_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/26
+	Tab8Button26_Frame = Instance.new("Frame"),
+	Tab8Button26_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button26_Roundify = Instance.new("ImageLabel"),
+	Tab8Button26_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button26_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button26_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button26_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button26_Script = Instance.new("ImageButton"),
+	Tab8Button26_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button26_AssetName = Instance.new("TextLabel"),
+	Tab8Button26_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/27
+	Tab8Button27_Frame = Instance.new("Frame"),
+	Tab8Button27_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button27_Roundify = Instance.new("ImageLabel"),
+	Tab8Button27_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button27_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button27_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button27_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button27_Script = Instance.new("ImageButton"),
+	Tab8Button27_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button27_AssetName = Instance.new("TextLabel"),
+	Tab8Button27_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/28
+	Tab8Button28_Frame = Instance.new("Frame"),
+	Tab8Button28_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button28_Roundify = Instance.new("ImageLabel"),
+	Tab8Button28_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button28_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button28_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button28_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button28_Script = Instance.new("ImageButton"),
+	Tab8Button28_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button28_AssetName = Instance.new("TextLabel"),
+	Tab8Button28_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/29
+	Tab8Button29_Frame = Instance.new("Frame"),
+	Tab8Button29_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button29_Roundify = Instance.new("ImageLabel"),
+	Tab8Button29_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button29_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button29_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button29_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button29_Script = Instance.new("ImageButton"),
+	Tab8Button29_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button29_AssetName = Instance.new("TextLabel"),
+	Tab8Button29_TextLabel_Gradient = Instance.new("UIGradient"),
+	--8/30
+	Tab8Button30_Frame = Instance.new("Frame"),
+	Tab8Button30_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button30_Roundify = Instance.new("ImageLabel"),
+	Tab8Button30_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab8Button30_Roundify_Frame = Instance.new("Frame"),
+	Tab8Button30_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab8Button30_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button30_Script = Instance.new("ImageButton"),
+	Tab8Button30_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab8Button30_AssetName = Instance.new("TextLabel"),
+	Tab8Button30_TextLabel_Gradient = Instance.new("UIGradient"),
+	--Last: 8/30
 	----------------------------------------------------------------------------------------
 	---Tab9:
 	--9/1
@@ -7133,7 +7253,7 @@ BloxFunGui.VersionText.BorderSizePixel = 0
 BloxFunGui.VersionText.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.VersionText.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.VersionText.Font = Enum.Font.Cartoon
-BloxFunGui.VersionText.Text = "Version: 2.0"
+BloxFunGui.VersionText.Text = "Last Updated: 10/10/2021"
 BloxFunGui.VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.VersionText.TextScaled = true
 BloxFunGui.VersionText.TextSize = 50.000
@@ -7190,7 +7310,7 @@ BloxFunGui.ChangesText.BorderSizePixel = 0
 BloxFunGui.ChangesText.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.ChangesText.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.ChangesText.Font = Enum.Font.Cartoon
-BloxFunGui.ChangesText.Text = "2.0 Release!"
+BloxFunGui.ChangesText.Text = "+ 24 gloves;"
 BloxFunGui.ChangesText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.ChangesText.TextScaled = true
 BloxFunGui.ChangesText.TextSize = 50.000
@@ -7342,7 +7462,7 @@ BloxFunGui.Persons1Text.BorderSizePixel = 0
 BloxFunGui.Persons1Text.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.Persons1Text.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.Persons1Text.Font = Enum.Font.Cartoon
-BloxFunGui.Persons1Text.Text = "boui; Starcow; gleb; ZeN; mwwreeee; erog; Fekses; Krz; Justin P. Kamei; WhiteStreets97;"
+BloxFunGui.Persons1Text.Text = "boui; Starkov; gleb; ZeN; mwwreeee; erog; Fekses; Krz; Justin P. Kamei; WhiteStreets97; mONE_SEY;"
 BloxFunGui.Persons1Text.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Persons1Text.TextScaled = true
 BloxFunGui.Persons1Text.TextSize = 50.000
@@ -47505,7 +47625,7 @@ BloxFunGui.Tab8Button1_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button1_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button1_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button1_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button1_AssetName.Text = "Minecraft Steave"
+BloxFunGui.Tab8Button1_AssetName.Text = "Arms | Minecraft Steave"
 BloxFunGui.Tab8Button1_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button1_AssetName.TextScaled = true
 BloxFunGui.Tab8Button1_AssetName.TextSize = 11.000
@@ -47592,7 +47712,7 @@ BloxFunGui.Tab8Button2_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button2_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button2_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button2_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button2_AssetName.Text = "Snake"
+BloxFunGui.Tab8Button2_AssetName.Text = "Arms | King Snake"
 BloxFunGui.Tab8Button2_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button2_AssetName.TextScaled = true
 BloxFunGui.Tab8Button2_AssetName.TextSize = 11.000
@@ -47679,7 +47799,7 @@ BloxFunGui.Tab8Button3_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button3_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button3_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button3_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button3_AssetName.Text = "Anarchia"
+BloxFunGui.Tab8Button3_AssetName.Text = "Arms | Nightmare"
 BloxFunGui.Tab8Button3_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button3_AssetName.TextScaled = true
 BloxFunGui.Tab8Button3_AssetName.TextSize = 11.000
@@ -47766,7 +47886,7 @@ BloxFunGui.Tab8Button4_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button4_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button4_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button4_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button4_AssetName.Text = "Icy"
+BloxFunGui.Tab8Button4_AssetName.Text = "Arms | Icy"
 BloxFunGui.Tab8Button4_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button4_AssetName.TextScaled = true
 BloxFunGui.Tab8Button4_AssetName.TextSize = 11.000
@@ -47853,7 +47973,7 @@ BloxFunGui.Tab8Button5_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button5_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button5_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button5_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button5_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button5_AssetName.Text = "Sports Glove | Twitch 1"
 BloxFunGui.Tab8Button5_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button5_AssetName.TextScaled = true
 BloxFunGui.Tab8Button5_AssetName.TextSize = 11.000
@@ -47940,7 +48060,7 @@ BloxFunGui.Tab8Button6_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button6_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button6_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button6_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button6_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button6_AssetName.Text = "Sports Glove | Twitch 2"
 BloxFunGui.Tab8Button6_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button6_AssetName.TextScaled = true
 BloxFunGui.Tab8Button6_AssetName.TextSize = 11.000
@@ -48027,7 +48147,7 @@ BloxFunGui.Tab8Button7_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button7_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button7_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button7_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button7_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button7_AssetName.Text = "Sports Glove | Twitch 3"
 BloxFunGui.Tab8Button7_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button7_AssetName.TextScaled = true
 BloxFunGui.Tab8Button7_AssetName.TextSize = 11.000
@@ -48114,7 +48234,7 @@ BloxFunGui.Tab8Button8_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button8_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button8_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button8_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button8_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button8_AssetName.Text = "Sports Glove | Chromatic Aberration (candy)"
 BloxFunGui.Tab8Button8_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button8_AssetName.TextScaled = true
 BloxFunGui.Tab8Button8_AssetName.TextSize = 11.000
@@ -48201,7 +48321,7 @@ BloxFunGui.Tab8Button9_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button9_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button9_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button9_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button9_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button9_AssetName.Text = "Sports Glove | Heaven Demon"
 BloxFunGui.Tab8Button9_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button9_AssetName.TextScaled = true
 BloxFunGui.Tab8Button9_AssetName.TextSize = 11.000
@@ -48288,7 +48408,7 @@ BloxFunGui.Tab8Button10_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button10_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button10_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button10_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button10_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button10_AssetName.Text = "Sports Glove | Riot of Colors"
 BloxFunGui.Tab8Button10_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button10_AssetName.TextScaled = true
 BloxFunGui.Tab8Button10_AssetName.TextSize = 11.000
@@ -48375,7 +48495,7 @@ BloxFunGui.Tab8Button11_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button11_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button11_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button11_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button11_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button11_AssetName.Text = "Sports Glove | Black Marble"
 BloxFunGui.Tab8Button11_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button11_AssetName.TextScaled = true
 BloxFunGui.Tab8Button11_AssetName.TextSize = 11.000
@@ -48462,7 +48582,7 @@ BloxFunGui.Tab8Button12_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button12_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button12_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button12_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button12_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button12_AssetName.Text = "Sports Glove | Freedom"
 BloxFunGui.Tab8Button12_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button12_AssetName.TextScaled = true
 BloxFunGui.Tab8Button12_AssetName.TextSize = 11.000
@@ -48549,7 +48669,7 @@ BloxFunGui.Tab8Button13_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button13_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button13_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button13_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button13_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button13_AssetName.Text = "Sports Glove | Leather Cover"
 BloxFunGui.Tab8Button13_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button13_AssetName.TextScaled = true
 BloxFunGui.Tab8Button13_AssetName.TextSize = 11.000
@@ -48636,7 +48756,7 @@ BloxFunGui.Tab8Button14_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button14_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button14_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button14_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button14_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button14_AssetName.Text = "Sports Glove | BloxFun"
 BloxFunGui.Tab8Button14_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button14_AssetName.TextScaled = true
 BloxFunGui.Tab8Button14_AssetName.TextSize = 11.000
@@ -48723,7 +48843,7 @@ BloxFunGui.Tab8Button15_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button15_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button15_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button15_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button15_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button15_AssetName.Text = "Sports Glove | Nightmare"
 BloxFunGui.Tab8Button15_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button15_AssetName.TextScaled = true
 BloxFunGui.Tab8Button15_AssetName.TextSize = 11.000
@@ -48810,7 +48930,7 @@ BloxFunGui.Tab8Button16_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button16_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button16_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button16_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button16_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button16_AssetName.Text = "Sports Glove | King Snake"
 BloxFunGui.Tab8Button16_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button16_AssetName.TextScaled = true
 BloxFunGui.Tab8Button16_AssetName.TextSize = 11.000
@@ -48897,7 +49017,7 @@ BloxFunGui.Tab8Button17_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button17_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button17_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button17_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button17_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button17_AssetName.Text = "Sports Glove | Prompto SUS"
 BloxFunGui.Tab8Button17_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button17_AssetName.TextScaled = true
 BloxFunGui.Tab8Button17_AssetName.TextSize = 11.000
@@ -48984,7 +49104,7 @@ BloxFunGui.Tab8Button18_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button18_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button18_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button18_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button18_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button18_AssetName.Text = "Sports Glove | Among Us"
 BloxFunGui.Tab8Button18_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button18_AssetName.TextScaled = true
 BloxFunGui.Tab8Button18_AssetName.TextSize = 11.000
@@ -49071,7 +49191,7 @@ BloxFunGui.Tab8Button19_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button19_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button19_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button19_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button19_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button19_AssetName.Text = "Sports Glove | Outlaws"
 BloxFunGui.Tab8Button19_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button19_AssetName.TextScaled = true
 BloxFunGui.Tab8Button19_AssetName.TextSize = 11.000
@@ -49158,7 +49278,7 @@ BloxFunGui.Tab8Button20_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button20_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button20_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button20_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button20_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button20_AssetName.Text = "Sports Glove | Goddes"
 BloxFunGui.Tab8Button20_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button20_AssetName.TextScaled = true
 BloxFunGui.Tab8Button20_AssetName.TextSize = 11.000
@@ -49169,7 +49289,877 @@ BloxFunGui.Tab8Button20_TextLabel_Gradient.Rotation = 80
 BloxFunGui.Tab8Button20_TextLabel_Gradient.Name = "Tab8Button20_TextLabel_Gradient"
 BloxFunGui.Tab8Button20_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button20_AssetName
 
---0/0
+--8/21
+
+BloxFunGui.Tab8Button21_Frame.Name = "Tab8Button21_Frame"
+BloxFunGui.Tab8Button21_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button21_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button21_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button21_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button21_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button21_Frame_GridLayout.Name = "Tab8Button21_Frame_GridLayout"
+BloxFunGui.Tab8Button21_Frame_GridLayout.Parent = BloxFunGui.Tab8Button21_Frame
+BloxFunGui.Tab8Button21_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button21_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button21_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button21_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button21_Roundify.Name = "Tab8Button21_Roundify"
+BloxFunGui.Tab8Button21_Roundify.Parent = BloxFunGui.Tab8Button21_Frame
+BloxFunGui.Tab8Button21_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button21_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button21_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button21_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button21_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button21_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button21_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button21_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button21_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button21_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button21_Roundify_Gradient.Name = "Tab8Button21_Roundify_Gradient"
+BloxFunGui.Tab8Button21_Roundify_Gradient.Parent = BloxFunGui.Tab8Button21_Roundify
+
+BloxFunGui.Tab8Button21_Roundify_Frame.Name = "Tab8Button21_Roundify_Frame"
+BloxFunGui.Tab8Button21_Roundify_Frame.Parent = BloxFunGui.Tab8Button21_Roundify
+BloxFunGui.Tab8Button21_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button21_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button21_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button21_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button21_Roundify_Frame_GridLayout.Name = "Tab8Button21_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button21_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button21_Roundify_Frame
+BloxFunGui.Tab8Button21_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button21_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button21_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button21_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button21_Script.Name = "Tab8Button21_Script"
+BloxFunGui.Tab8Button21_Script.Parent = BloxFunGui.Tab8Button21_Roundify_Frame
+BloxFunGui.Tab8Button21_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button21_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button21_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button21_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button21_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.Tab8Button21_Roundify_InvisFrame.Name = "Tab8Button21_Roundify_InvisFrame"
+BloxFunGui.Tab8Button21_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button21_Roundify
+BloxFunGui.Tab8Button21_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button21_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button21_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button21_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button21_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button21_Roundify_InvisFrame_GridLayout.Name = "Tab8Button21_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button21_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button21_Roundify_InvisFrame
+BloxFunGui.Tab8Button21_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button21_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button21_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button21_AssetName.Name = "Tab8Button21_AssetName"
+BloxFunGui.Tab8Button21_AssetName.Parent = BloxFunGui.Tab8Button21_Roundify_InvisFrame
+BloxFunGui.Tab8Button21_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button21_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button21_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button21_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button21_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button21_AssetName.Text = "Sports Glove | Inversion"
+BloxFunGui.Tab8Button21_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button21_AssetName.TextScaled = true
+BloxFunGui.Tab8Button21_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button21_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button21_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button21_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button21_TextLabel_Gradient.Name = "Tab8Button21_TextLabel_Gradient"
+BloxFunGui.Tab8Button21_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button21_AssetName
+
+--8/22
+
+BloxFunGui.Tab8Button22_Frame.Name = "Tab8Button22_Frame"
+BloxFunGui.Tab8Button22_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button22_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button22_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button22_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button22_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button22_Frame_GridLayout.Name = "Tab8Button22_Frame_GridLayout"
+BloxFunGui.Tab8Button22_Frame_GridLayout.Parent = BloxFunGui.Tab8Button22_Frame
+BloxFunGui.Tab8Button22_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button22_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button22_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button22_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button22_Roundify.Name = "Tab8Button22_Roundify"
+BloxFunGui.Tab8Button22_Roundify.Parent = BloxFunGui.Tab8Button22_Frame
+BloxFunGui.Tab8Button22_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button22_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button22_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button22_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button22_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button22_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button22_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button22_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button22_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button22_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button22_Roundify_Gradient.Name = "Tab8Button22_Roundify_Gradient"
+BloxFunGui.Tab8Button22_Roundify_Gradient.Parent = BloxFunGui.Tab8Button22_Roundify
+
+BloxFunGui.Tab8Button22_Roundify_Frame.Name = "Tab8Button22_Roundify_Frame"
+BloxFunGui.Tab8Button22_Roundify_Frame.Parent = BloxFunGui.Tab8Button22_Roundify
+BloxFunGui.Tab8Button22_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button22_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button22_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button22_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button22_Roundify_Frame_GridLayout.Name = "Tab8Button22_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button22_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button22_Roundify_Frame
+BloxFunGui.Tab8Button22_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button22_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button22_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button22_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button22_Script.Name = "Tab8Button22_Script"
+BloxFunGui.Tab8Button22_Script.Parent = BloxFunGui.Tab8Button22_Roundify_Frame
+BloxFunGui.Tab8Button22_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button22_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button22_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button22_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button22_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.Tab8Button22_Roundify_InvisFrame.Name = "Tab8Button22_Roundify_InvisFrame"
+BloxFunGui.Tab8Button22_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button22_Roundify
+BloxFunGui.Tab8Button22_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button22_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button22_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button22_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button22_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button22_Roundify_InvisFrame_GridLayout.Name = "Tab8Button22_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button22_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button22_Roundify_InvisFrame
+BloxFunGui.Tab8Button22_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button22_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button22_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button22_AssetName.Name = "Tab8Button22_AssetName"
+BloxFunGui.Tab8Button22_AssetName.Parent = BloxFunGui.Tab8Button22_Roundify_InvisFrame
+BloxFunGui.Tab8Button22_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button22_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button22_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button22_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button22_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button22_AssetName.Text = "Sports Glove | Printstream"
+BloxFunGui.Tab8Button22_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button22_AssetName.TextScaled = true
+BloxFunGui.Tab8Button22_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button22_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button22_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button22_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button22_TextLabel_Gradient.Name = "Tab8Button22_TextLabel_Gradient"
+BloxFunGui.Tab8Button22_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button22_AssetName
+
+--8/23
+
+BloxFunGui.Tab8Button23_Frame.Name = "Tab8Button23_Frame"
+BloxFunGui.Tab8Button23_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button23_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button23_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button23_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button23_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button23_Frame_GridLayout.Name = "Tab8Button23_Frame_GridLayout"
+BloxFunGui.Tab8Button23_Frame_GridLayout.Parent = BloxFunGui.Tab8Button23_Frame
+BloxFunGui.Tab8Button23_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button23_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button23_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button23_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button23_Roundify.Name = "Tab8Button23_Roundify"
+BloxFunGui.Tab8Button23_Roundify.Parent = BloxFunGui.Tab8Button23_Frame
+BloxFunGui.Tab8Button23_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button23_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button23_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button23_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button23_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button23_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button23_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button23_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button23_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button23_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button23_Roundify_Gradient.Name = "Tab8Button23_Roundify_Gradient"
+BloxFunGui.Tab8Button23_Roundify_Gradient.Parent = BloxFunGui.Tab8Button23_Roundify
+
+BloxFunGui.Tab8Button23_Roundify_Frame.Name = "Tab8Button23_Roundify_Frame"
+BloxFunGui.Tab8Button23_Roundify_Frame.Parent = BloxFunGui.Tab8Button23_Roundify
+BloxFunGui.Tab8Button23_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button23_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button23_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button23_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button23_Roundify_Frame_GridLayout.Name = "Tab8Button23_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button23_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button23_Roundify_Frame
+BloxFunGui.Tab8Button23_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button23_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button23_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button23_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button23_Script.Name = "Tab8Button23_Script"
+BloxFunGui.Tab8Button23_Script.Parent = BloxFunGui.Tab8Button23_Roundify_Frame
+BloxFunGui.Tab8Button23_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button23_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button23_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button23_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button23_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.Tab8Button23_Roundify_InvisFrame.Name = "Tab8Button23_Roundify_InvisFrame"
+BloxFunGui.Tab8Button23_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button23_Roundify
+BloxFunGui.Tab8Button23_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button23_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button23_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button23_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button23_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button23_Roundify_InvisFrame_GridLayout.Name = "Tab8Button23_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button23_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button23_Roundify_InvisFrame
+BloxFunGui.Tab8Button23_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button23_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button23_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button23_AssetName.Name = "Tab8Button23_AssetName"
+BloxFunGui.Tab8Button23_AssetName.Parent = BloxFunGui.Tab8Button23_Roundify_InvisFrame
+BloxFunGui.Tab8Button23_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button23_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button23_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button23_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button23_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button23_AssetName.Text = "Sports Glove | Crimson"
+BloxFunGui.Tab8Button23_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button23_AssetName.TextScaled = true
+BloxFunGui.Tab8Button23_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button23_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button23_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button23_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button23_TextLabel_Gradient.Name = "Tab8Button23_TextLabel_Gradient"
+BloxFunGui.Tab8Button23_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button23_AssetName
+
+--8/24
+
+BloxFunGui.Tab8Button24_Frame.Name = "Tab8Button24_Frame"
+BloxFunGui.Tab8Button24_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button24_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button24_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button24_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button24_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button24_Frame_GridLayout.Name = "Tab8Button24_Frame_GridLayout"
+BloxFunGui.Tab8Button24_Frame_GridLayout.Parent = BloxFunGui.Tab8Button24_Frame
+BloxFunGui.Tab8Button24_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button24_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button24_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button24_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button24_Roundify.Name = "Tab8Button24_Roundify"
+BloxFunGui.Tab8Button24_Roundify.Parent = BloxFunGui.Tab8Button24_Frame
+BloxFunGui.Tab8Button24_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button24_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button24_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button24_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button24_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button24_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button24_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button24_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button24_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button24_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button24_Roundify_Gradient.Name = "Tab8Button24_Roundify_Gradient"
+BloxFunGui.Tab8Button24_Roundify_Gradient.Parent = BloxFunGui.Tab8Button24_Roundify
+
+BloxFunGui.Tab8Button24_Roundify_Frame.Name = "Tab8Button24_Roundify_Frame"
+BloxFunGui.Tab8Button24_Roundify_Frame.Parent = BloxFunGui.Tab8Button24_Roundify
+BloxFunGui.Tab8Button24_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button24_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button24_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button24_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button24_Roundify_Frame_GridLayout.Name = "Tab8Button24_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button24_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button24_Roundify_Frame
+BloxFunGui.Tab8Button24_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button24_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button24_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button24_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button24_Script.Name = "Tab8Button24_Script"
+BloxFunGui.Tab8Button24_Script.Parent = BloxFunGui.Tab8Button24_Roundify_Frame
+BloxFunGui.Tab8Button24_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button24_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button24_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button24_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button24_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.Tab8Button24_Roundify_InvisFrame.Name = "Tab8Button24_Roundify_InvisFrame"
+BloxFunGui.Tab8Button24_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button24_Roundify
+BloxFunGui.Tab8Button24_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button24_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button24_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button24_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button24_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button24_Roundify_InvisFrame_GridLayout.Name = "Tab8Button24_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button24_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button24_Roundify_InvisFrame
+BloxFunGui.Tab8Button24_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button24_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button24_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button24_AssetName.Name = "Tab8Button24_AssetName"
+BloxFunGui.Tab8Button24_AssetName.Parent = BloxFunGui.Tab8Button24_Roundify_InvisFrame
+BloxFunGui.Tab8Button24_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button24_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button24_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button24_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button24_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button24_AssetName.Text = "Strapped Glove | Sara"
+BloxFunGui.Tab8Button24_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button24_AssetName.TextScaled = true
+BloxFunGui.Tab8Button24_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button24_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button24_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button24_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button24_TextLabel_Gradient.Name = "Tab8Button24_TextLabel_Gradient"
+BloxFunGui.Tab8Button24_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button24_AssetName
+
+--8/25
+
+BloxFunGui.Tab8Button25_Frame.Name = "Tab8Button25_Frame"
+BloxFunGui.Tab8Button25_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button25_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button25_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button25_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button25_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button25_Frame_GridLayout.Name = "Tab8Button25_Frame_GridLayout"
+BloxFunGui.Tab8Button25_Frame_GridLayout.Parent = BloxFunGui.Tab8Button25_Frame
+BloxFunGui.Tab8Button25_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button25_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button25_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button25_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button25_Roundify.Name = "Tab8Button25_Roundify"
+BloxFunGui.Tab8Button25_Roundify.Parent = BloxFunGui.Tab8Button25_Frame
+BloxFunGui.Tab8Button25_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button25_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button25_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button25_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button25_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button25_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button25_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button25_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button25_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button25_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button25_Roundify_Gradient.Name = "Tab8Button25_Roundify_Gradient"
+BloxFunGui.Tab8Button25_Roundify_Gradient.Parent = BloxFunGui.Tab8Button25_Roundify
+
+BloxFunGui.Tab8Button25_Roundify_Frame.Name = "Tab8Button25_Roundify_Frame"
+BloxFunGui.Tab8Button25_Roundify_Frame.Parent = BloxFunGui.Tab8Button25_Roundify
+BloxFunGui.Tab8Button25_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button25_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button25_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button25_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button25_Roundify_Frame_GridLayout.Name = "Tab8Button25_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button25_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button25_Roundify_Frame
+BloxFunGui.Tab8Button25_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button25_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button25_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button25_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button25_Script.Name = "Tab8Button25_Script"
+BloxFunGui.Tab8Button25_Script.Parent = BloxFunGui.Tab8Button25_Roundify_Frame
+BloxFunGui.Tab8Button25_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button25_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button25_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button25_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button25_Script.Image = "rbxassetid://7702296616"
+
+BloxFunGui.Tab8Button25_Roundify_InvisFrame.Name = "Tab8Button25_Roundify_InvisFrame"
+BloxFunGui.Tab8Button25_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button25_Roundify
+BloxFunGui.Tab8Button25_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button25_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button25_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button25_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button25_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button25_Roundify_InvisFrame_GridLayout.Name = "Tab8Button25_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button25_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button25_Roundify_InvisFrame
+BloxFunGui.Tab8Button25_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button25_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button25_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button25_AssetName.Name = "Tab8Button25_AssetName"
+BloxFunGui.Tab8Button25_AssetName.Parent = BloxFunGui.Tab8Button25_Roundify_InvisFrame
+BloxFunGui.Tab8Button25_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button25_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button25_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button25_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button25_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button25_AssetName.Text = "Strapped Glove | Aesthetic"
+BloxFunGui.Tab8Button25_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button25_AssetName.TextScaled = true
+BloxFunGui.Tab8Button25_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button25_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button25_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button25_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button25_TextLabel_Gradient.Name = "Tab8Button25_TextLabel_Gradient"
+BloxFunGui.Tab8Button25_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button25_AssetName
+
+--8/26
+
+BloxFunGui.Tab8Button26_Frame.Name = "Tab8Button26_Frame"
+BloxFunGui.Tab8Button26_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button26_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button26_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button26_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button26_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button26_Frame_GridLayout.Name = "Tab8Button26_Frame_GridLayout"
+BloxFunGui.Tab8Button26_Frame_GridLayout.Parent = BloxFunGui.Tab8Button26_Frame
+BloxFunGui.Tab8Button26_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button26_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button26_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button26_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button26_Roundify.Name = "Tab8Button26_Roundify"
+BloxFunGui.Tab8Button26_Roundify.Parent = BloxFunGui.Tab8Button26_Frame
+BloxFunGui.Tab8Button26_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button26_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button26_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button26_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button26_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button26_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button26_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button26_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button26_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button26_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button26_Roundify_Gradient.Name = "Tab8Button26_Roundify_Gradient"
+BloxFunGui.Tab8Button26_Roundify_Gradient.Parent = BloxFunGui.Tab8Button26_Roundify
+
+BloxFunGui.Tab8Button26_Roundify_Frame.Name = "Tab8Button26_Roundify_Frame"
+BloxFunGui.Tab8Button26_Roundify_Frame.Parent = BloxFunGui.Tab8Button26_Roundify
+BloxFunGui.Tab8Button26_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button26_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button26_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button26_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button26_Roundify_Frame_GridLayout.Name = "Tab8Button26_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button26_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button26_Roundify_Frame
+BloxFunGui.Tab8Button26_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button26_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button26_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button26_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button26_Script.Name = "Tab8Button26_Script"
+BloxFunGui.Tab8Button26_Script.Parent = BloxFunGui.Tab8Button26_Roundify_Frame
+BloxFunGui.Tab8Button26_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button26_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button26_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button26_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button26_Script.Image = "rbxassetid://7702234758"
+
+BloxFunGui.Tab8Button26_Roundify_InvisFrame.Name = "Tab8Button26_Roundify_InvisFrame"
+BloxFunGui.Tab8Button26_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button26_Roundify
+BloxFunGui.Tab8Button26_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button26_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button26_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button26_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button26_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button26_Roundify_InvisFrame_GridLayout.Name = "Tab8Button26_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button26_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button26_Roundify_InvisFrame
+BloxFunGui.Tab8Button26_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button26_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button26_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button26_AssetName.Name = "Tab8Button26_AssetName"
+BloxFunGui.Tab8Button26_AssetName.Parent = BloxFunGui.Tab8Button26_Roundify_InvisFrame
+BloxFunGui.Tab8Button26_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button26_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button26_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button26_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button26_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button26_AssetName.Text = "Strapped Glove | Twitch"
+BloxFunGui.Tab8Button26_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button26_AssetName.TextScaled = true
+BloxFunGui.Tab8Button26_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button26_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button26_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button26_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button26_TextLabel_Gradient.Name = "Tab8Button26_TextLabel_Gradient"
+BloxFunGui.Tab8Button26_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button26_AssetName
+
+--8/27
+
+BloxFunGui.Tab8Button27_Frame.Name = "Tab8Button27_Frame"
+BloxFunGui.Tab8Button27_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button27_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button27_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button27_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button27_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button27_Frame_GridLayout.Name = "Tab8Button27_Frame_GridLayout"
+BloxFunGui.Tab8Button27_Frame_GridLayout.Parent = BloxFunGui.Tab8Button27_Frame
+BloxFunGui.Tab8Button27_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button27_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button27_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button27_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button27_Roundify.Name = "Tab8Button27_Roundify"
+BloxFunGui.Tab8Button27_Roundify.Parent = BloxFunGui.Tab8Button27_Frame
+BloxFunGui.Tab8Button27_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button27_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button27_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button27_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button27_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button27_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button27_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button27_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button27_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button27_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button27_Roundify_Gradient.Name = "Tab8Button27_Roundify_Gradient"
+BloxFunGui.Tab8Button27_Roundify_Gradient.Parent = BloxFunGui.Tab8Button27_Roundify
+
+BloxFunGui.Tab8Button27_Roundify_Frame.Name = "Tab8Button27_Roundify_Frame"
+BloxFunGui.Tab8Button27_Roundify_Frame.Parent = BloxFunGui.Tab8Button27_Roundify
+BloxFunGui.Tab8Button27_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button27_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button27_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button27_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button27_Roundify_Frame_GridLayout.Name = "Tab8Button27_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button27_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button27_Roundify_Frame
+BloxFunGui.Tab8Button27_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button27_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button27_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button27_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button27_Script.Name = "Tab8Button27_Script"
+BloxFunGui.Tab8Button27_Script.Parent = BloxFunGui.Tab8Button27_Roundify_Frame
+BloxFunGui.Tab8Button27_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button27_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button27_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button27_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button27_Script.Image = "rbxassetid://7702238845"
+
+BloxFunGui.Tab8Button27_Roundify_InvisFrame.Name = "Tab8Button27_Roundify_InvisFrame"
+BloxFunGui.Tab8Button27_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button27_Roundify
+BloxFunGui.Tab8Button27_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button27_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button27_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button27_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button27_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button27_Roundify_InvisFrame_GridLayout.Name = "Tab8Button27_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button27_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button27_Roundify_InvisFrame
+BloxFunGui.Tab8Button27_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button27_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button27_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button27_AssetName.Name = "Tab8Button27_AssetName"
+BloxFunGui.Tab8Button27_AssetName.Parent = BloxFunGui.Tab8Button27_Roundify_InvisFrame
+BloxFunGui.Tab8Button27_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button27_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button27_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button27_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button27_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button27_AssetName.Text = "Handwraps | Twitch"
+BloxFunGui.Tab8Button27_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button27_AssetName.TextScaled = true
+BloxFunGui.Tab8Button27_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button27_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button27_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button27_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button27_TextLabel_Gradient.Name = "Tab8Button27_TextLabel_Gradient"
+BloxFunGui.Tab8Button27_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button27_AssetName
+
+--8/28
+
+BloxFunGui.Tab8Button28_Frame.Name = "Tab8Button28_Frame"
+BloxFunGui.Tab8Button28_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button28_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button28_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button28_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button28_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button28_Frame_GridLayout.Name = "Tab8Button28_Frame_GridLayout"
+BloxFunGui.Tab8Button28_Frame_GridLayout.Parent = BloxFunGui.Tab8Button28_Frame
+BloxFunGui.Tab8Button28_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button28_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button28_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button28_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button28_Roundify.Name = "Tab8Button28_Roundify"
+BloxFunGui.Tab8Button28_Roundify.Parent = BloxFunGui.Tab8Button28_Frame
+BloxFunGui.Tab8Button28_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button28_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button28_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button28_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button28_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button28_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button28_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button28_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button28_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button28_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button28_Roundify_Gradient.Name = "Tab8Button28_Roundify_Gradient"
+BloxFunGui.Tab8Button28_Roundify_Gradient.Parent = BloxFunGui.Tab8Button28_Roundify
+
+BloxFunGui.Tab8Button28_Roundify_Frame.Name = "Tab8Button28_Roundify_Frame"
+BloxFunGui.Tab8Button28_Roundify_Frame.Parent = BloxFunGui.Tab8Button28_Roundify
+BloxFunGui.Tab8Button28_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button28_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button28_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button28_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button28_Roundify_Frame_GridLayout.Name = "Tab8Button28_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button28_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button28_Roundify_Frame
+BloxFunGui.Tab8Button28_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button28_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button28_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button28_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button28_Script.Name = "Tab8Button28_Script"
+BloxFunGui.Tab8Button28_Script.Parent = BloxFunGui.Tab8Button28_Roundify_Frame
+BloxFunGui.Tab8Button28_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button28_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button28_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button28_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button28_Script.Image = "rbxassetid://7702255040"
+
+BloxFunGui.Tab8Button28_Roundify_InvisFrame.Name = "Tab8Button28_Roundify_InvisFrame"
+BloxFunGui.Tab8Button28_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button28_Roundify
+BloxFunGui.Tab8Button28_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button28_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button28_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button28_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button28_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button28_Roundify_InvisFrame_GridLayout.Name = "Tab8Button28_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button28_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button28_Roundify_InvisFrame
+BloxFunGui.Tab8Button28_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button28_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button28_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button28_AssetName.Name = "Tab8Button28_AssetName"
+BloxFunGui.Tab8Button28_AssetName.Parent = BloxFunGui.Tab8Button28_Roundify_InvisFrame
+BloxFunGui.Tab8Button28_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button28_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button28_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button28_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button28_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button28_AssetName.Text = "Handwraps | Chosen"
+BloxFunGui.Tab8Button28_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button28_AssetName.TextScaled = true
+BloxFunGui.Tab8Button28_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button28_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button28_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button28_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button28_TextLabel_Gradient.Name = "Tab8Button28_TextLabel_Gradient"
+BloxFunGui.Tab8Button28_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button28_AssetName
+
+--8/29
+
+BloxFunGui.Tab8Button29_Frame.Name = "Tab8Button29_Frame"
+BloxFunGui.Tab8Button29_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button29_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button29_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button29_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button29_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button29_Frame_GridLayout.Name = "Tab8Button29_Frame_GridLayout"
+BloxFunGui.Tab8Button29_Frame_GridLayout.Parent = BloxFunGui.Tab8Button29_Frame
+BloxFunGui.Tab8Button29_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button29_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button29_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button29_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button29_Roundify.Name = "Tab8Button29_Roundify"
+BloxFunGui.Tab8Button29_Roundify.Parent = BloxFunGui.Tab8Button29_Frame
+BloxFunGui.Tab8Button29_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button29_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button29_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button29_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button29_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button29_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button29_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button29_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button29_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button29_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button29_Roundify_Gradient.Name = "Tab8Button29_Roundify_Gradient"
+BloxFunGui.Tab8Button29_Roundify_Gradient.Parent = BloxFunGui.Tab8Button29_Roundify
+
+BloxFunGui.Tab8Button29_Roundify_Frame.Name = "Tab8Button29_Roundify_Frame"
+BloxFunGui.Tab8Button29_Roundify_Frame.Parent = BloxFunGui.Tab8Button29_Roundify
+BloxFunGui.Tab8Button29_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button29_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button29_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button29_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button29_Roundify_Frame_GridLayout.Name = "Tab8Button29_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button29_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button29_Roundify_Frame
+BloxFunGui.Tab8Button29_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button29_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button29_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button29_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button29_Script.Name = "Tab8Button29_Script"
+BloxFunGui.Tab8Button29_Script.Parent = BloxFunGui.Tab8Button29_Roundify_Frame
+BloxFunGui.Tab8Button29_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button29_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button29_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button29_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button29_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.Tab8Button29_Roundify_InvisFrame.Name = "Tab8Button29_Roundify_InvisFrame"
+BloxFunGui.Tab8Button29_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button29_Roundify
+BloxFunGui.Tab8Button29_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button29_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button29_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button29_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button29_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button29_Roundify_InvisFrame_GridLayout.Name = "Tab8Button29_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button29_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button29_Roundify_InvisFrame
+BloxFunGui.Tab8Button29_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button29_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button29_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button29_AssetName.Name = "Tab8Button29_AssetName"
+BloxFunGui.Tab8Button29_AssetName.Parent = BloxFunGui.Tab8Button29_Roundify_InvisFrame
+BloxFunGui.Tab8Button29_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button29_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button29_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button29_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button29_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button29_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button29_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button29_AssetName.TextScaled = true
+BloxFunGui.Tab8Button29_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button29_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button29_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button29_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button29_TextLabel_Gradient.Name = "Tab8Button29_TextLabel_Gradient"
+BloxFunGui.Tab8Button29_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button29_AssetName
+
+--8/30
+
+BloxFunGui.Tab8Button30_Frame.Name = "Tab8Button30_Frame"
+BloxFunGui.Tab8Button30_Frame.Parent = BloxFunGui.Tab8ScrollingFrame
+BloxFunGui.Tab8Button30_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button30_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button30_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button30_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab8Button30_Frame_GridLayout.Name = "Tab8Button30_Frame_GridLayout"
+BloxFunGui.Tab8Button30_Frame_GridLayout.Parent = BloxFunGui.Tab8Button30_Frame
+BloxFunGui.Tab8Button30_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button30_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button30_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button30_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab8Button30_Roundify.Name = "Tab8Button30_Roundify"
+BloxFunGui.Tab8Button30_Roundify.Parent = BloxFunGui.Tab8Button30_Frame
+BloxFunGui.Tab8Button30_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab8Button30_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button30_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button30_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab8Button30_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab8Button30_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab8Button30_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab8Button30_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab8Button30_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab8Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button30_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab8Button30_Roundify_Gradient.Name = "Tab8Button30_Roundify_Gradient"
+BloxFunGui.Tab8Button30_Roundify_Gradient.Parent = BloxFunGui.Tab8Button30_Roundify
+
+BloxFunGui.Tab8Button30_Roundify_Frame.Name = "Tab8Button30_Roundify_Frame"
+BloxFunGui.Tab8Button30_Roundify_Frame.Parent = BloxFunGui.Tab8Button30_Roundify
+BloxFunGui.Tab8Button30_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button30_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button30_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab8Button30_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab8Button30_Roundify_Frame_GridLayout.Name = "Tab8Button30_Roundify_Frame_GridLayout"
+BloxFunGui.Tab8Button30_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab8Button30_Roundify_Frame
+BloxFunGui.Tab8Button30_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button30_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button30_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab8Button30_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab8Button30_Script.Name = "Tab8Button30_Script"
+BloxFunGui.Tab8Button30_Script.Parent = BloxFunGui.Tab8Button30_Roundify_Frame
+BloxFunGui.Tab8Button30_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button30_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button30_Script.BorderSizePixel = 0
+BloxFunGui.Tab8Button30_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab8Button30_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.Tab8Button30_Roundify_InvisFrame.Name = "Tab8Button30_Roundify_InvisFrame"
+BloxFunGui.Tab8Button30_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button30_Roundify
+BloxFunGui.Tab8Button30_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button30_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button30_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab8Button30_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab8Button30_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab8Button30_Roundify_InvisFrame_GridLayout.Name = "Tab8Button30_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab8Button30_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab8Button30_Roundify_InvisFrame
+BloxFunGui.Tab8Button30_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab8Button30_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab8Button30_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab8Button30_AssetName.Name = "Tab8Button30_AssetName"
+BloxFunGui.Tab8Button30_AssetName.Parent = BloxFunGui.Tab8Button30_Roundify_InvisFrame
+BloxFunGui.Tab8Button30_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button30_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab8Button30_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab8Button30_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab8Button30_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab8Button30_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button30_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab8Button30_AssetName.TextScaled = true
+BloxFunGui.Tab8Button30_AssetName.TextSize = 11.000
+BloxFunGui.Tab8Button30_AssetName.TextWrapped = true
+
+BloxFunGui.Tab8Button30_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab8Button30_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab8Button30_TextLabel_Gradient.Name = "Tab8Button30_TextLabel_Gradient"
+BloxFunGui.Tab8Button30_TextLabel_Gradient.Parent = BloxFunGui.Tab8Button30_AssetName
+
+--Last: 8/30
 ---------------------------------------------------------------------------------------------------
 ---Tab9:
 --9/1
@@ -53801,7 +54791,7 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button1_Frame.Tab8Butt
 end)
 --8/2
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button2_Frame.Tab8Button2_Roundify.Tab8Button2_Roundify_Frame.Tab8Button2_Script.MouseButton1Down:connect(function()
-	--Snake
+	--King Snake
 	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
 	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
 	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
@@ -53865,7 +54855,7 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button2_Frame.Tab8Butt
 end)
 --8/3
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button3_Frame.Tab8Button3_Roundify.Tab8Button3_Roundify_Frame.Tab8Button3_Script.MouseButton1Down:connect(function()
-	--Anarchia
+	--Nightmare
 	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
 	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
 	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
@@ -53993,69 +54983,1525 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button4_Frame.Tab8Butt
 end)
 --8/5
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button5_Frame.Tab8Button5_Roundify.Tab8Button5_Roundify_Frame.Tab8Button5_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Twitch 1
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6464657063"
+	local r_gl_asset = "rbxassetid://6464657063"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/6
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button6_Frame.Tab8Button6_Roundify.Tab8Button6_Roundify_Frame.Tab8Button6_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Twitch 2
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6464657769"
+	local r_gl_asset = "rbxassetid://6464657769"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/7
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button7_Frame.Tab8Button7_Roundify.Tab8Button7_Roundify_Frame.Tab8Button7_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Twitch 3
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6495060906"
+	local r_gl_asset = "rbxassetid://6495060906"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/8
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button8_Frame.Tab8Button8_Roundify.Tab8Button8_Roundify_Frame.Tab8Button8_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Chromatic Aberration (candy)
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6585681511"
+	local r_gl_asset = "rbxassetid://6585681511"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/9
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button9_Frame.Tab8Button9_Roundify.Tab8Button9_Roundify_Frame.Tab8Button9_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Heaven Demon
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6661880600"
+	local r_gl_asset = "rbxassetid://6661880600"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/10
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button10_Frame.Tab8Button10_Roundify.Tab8Button10_Roundify_Frame.Tab8Button10_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Riot of Colors
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6698356126"
+	local r_gl_asset = "rbxassetid://6698356126"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/11
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button11_Frame.Tab8Button11_Roundify.Tab8Button11_Roundify_Frame.Tab8Button11_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Black Marble
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6698362315"
+	local r_gl_asset = "rbxassetid://6698362315"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/12
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button12_Frame.Tab8Button12_Roundify.Tab8Button12_Roundify_Frame.Tab8Button12_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Freedom
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6784693712"
+	local r_gl_asset = "rbxassetid://6784693712"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/13
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button13_Frame.Tab8Button13_Roundify.Tab8Button13_Roundify_Frame.Tab8Button13_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Leather Cover
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7680766743"
+	local r_gl_asset = "rbxassetid://7680766743"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/14
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button14_Frame.Tab8Button14_Roundify.Tab8Button14_Roundify_Frame.Tab8Button14_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove BloxFun
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7373916220"
+	local r_gl_asset = "rbxassetid://7373916220"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/15
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button15_Frame.Tab8Button15_Roundify.Tab8Button15_Roundify_Frame.Tab8Button15_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Nightmare
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6684645643"
+	local r_gl_asset = "rbxassetid://6684645643"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/16
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button16_Frame.Tab8Button16_Roundify.Tab8Button16_Roundify_Frame.Tab8Button16_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove King Snake
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6727239344"
+	local r_gl_asset = "rbxassetid://6727239344"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/17
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button17_Frame.Tab8Button17_Roundify.Tab8Button17_Roundify_Frame.Tab8Button17_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Promto SUS
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701179715"
+	local r_gl_asset = "rbxassetid://7701179715"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/18
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button18_Frame.Tab8Button18_Roundify.Tab8Button18_Roundify_Frame.Tab8Button18_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Among Us
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701201999"
+	local r_gl_asset = "rbxassetid://7701201999"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/19
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button19_Frame.Tab8Button19_Roundify.Tab8Button19_Roundify_Frame.Tab8Button19_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Glove Outlaws
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701206079"
+	local r_gl_asset = "rbxassetid://7701206079"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/20
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button20_Frame.Tab8Button20_Roundify.Tab8Button20_Roundify_Frame.Tab8Button20_Script.MouseButton1Down:connect(function()
+	--Sports Glove Goodes
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701286678"
+	local r_gl_asset = "rbxassetid://7701286678"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/21
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button21_Frame.Tab8Button21_Roundify.Tab8Button21_Roundify_Frame.Tab8Button21_Script.MouseButton1Down:connect(function()
+	--Sports Glove Inversion
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701296020"
+	local r_gl_asset = "rbxassetid://7701296020"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/22
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button22_Frame.Tab8Button22_Roundify.Tab8Button22_Roundify_Frame.Tab8Button22_Script.MouseButton1Down:connect(function()
+	--Sports Glove Printstream
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701300505"
+	local r_gl_asset = "rbxassetid://7701300505"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/23
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button23_Frame.Tab8Button23_Roundify.Tab8Button23_Roundify_Frame.Tab8Button23_Script.MouseButton1Down:connect(function()
+	--Sports Glove Crimson
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6748492501"
+	local r_gl_asset = "rbxassetid://6748492501"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/24
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button24_Frame.Tab8Button24_Roundify.Tab8Button24_Roundify_Frame.Tab8Button24_Script.MouseButton1Down:connect(function()
+	--Strapped Glove Sara
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687144943')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Strapped_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://6585424288"
+	local r_gl_asset = "rbxassetid://6585424288"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/25
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button25_Frame.Tab8Button25_Roundify.Tab8Button25_Roundify_Frame.Tab8Button25_Script.MouseButton1Down:connect(function()
+	--Strapped Glove Aesthetic
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687144943')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Strapped_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701411197"
+	local r_gl_asset = "rbxassetid://7701411197"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/26
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button26_Frame.Tab8Button26_Roundify.Tab8Button26_Roundify_Frame.Tab8Button26_Script.MouseButton1Down:connect(function()
+	--Strapped Glove Twitch
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687144943')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Strapped_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701391870"
+	local r_gl_asset = "rbxassetid://7701391870"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/27
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button27_Frame.Tab8Button27_Roundify.Tab8Button27_Roundify_Frame.Tab8Button27_Script.MouseButton1Down:connect(function()
+	--Handwraps Twitch
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687142147')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Handwraps_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701386298"
+	local r_gl_asset = "rbxassetid://7701386298"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/28
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button28_Frame.Tab8Button28_Roundify.Tab8Button28_Roundify_Frame.Tab8Button28_Script.MouseButton1Down:connect(function()
+	--Handwraps Chosen
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687142147')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Handwraps_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7701379675"
+	local r_gl_asset = "rbxassetid://7701379675"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+end)
+--8/29
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button29_Frame.Tab8Button29_Roundify.Tab8Button29_Roundify_Frame.Tab8Button29_Script.MouseButton1Down:connect(function()
 	--
 end)
---Last: 20
+--8/30
+game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button30_Frame.Tab8Button30_Roundify.Tab8Button30_Roundify_Frame.Tab8Button30_Script.MouseButton1Down:connect(function()
+	--
+end)
+--Last: 30
 ----------------------------------------------------------------------------------------------------
 ---Tab9:
 --9/1
