@@ -10,7 +10,8 @@ local BloxFunGui = {
 	LogoHolderFrame = Instance.new("Frame"),
 	LogoHolderFrame_ListLayout = Instance.new("UIListLayout"),
 	LogoHolderFrame_Roundify = Instance.new("ImageLabel"),
-	LogoHolderFrame_Logo = Instance.new("ImageLabel"),
+	LogoHolderFrame_Logo = Instance.new("ImageButton"),
+	LogoHolderFrame_Logo_UICorner_Round = Instance.new("UICorner"),
 	LogoHolderFrame_TabButton_Script = Instance.new("ImageButton"),
 	SortTabButtonsHolderScrollingFrame = Instance.new("ScrollingFrame"),
 	SortTabButtonsHolderScrollingFrame_GridLayout = Instance.new("UIGridLayout"),
@@ -18,64 +19,77 @@ local BloxFunGui = {
 	SortTabButton1_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton1_Roundify = Instance.new("ImageLabel"),
 	SortTabButton1_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton1_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton1_Script = Instance.new("ImageButton"),
 	SortTabButton2_Frame = Instance.new("Frame"),
 	SortTabButton2_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton2_Roundify = Instance.new("ImageLabel"),
 	SortTabButton2_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton2_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton2_Script = Instance.new("ImageButton"),
 	SortTabButton3_Frame = Instance.new("Frame"),
 	SortTabButton3_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton3_Roundify = Instance.new("ImageLabel"),
 	SortTabButton3_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton3_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton3_Script = Instance.new("ImageButton"),
 	SortTabButton4_Frame = Instance.new("Frame"),
 	SortTabButton4_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton4_Roundify = Instance.new("ImageLabel"),
 	SortTabButton4_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton4_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton4_Script = Instance.new("ImageButton"),
 	SortTabButton5_Frame = Instance.new("Frame"),
 	SortTabButton5_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton5_Roundify = Instance.new("ImageLabel"),
 	SortTabButton5_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton5_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton5_Script = Instance.new("ImageButton"),
 	SortTabButton6_Frame = Instance.new("Frame"),
 	SortTabButton6_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton6_Roundify = Instance.new("ImageLabel"),
 	SortTabButton6_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton6_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton6_Script = Instance.new("ImageButton"),
 	SortTabButton7_Frame = Instance.new("Frame"),
 	SortTabButton7_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton7_Roundify = Instance.new("ImageLabel"),
 	SortTabButton7_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton7_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton7_Script = Instance.new("ImageButton"),
 	SortTabButton8_Frame = Instance.new("Frame"),
 	SortTabButton8_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton8_Roundify = Instance.new("ImageLabel"),
 	SortTabButton8_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton8_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton8_Script = Instance.new("ImageButton"),
 	SortTabButton9_Frame = Instance.new("Frame"),
 	SortTabButton9_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton9_Roundify = Instance.new("ImageLabel"),
 	SortTabButton9_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton9_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton9_Script = Instance.new("ImageButton"),
 	SortTabButton10_Frame = Instance.new("Frame"),
 	SortTabButton10_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton10_Roundify = Instance.new("ImageLabel"),
 	SortTabButton10_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton10_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton10_Script = Instance.new("ImageButton"),
 	SortTabButton11_Frame = Instance.new("Frame"),
 	SortTabButton11_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton11_Roundify = Instance.new("ImageLabel"),
 	SortTabButton11_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton11_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton11_Script = Instance.new("ImageButton"),
 	SortTabButton12_Frame = Instance.new("Frame"),
 	SortTabButton12_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton12_Roundify = Instance.new("ImageLabel"),
 	SortTabButton12_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton12_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton12_Script = Instance.new("ImageButton"),
 	SortTabButton13_Frame = Instance.new("Frame"),
 	SortTabButton13_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton13_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton13_Roundify = Instance.new("ImageLabel"),
 	SortTabButton13_Roundify_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton13_Script = Instance.new("ImageButton"),
@@ -83,16 +97,19 @@ local BloxFunGui = {
 	SortTabButton14_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton14_Roundify = Instance.new("ImageLabel"),
 	SortTabButton14_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton14_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton14_Script = Instance.new("ImageButton"),
 	SortTabButton15_Frame = Instance.new("Frame"),
 	SortTabButton15_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton15_Roundify = Instance.new("ImageLabel"),
 	SortTabButton15_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton15_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton15_Script = Instance.new("ImageButton"),
 	SortTabButton16_Frame = Instance.new("Frame"),
 	SortTabButton16_GridLayout = Instance.new("UIGridLayout"),
 	SortTabButton16_Roundify = Instance.new("ImageLabel"),
 	SortTabButton16_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SortTabButton16_Roundify_Gradient = Instance.new("UIGradient"),
 	SortTabButton16_Script = Instance.new("ImageButton"),
 	GradientFrame1 = Instance.new("ImageLabel"),
 	GradientFrame1_Gradient = Instance.new("UIGradient"),
@@ -206,6 +223,7 @@ local BloxFunGui = {
 	TabNameThemes_TextLabel_Gradient = Instance.new("UIGradient"),
 	ThemesTabButton_Roundify = Instance.new("ImageLabel"),
 	ThemesTabButton_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	ThemesTabButton_Roundify_Gradient = Instance.new("UIGradient"),
 	ThemesTabButton_Script = Instance.new("ImageButton"),
 	ThemesTabButton_Script_Gradient = Instance.new("UIGradient"),
 	TabThemesScrollingFrame = Instance.new("ScrollingFrame"),
@@ -214,6 +232,7 @@ local BloxFunGui = {
 	SettingsTabButton_Script = Instance.new("ImageButton"),
 	SettingsTabButton_Script_Gradient = Instance.new("UIGradient"),
 	SettingsTabButton_Roundify_GridLayout = Instance.new("UIGridLayout"),
+	SettingsTabButton_Roundify_Gradient = Instance.new("UIGradient"),
 	TabSettingsScrollingFrame = Instance.new("ScrollingFrame"),
 	TabSettingsScrollingFrame_ListLayout = Instance.new("UIListLayout"),
 	DestroyGuiButton = Instance.new("TextButton"),
@@ -273,10 +292,11 @@ local BloxFunGui = {
 	Notification1_QuestionFrame_HolderFrame_GridLayout = Instance.new("UIGridLayout"),
 	Notification1_QuestionFrame_Roundify = Instance.new("ImageLabel"),
 	Notification1_QuestionFrame_TextLabel = Instance.new("TextLabel"),
-	Notification1_LeftButton_TextLabel_Gradient_2 = Instance.new("UIGradient"),
+	Notification1_QuestionFrame_TextLabel_Gradient = Instance.new("UIGradient"),
 	Notification1_QuestionFrame_Roundify_GridLayout = Instance.new("UIGridLayout"),
 	Notification1_QuestionFrame_Roundify_Gradient = Instance.new("UIGradient"),
 	NotificationsBackgroundFrame_GridLayout = Instance.new("UIGridLayout"),
+	NotificationsBackgroundFrame_UICorner = Instance.new("UICorner"),
 	----------------------------------------------------------------------------------------
 	----TabsButtons:
 	----------------------------------------------------------------------------------------
@@ -6161,8 +6181,9 @@ BloxFunGui.MainFrame1.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.MainFrame1.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.MainFrame1.SliceScale = 0.120
 
-BloxFunGui.MainFrame1_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
+BloxFunGui.MainFrame1_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.33, Color3.fromRGB(55, 42, 74)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(13, 6, 16))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
 BloxFunGui.MainFrame1_Gradient.Rotation = 80
+BloxFunGui.MainFrame1_Gradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.30), NumberSequenceKeypoint.new(0.50, 0.30), NumberSequenceKeypoint.new(1.00, 0.30)} --Halloween
 BloxFunGui.MainFrame1_Gradient.Name = "MainFrame1_Gradient"
 BloxFunGui.MainFrame1_Gradient.Parent = BloxFunGui.MainFrame1
 
@@ -6176,7 +6197,7 @@ BloxFunGui.TabButtonsHolderFrame.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabButtonsHolderFrame.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabButtonsHolderFrame.SliceScale = 0.120
 
-BloxFunGui.TabButtonsHolderFrame_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(1, 175, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 132, 255))}
+BloxFunGui.TabButtonsHolderFrame_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 170, 0)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(235, 94, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(207, 0, 13)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(173, 0, 37))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(1, 175, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 132, 255))}
 BloxFunGui.TabButtonsHolderFrame_Gradient.Rotation = 40
 BloxFunGui.TabButtonsHolderFrame_Gradient.Name = "TabButtonsHolderFrame_Gradient"
 BloxFunGui.TabButtonsHolderFrame_Gradient.Parent = BloxFunGui.TabButtonsHolderFrame
@@ -6211,11 +6232,17 @@ BloxFunGui.LogoHolderFrame_Logo.Name = "LogoHolderFrame_Logo"
 BloxFunGui.LogoHolderFrame_Logo.Parent = BloxFunGui.LogoHolderFrame_Roundify
 BloxFunGui.LogoHolderFrame_Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.LogoHolderFrame_Logo.BackgroundTransparency = 1.000
+BloxFunGui.LogoHolderFrame_Logo.Selectable = false
 BloxFunGui.LogoHolderFrame_Logo.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.LogoHolderFrame_Logo.Image = "rbxassetid://6474550478"
-BloxFunGui.LogoHolderFrame_Logo.ScaleType = Enum.ScaleType.Slice
-BloxFunGui.LogoHolderFrame_Logo.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.LogoHolderFrame_Logo.Image = "rbxassetid://7720707304"
+BloxFunGui.LogoHolderFrame_Logo.HoverImage = "rbxassetid://7711265161"
+BloxFunGui.LogoHolderFrame_Logo.ScaleType = Enum.ScaleType.Stretch --Slice
+--BloxFunGui.LogoHolderFrame_Logo.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.LogoHolderFrame_Logo.SliceScale = 0.120
+
+BloxFunGui.LogoHolderFrame_Logo_UICorner_Round.CornerRadius = UDim.new(0, 12) --LogoCorner
+BloxFunGui.LogoHolderFrame_Logo_UICorner_Round.Name = "LogoHolderFrame_Logo_UICorner_(Round)"
+BloxFunGui.LogoHolderFrame_Logo_UICorner_Round.Parent = BloxFunGui.LogoHolderFrame_Logo
 
 BloxFunGui.LogoHolderFrame_TabButton_Script.Name = "LogoHolderFrame_TabButton_Script"
 BloxFunGui.LogoHolderFrame_TabButton_Script.Parent = BloxFunGui.LogoHolderFrame_Roundify
@@ -6278,6 +6305,12 @@ BloxFunGui.SortTabButton1_Roundify_GridLayout.VerticalAlignment = Enum.VerticalA
 BloxFunGui.SortTabButton1_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton1_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton1_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton1_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton1_Roundify_Gradient.Name = "SortTabButton1_Roundify_Gradient"
+BloxFunGui.SortTabButton1_Roundify_Gradient.Parent = BloxFunGui.SortTabButton1_Roundify
+
 BloxFunGui.SortTabButton1_Script.Name = "SortTabButton1_Script"
 BloxFunGui.SortTabButton1_Script.Parent = BloxFunGui.SortTabButton1_Roundify
 BloxFunGui.SortTabButton1_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6321,6 +6354,12 @@ BloxFunGui.SortTabButton2_Roundify_GridLayout.SortOrder = Enum.SortOrder.LayoutO
 BloxFunGui.SortTabButton2_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SortTabButton2_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton2_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+BloxFunGui.SortTabButton2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton2_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton2_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton2_Roundify_Gradient.Name = "SortTabButton2_Roundify_Gradient"
+BloxFunGui.SortTabButton2_Roundify_Gradient.Parent = BloxFunGui.SortTabButton2_Roundify
 
 BloxFunGui.SortTabButton2_Script.Name = "SortTabButton2_Script"
 BloxFunGui.SortTabButton2_Script.Parent = BloxFunGui.SortTabButton2_Roundify
@@ -6366,6 +6405,12 @@ BloxFunGui.SortTabButton3_Roundify_GridLayout.VerticalAlignment = Enum.VerticalA
 BloxFunGui.SortTabButton3_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton3_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton3_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton3_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton3_Roundify_Gradient.Name = "SortTabButton3_Roundify_Gradient"
+BloxFunGui.SortTabButton3_Roundify_Gradient.Parent = BloxFunGui.SortTabButton3_Roundify
+
 BloxFunGui.SortTabButton3_Script.Name = "SortTabButton3_Script"
 BloxFunGui.SortTabButton3_Script.Parent = BloxFunGui.SortTabButton3_Roundify
 BloxFunGui.SortTabButton3_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6409,6 +6454,12 @@ BloxFunGui.SortTabButton4_Roundify_GridLayout.SortOrder = Enum.SortOrder.LayoutO
 BloxFunGui.SortTabButton4_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SortTabButton4_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton4_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+BloxFunGui.SortTabButton4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton4_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton4_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton4_Roundify_Gradient.Name = "SortTabButton4_Roundify_Gradient"
+BloxFunGui.SortTabButton4_Roundify_Gradient.Parent = BloxFunGui.SortTabButton4_Roundify
 
 BloxFunGui.SortTabButton4_Script.Name = "SortTabButton4_Script"
 BloxFunGui.SortTabButton4_Script.Parent = BloxFunGui.SortTabButton4_Roundify
@@ -6454,6 +6505,12 @@ BloxFunGui.SortTabButton5_Roundify_GridLayout.VerticalAlignment = Enum.VerticalA
 BloxFunGui.SortTabButton5_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton5_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton5_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton5_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton5_Roundify_Gradient.Name = "SortTabButton5_Roundify_Gradient"
+BloxFunGui.SortTabButton5_Roundify_Gradient.Parent = BloxFunGui.SortTabButton5_Roundify
+
 BloxFunGui.SortTabButton5_Script.Name = "SortTabButton5_Script"
 BloxFunGui.SortTabButton5_Script.Parent = BloxFunGui.SortTabButton5_Roundify
 BloxFunGui.SortTabButton5_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6497,6 +6554,12 @@ BloxFunGui.SortTabButton6_Roundify_GridLayout.SortOrder = Enum.SortOrder.LayoutO
 BloxFunGui.SortTabButton6_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SortTabButton6_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton6_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+BloxFunGui.SortTabButton6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton6_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton6_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton6_Roundify_Gradient.Name = "SortTabButton6_Roundify_Gradient"
+BloxFunGui.SortTabButton6_Roundify_Gradient.Parent = BloxFunGui.SortTabButton6_Roundify
 
 BloxFunGui.SortTabButton6_Script.Name = "SortTabButton6_Script"
 BloxFunGui.SortTabButton6_Script.Parent = BloxFunGui.SortTabButton6_Roundify
@@ -6542,6 +6605,12 @@ BloxFunGui.SortTabButton7_Roundify_GridLayout.VerticalAlignment = Enum.VerticalA
 BloxFunGui.SortTabButton7_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton7_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton7_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton7_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton7_Roundify_Gradient.Name = "SortTabButton7_Roundify_Gradient"
+BloxFunGui.SortTabButton7_Roundify_Gradient.Parent = BloxFunGui.SortTabButton7_Roundify
+
 BloxFunGui.SortTabButton7_Script.Name = "SortTabButton7_Script"
 BloxFunGui.SortTabButton7_Script.Parent = BloxFunGui.SortTabButton7_Roundify
 BloxFunGui.SortTabButton7_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6586,6 +6655,12 @@ BloxFunGui.SortTabButton8_Roundify_GridLayout.VerticalAlignment = Enum.VerticalA
 BloxFunGui.SortTabButton8_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton8_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton8_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton8_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton8_Roundify_Gradient.Name = "SortTabButton8_Roundify_Gradient"
+BloxFunGui.SortTabButton8_Roundify_Gradient.Parent = BloxFunGui.SortTabButton8_Roundify
+
 BloxFunGui.SortTabButton8_Script.Name = "SortTabButton8_Script"
 BloxFunGui.SortTabButton8_Script.Parent = BloxFunGui.SortTabButton8_Roundify
 BloxFunGui.SortTabButton8_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6629,6 +6704,12 @@ BloxFunGui.SortTabButton9_Roundify_GridLayout.SortOrder = Enum.SortOrder.LayoutO
 BloxFunGui.SortTabButton9_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SortTabButton9_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton9_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+BloxFunGui.SortTabButton9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton9_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton9_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton9_Roundify_Gradient.Name = "SortTabButton9_Roundify_Gradient"
+BloxFunGui.SortTabButton9_Roundify_Gradient.Parent = BloxFunGui.SortTabButton9_Roundify
 
 BloxFunGui.SortTabButton9_Script.Name = "SortTabButton9_Script"
 BloxFunGui.SortTabButton9_Script.Parent = BloxFunGui.SortTabButton9_Roundify
@@ -6675,6 +6756,12 @@ BloxFunGui.SortTabButton10_Roundify_GridLayout.VerticalAlignment = Enum.Vertical
 BloxFunGui.SortTabButton10_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton10_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton10_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton10_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton10_Roundify_Gradient.Name = "SortTabButton10_Roundify_Gradient"
+BloxFunGui.SortTabButton10_Roundify_Gradient.Parent = BloxFunGui.SortTabButton10_Roundify
+
 BloxFunGui.SortTabButton10_Script.Name = "SortTabButton10_Script"
 BloxFunGui.SortTabButton10_Script.Parent = BloxFunGui.SortTabButton10_Roundify
 BloxFunGui.SortTabButton10_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6719,6 +6806,12 @@ BloxFunGui.SortTabButton11_Roundify_GridLayout.SortOrder = Enum.SortOrder.Layout
 BloxFunGui.SortTabButton11_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SortTabButton11_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton11_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+BloxFunGui.SortTabButton11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton11_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton11_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton11_Roundify_Gradient.Name = "SortTabButton11_Roundify_Gradient"
+BloxFunGui.SortTabButton11_Roundify_Gradient.Parent = BloxFunGui.SortTabButton11_Roundify
 
 BloxFunGui.SortTabButton11_Script.Name = "SortTabButton11_Script"
 BloxFunGui.SortTabButton11_Script.Parent = BloxFunGui.SortTabButton11_Roundify
@@ -6765,6 +6858,12 @@ BloxFunGui.SortTabButton12_Roundify_GridLayout.VerticalAlignment = Enum.Vertical
 BloxFunGui.SortTabButton12_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton12_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton12_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton12_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton12_Roundify_Gradient.Name = "SortTabButton12_Roundify_Gradient"
+BloxFunGui.SortTabButton12_Roundify_Gradient.Parent = BloxFunGui.SortTabButton12_Roundify
+
 BloxFunGui.SortTabButton12_Script.Name = "SortTabButton12_Script"
 BloxFunGui.SortTabButton12_Script.Parent = BloxFunGui.SortTabButton12_Roundify
 BloxFunGui.SortTabButton12_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6809,6 +6908,12 @@ BloxFunGui.SortTabButton13_Roundify_GridLayout.SortOrder = Enum.SortOrder.Layout
 BloxFunGui.SortTabButton13_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SortTabButton13_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton13_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+BloxFunGui.SortTabButton13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton13_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton13_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton13_Roundify_Gradient.Name = "SortTabButton13_Roundify_Gradient"
+BloxFunGui.SortTabButton13_Roundify_Gradient.Parent = BloxFunGui.SortTabButton13_Roundify
 
 BloxFunGui.SortTabButton13_Script.Name = "SortTabButton13_Script"
 BloxFunGui.SortTabButton13_Script.Parent = BloxFunGui.SortTabButton13_Roundify
@@ -6855,6 +6960,12 @@ BloxFunGui.SortTabButton14_Roundify_GridLayout.VerticalAlignment = Enum.Vertical
 BloxFunGui.SortTabButton14_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton14_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton14_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton14_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton14_Roundify_Gradient.Name = "SortTabButton14_Roundify_Gradient"
+BloxFunGui.SortTabButton14_Roundify_Gradient.Parent = BloxFunGui.SortTabButton14_Roundify
+
 BloxFunGui.SortTabButton14_Script.Name = "SortTabButton14_Script"
 BloxFunGui.SortTabButton14_Script.Parent = BloxFunGui.SortTabButton14_Roundify
 BloxFunGui.SortTabButton14_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6899,6 +7010,12 @@ BloxFunGui.SortTabButton15_Roundify_GridLayout.SortOrder = Enum.SortOrder.Layout
 BloxFunGui.SortTabButton15_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SortTabButton15_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton15_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
+
+BloxFunGui.SortTabButton15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton15_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton15_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton15_Roundify_Gradient.Name = "SortTabButton15_Roundify_Gradient"
+BloxFunGui.SortTabButton15_Roundify_Gradient.Parent = BloxFunGui.SortTabButton15_Roundify
 
 BloxFunGui.SortTabButton15_Script.Name = "SortTabButton15_Script"
 BloxFunGui.SortTabButton15_Script.Parent = BloxFunGui.SortTabButton15_Roundify
@@ -6945,6 +7062,12 @@ BloxFunGui.SortTabButton16_Roundify_GridLayout.VerticalAlignment = Enum.Vertical
 BloxFunGui.SortTabButton16_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SortTabButton16_Roundify_GridLayout.CellSize = UDim2.new(0, 40, 0, 40)
 
+BloxFunGui.SortTabButton16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SortTabButton16_Roundify_Gradient.Rotation = 80
+BloxFunGui.SortTabButton16_Roundify_Gradient.Enabled = true
+BloxFunGui.SortTabButton16_Roundify_Gradient.Name = "SortTabButton16_Roundify_Gradient"
+BloxFunGui.SortTabButton16_Roundify_Gradient.Parent = BloxFunGui.SortTabButton16_Roundify
+
 BloxFunGui.SortTabButton16_Script.Name = "SortTabButton16_Script"
 BloxFunGui.SortTabButton16_Script.Parent = BloxFunGui.SortTabButton16_Roundify
 BloxFunGui.SortTabButton16_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -6964,7 +7087,7 @@ BloxFunGui.GradientFrame1.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.GradientFrame1.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.GradientFrame1.SliceScale = 0.120
 
-BloxFunGui.GradientFrame1_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 93, 0)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(255, 106, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 136, 0))}
+BloxFunGui.GradientFrame1_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(31, 124, 229)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(22, 87, 161)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 61, 111))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 93, 0)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(255, 106, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 136, 0))}
 BloxFunGui.GradientFrame1_Gradient.Rotation = 90
 BloxFunGui.GradientFrame1_Gradient.Name = "GradientFrame1_Gradient"
 BloxFunGui.GradientFrame1_Gradient.Parent = BloxFunGui.GradientFrame1
@@ -6976,7 +7099,7 @@ BloxFunGui.GradientFrame2.BorderSizePixel = 0
 BloxFunGui.GradientFrame2.Position = UDim2.new(0, 0, 0.0438144319, 0)
 BloxFunGui.GradientFrame2.Size = UDim2.new(0, 740, 0, 13)
 
-BloxFunGui.GradientFrame2_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 119, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 149, 0))}
+BloxFunGui.GradientFrame2_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(14, 67, 121)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 172, 254))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 119, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 149, 0))}
 BloxFunGui.GradientFrame2_Gradient.Rotation = 90
 BloxFunGui.GradientFrame2_Gradient.Name = "GradientFrame2_Gradient"
 BloxFunGui.GradientFrame2_Gradient.Parent = BloxFunGui.GradientFrame2
@@ -7253,7 +7376,7 @@ BloxFunGui.VersionText.BorderSizePixel = 0
 BloxFunGui.VersionText.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.VersionText.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.VersionText.Font = Enum.Font.Cartoon
-BloxFunGui.VersionText.Text = "Last Updated: 10/10/2021"
+BloxFunGui.VersionText.Text = "Last Updated: 17/10/2021"
 BloxFunGui.VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.VersionText.TextScaled = true
 BloxFunGui.VersionText.TextSize = 50.000
@@ -7601,7 +7724,7 @@ BloxFunGui.TabName1_TextLabel.TextScaled = true
 BloxFunGui.TabName1_TextLabel.TextSize = 50.000
 BloxFunGui.TabName1_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName1_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName1_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName1_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName1_TextLabel_Gradient.Name = "TabName1_TextLabel_Gradient"
 BloxFunGui.TabName1_TextLabel_Gradient.Parent = BloxFunGui.TabName1_TextLabel
@@ -7620,7 +7743,7 @@ BloxFunGui.TabName2_TextLabel.TextScaled = true
 BloxFunGui.TabName2_TextLabel.TextSize = 50.000
 BloxFunGui.TabName2_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName2_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName2_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName2_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName2_TextLabel_Gradient.Name = "TabName2_TextLabel_Gradient"
 BloxFunGui.TabName2_TextLabel_Gradient.Parent = BloxFunGui.TabName2_TextLabel
@@ -7639,7 +7762,7 @@ BloxFunGui.TabName3_TextLabel.TextScaled = true
 BloxFunGui.TabName3_TextLabel.TextSize = 50.000
 BloxFunGui.TabName3_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName3_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName3_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName3_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName3_TextLabel_Gradient.Name = "TabName3_TextLabel_Gradient"
 BloxFunGui.TabName3_TextLabel_Gradient.Parent = BloxFunGui.TabName3_TextLabel
@@ -7658,7 +7781,7 @@ BloxFunGui.TabName4_TextLabel.TextScaled = true
 BloxFunGui.TabName4_TextLabel.TextSize = 50.000
 BloxFunGui.TabName4_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName4_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName4_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName4_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName4_TextLabel_Gradient.Name = "TabName4_TextLabel_Gradient"
 BloxFunGui.TabName4_TextLabel_Gradient.Parent = BloxFunGui.TabName4_TextLabel
@@ -7677,7 +7800,7 @@ BloxFunGui.TabName5_TextLabel.TextScaled = true
 BloxFunGui.TabName5_TextLabel.TextSize = 50.000
 BloxFunGui.TabName5_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName5_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName5_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName5_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName5_TextLabel_Gradient.Name = "TabName5_TextLabel_Gradient"
 BloxFunGui.TabName5_TextLabel_Gradient.Parent = BloxFunGui.TabName5_TextLabel
@@ -7696,7 +7819,7 @@ BloxFunGui.TabName6_TextLabel.TextScaled = true
 BloxFunGui.TabName6_TextLabel.TextSize = 50.000
 BloxFunGui.TabName6_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName6_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName6_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName6_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName6_TextLabel_Gradient.Name = "TabName6_TextLabel_Gradient"
 BloxFunGui.TabName6_TextLabel_Gradient.Parent = BloxFunGui.TabName6_TextLabel
@@ -7715,7 +7838,7 @@ BloxFunGui.TabName7_TextLabel.TextScaled = true
 BloxFunGui.TabName7_TextLabel.TextSize = 50.000
 BloxFunGui.TabName7_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName7_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName7_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName7_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName7_TextLabel_Gradient.Name = "TabName7_TextLabel_Gradient"
 BloxFunGui.TabName7_TextLabel_Gradient.Parent = BloxFunGui.TabName7_TextLabel
@@ -7734,7 +7857,7 @@ BloxFunGui.TabName8_TextLabel.TextScaled = true
 BloxFunGui.TabName8_TextLabel.TextSize = 50.000
 BloxFunGui.TabName8_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName8_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName8_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName8_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName8_TextLabel_Gradient.Name = "TabName8_TextLabel_Gradient"
 BloxFunGui.TabName8_TextLabel_Gradient.Parent = BloxFunGui.TabName8_TextLabel
@@ -7753,7 +7876,7 @@ BloxFunGui.TabName9_TextLabel.TextScaled = true
 BloxFunGui.TabName9_TextLabel.TextSize = 50.000
 BloxFunGui.TabName9_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName9_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName9_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName9_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName9_TextLabel_Gradient.Name = "TabName9_TextLabel_Gradient"
 BloxFunGui.TabName9_TextLabel_Gradient.Parent = BloxFunGui.TabName9_TextLabel
@@ -7772,7 +7895,7 @@ BloxFunGui.TabName10_TextLabel.TextScaled = true
 BloxFunGui.TabName10_TextLabel.TextSize = 50.000
 BloxFunGui.TabName10_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName10_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName10_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName10_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName10_TextLabel_Gradient.Name = "TabName10_TextLabel_Gradient"
 BloxFunGui.TabName10_TextLabel_Gradient.Parent = BloxFunGui.TabName10_TextLabel
@@ -7791,7 +7914,7 @@ BloxFunGui.TabName11_TextLabel.TextScaled = true
 BloxFunGui.TabName11_TextLabel.TextSize = 50.000
 BloxFunGui.TabName11_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName11_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName11_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName11_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName11_TextLabel_Gradient.Name = "TabName11_TextLabel_Gradient"
 BloxFunGui.TabName11_TextLabel_Gradient.Parent = BloxFunGui.TabName11_TextLabel
@@ -7810,7 +7933,7 @@ BloxFunGui.TabName12_TextLabel.TextScaled = true
 BloxFunGui.TabName12_TextLabel.TextSize = 50.000
 BloxFunGui.TabName12_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName12_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName12_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName12_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName12_TextLabel_Gradient.Name = "TabName12_TextLabel_Gradient"
 BloxFunGui.TabName12_TextLabel_Gradient.Parent = BloxFunGui.TabName12_TextLabel
@@ -7829,7 +7952,7 @@ BloxFunGui.TabName13_TextLabel.TextScaled = true
 BloxFunGui.TabName13_TextLabel.TextSize = 50.000
 BloxFunGui.TabName13_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName13_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName13_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName13_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName13_TextLabel_Gradient.Name = "TabName13_TextLabel_Gradient"
 BloxFunGui.TabName13_TextLabel_Gradient.Parent = BloxFunGui.TabName13_TextLabel
@@ -7848,7 +7971,7 @@ BloxFunGui.TabName14_TextLabel.TextScaled = true
 BloxFunGui.TabName14_TextLabel.TextSize = 50.000
 BloxFunGui.TabName14_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName14_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName14_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName14_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName14_TextLabel_Gradient.Name = "TabName14_TextLabel_Gradient"
 BloxFunGui.TabName14_TextLabel_Gradient.Parent = BloxFunGui.TabName14_TextLabel
@@ -7867,7 +7990,7 @@ BloxFunGui.TabName15_TextLabel.TextScaled = true
 BloxFunGui.TabName15_TextLabel.TextSize = 50.000
 BloxFunGui.TabName15_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName15_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName15_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName15_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName15_TextLabel_Gradient.Name = "TabName15_TextLabel_Gradient"
 BloxFunGui.TabName15_TextLabel_Gradient.Parent = BloxFunGui.TabName15_TextLabel
@@ -7886,7 +8009,7 @@ BloxFunGui.TabNameVmdls_TextLabel.TextScaled = true
 BloxFunGui.TabNameVmdls_TextLabel.TextSize = 50.000
 BloxFunGui.TabNameVmdls_TextLabel.TextWrapped = true
 
-BloxFunGui.TabNameVmdls_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabNameVmdls_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabNameVmdls_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabNameVmdls_TextLabel_Gradient.Name = "TabNameVmdls_TextLabel_Gradient"
 BloxFunGui.TabNameVmdls_TextLabel_Gradient.Parent = BloxFunGui.TabNameVmdls_TextLabel
@@ -7905,7 +8028,7 @@ BloxFunGui.TabName16_TextLabel.TextScaled = true
 BloxFunGui.TabName16_TextLabel.TextSize = 50.000
 BloxFunGui.TabName16_TextLabel.TextWrapped = true
 
-BloxFunGui.TabName16_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabName16_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabName16_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabName16_TextLabel_Gradient.Name = "TabName16_TextLabel_Gradient"
 BloxFunGui.TabName16_TextLabel_Gradient.Parent = BloxFunGui.TabName16_TextLabel
@@ -7923,7 +8046,7 @@ BloxFunGui.TabNameHome_TextLabel.TextScaled = true
 BloxFunGui.TabNameHome_TextLabel.TextSize = 50.000
 BloxFunGui.TabNameHome_TextLabel.TextWrapped = true
 
-BloxFunGui.TabNameHome_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabNameHome_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabNameHome_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabNameHome_TextLabel_Gradient.Name = "TabNameHome_TextLabel_Gradient"
 BloxFunGui.TabNameHome_TextLabel_Gradient.Parent = BloxFunGui.TabNameHome_TextLabel
@@ -7959,13 +8082,13 @@ BloxFunGui.TabNameThemes_TextLabel.BorderSizePixel = 0
 BloxFunGui.TabNameThemes_TextLabel.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.TabNameThemes_TextLabel.Visible = false
 BloxFunGui.TabNameThemes_TextLabel.Font = Enum.Font.Cartoon
-BloxFunGui.TabNameThemes_TextLabel.Text = "Tab: Interfaces"
+BloxFunGui.TabNameThemes_TextLabel.Text = "Tab: Interface"
 BloxFunGui.TabNameThemes_TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.TabNameThemes_TextLabel.TextScaled = true
 BloxFunGui.TabNameThemes_TextLabel.TextSize = 50.000
 BloxFunGui.TabNameThemes_TextLabel.TextWrapped = true
 
-BloxFunGui.TabNameThemes_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabNameThemes_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabNameThemes_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabNameThemes_TextLabel_Gradient.Name = "TabNameThemes_TextLabel_Gradient"
 BloxFunGui.TabNameThemes_TextLabel_Gradient.Parent = BloxFunGui.TabNameThemes_TextLabel
@@ -8003,6 +8126,12 @@ BloxFunGui.ThemesTabButton_Roundify_GridLayout.SortOrder = Enum.SortOrder.Layout
 BloxFunGui.ThemesTabButton_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.ThemesTabButton_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.ThemesTabButton_Roundify_GridLayout.CellSize = UDim2.new(0, 18.5, 0, 18.5)
+
+BloxFunGui.ThemesTabButton_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.ThemesTabButton_Roundify_Gradient.Rotation = 80
+BloxFunGui.ThemesTabButton_Roundify_Gradient.Enabled = true
+BloxFunGui.ThemesTabButton_Roundify_Gradient.Name = "ThemesTabButton_Roundify_Gradient"
+BloxFunGui.ThemesTabButton_Roundify_Gradient.Parent = BloxFunGui.ThemesTabButton_Roundify
 
 BloxFunGui.TabThemesScrollingFrame.Name = "TabThemesScrollingFrame"
 BloxFunGui.TabThemesScrollingFrame.Parent = BloxFunGui.MainFrame1
@@ -8056,6 +8185,12 @@ BloxFunGui.SettingsTabButton_Roundify_GridLayout.SortOrder = Enum.SortOrder.Layo
 BloxFunGui.SettingsTabButton_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.SettingsTabButton_Roundify_GridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
 BloxFunGui.SettingsTabButton_Roundify_GridLayout.CellSize = UDim2.new(0, 22, 0, 22)
+
+BloxFunGui.SettingsTabButton_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 23, 38)), ColorSequenceKeypoint.new(0.34, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 13, 30))}
+BloxFunGui.SettingsTabButton_Roundify_Gradient.Rotation = 80
+BloxFunGui.SettingsTabButton_Roundify_Gradient.Enabled = true
+BloxFunGui.SettingsTabButton_Roundify_Gradient.Name = "SettingsTabButton_Roundify_Gradient"
+BloxFunGui.SettingsTabButton_Roundify_Gradient.Parent = BloxFunGui.SettingsTabButton_Roundify
 
 BloxFunGui.TabSettingsScrollingFrame.Name = "TabSettingsScrollingFrame"
 BloxFunGui.TabSettingsScrollingFrame.Parent = BloxFunGui.MainFrame1
@@ -8380,7 +8515,7 @@ BloxFunGui.TabNameSettings_TextLabel.TextScaled = true
 BloxFunGui.TabNameSettings_TextLabel.TextSize = 50.000
 BloxFunGui.TabNameSettings_TextLabel.TextWrapped = true
 
-BloxFunGui.TabNameSettings_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabNameSettings_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 168, 78)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(198, 146, 24)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(188, 188, 85))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
 BloxFunGui.TabNameSettings_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabNameSettings_TextLabel_Gradient.Name = "TabNameSettings_TextLabel_Gradient"
 BloxFunGui.TabNameSettings_TextLabel_Gradient.Parent = BloxFunGui.TabNameSettings_TextLabel
@@ -8425,7 +8560,7 @@ BloxFunGui.Notification1.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Notification1.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Notification1.SliceScale = 0.120
 
-BloxFunGui.Notification1_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(1, 175, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 132, 255))}
+BloxFunGui.Notification1_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 170, 0)), ColorSequenceKeypoint.new(0.36, Color3.fromRGB(235, 94, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(207, 0, 13)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(173, 0, 37))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(1, 175, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 132, 255))}
 BloxFunGui.Notification1_Gradient.Rotation = 40
 BloxFunGui.Notification1_Gradient.Name = "Notification1_Gradient"
 BloxFunGui.Notification1_Gradient.Parent = BloxFunGui.Notification1
@@ -8505,7 +8640,7 @@ BloxFunGui.Notification1_LeftButton_Roundify_GridLayout.SortOrder = Enum.SortOrd
 BloxFunGui.Notification1_LeftButton_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.Notification1_LeftButton_Roundify_GridLayout.CellSize = UDim2.new(0, 100, 0, 40)
 
-BloxFunGui.Notification1_LeftButton_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
+BloxFunGui.Notification1_LeftButton_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 70, 116)), ColorSequenceKeypoint.new(0.42, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(37, 19, 44))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
 BloxFunGui.Notification1_LeftButton_Roundify_Gradient.Rotation = 80
 BloxFunGui.Notification1_LeftButton_Roundify_Gradient.Name = "Notification1_LeftButton_Roundify_Gradient"
 BloxFunGui.Notification1_LeftButton_Roundify_Gradient.Parent = BloxFunGui.Notification1_LeftButton_Roundify
@@ -8562,7 +8697,7 @@ BloxFunGui.Notification1_RightButton_Roundify_GridLayout.SortOrder = Enum.SortOr
 BloxFunGui.Notification1_RightButton_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.Notification1_RightButton_Roundify_GridLayout.CellSize = UDim2.new(0, 100, 0, 40)
 
-BloxFunGui.Notification1_RightButton_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
+BloxFunGui.Notification1_RightButton_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 70, 116)), ColorSequenceKeypoint.new(0.42, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(37, 19, 44))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
 BloxFunGui.Notification1_RightButton_Roundify_Gradient.Rotation = 80
 BloxFunGui.Notification1_RightButton_Roundify_Gradient.Name = "Notification1_RightButton_Roundify_Gradient"
 BloxFunGui.Notification1_RightButton_Roundify_Gradient.Parent = BloxFunGui.Notification1_RightButton_Roundify
@@ -8614,10 +8749,10 @@ BloxFunGui.Notification1_QuestionFrame_TextLabel.TextScaled = true
 BloxFunGui.Notification1_QuestionFrame_TextLabel.TextSize = 50.000
 BloxFunGui.Notification1_QuestionFrame_TextLabel.TextWrapped = true
 
-BloxFunGui.Notification1_LeftButton_TextLabel_Gradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
-BloxFunGui.Notification1_LeftButton_TextLabel_Gradient_2.Rotation = 70
-BloxFunGui.Notification1_LeftButton_TextLabel_Gradient_2.Name = "Notification1_LeftButton_TextLabel_Gradient"
-BloxFunGui.Notification1_LeftButton_TextLabel_Gradient_2.Parent = BloxFunGui.Notification1_QuestionFrame_TextLabel
+BloxFunGui.Notification1_QuestionFrame_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Notification1_QuestionFrame_TextLabel_Gradient.Rotation = 70
+BloxFunGui.Notification1_QuestionFrame_TextLabel_Gradient.Name = "Notification1_QuestionFrame_TextLabel_Gradient"
+BloxFunGui.Notification1_QuestionFrame_TextLabel_Gradient.Parent = BloxFunGui.Notification1_QuestionFrame_TextLabel
 
 BloxFunGui.Notification1_QuestionFrame_Roundify_GridLayout.Name = "Notification1_QuestionFrame_Roundify_GridLayout"
 BloxFunGui.Notification1_QuestionFrame_Roundify_GridLayout.Parent = BloxFunGui.Notification1_QuestionFrame_Roundify
@@ -8626,7 +8761,7 @@ BloxFunGui.Notification1_QuestionFrame_Roundify_GridLayout.SortOrder = Enum.Sort
 BloxFunGui.Notification1_QuestionFrame_Roundify_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.Notification1_QuestionFrame_Roundify_GridLayout.CellSize = UDim2.new(0, 220, 0, 50)
 
-BloxFunGui.Notification1_QuestionFrame_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
+BloxFunGui.Notification1_QuestionFrame_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 70, 116)), ColorSequenceKeypoint.new(0.42, Color3.fromRGB(56, 43, 75)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(37, 19, 44))} --ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(213, 213, 213))}
 BloxFunGui.Notification1_QuestionFrame_Roundify_Gradient.Rotation = 80
 BloxFunGui.Notification1_QuestionFrame_Roundify_Gradient.Name = "Notification1_QuestionFrame_Roundify_Gradient"
 BloxFunGui.Notification1_QuestionFrame_Roundify_Gradient.Parent = BloxFunGui.Notification1_QuestionFrame_Roundify
@@ -8637,6 +8772,10 @@ BloxFunGui.NotificationsBackgroundFrame_GridLayout.HorizontalAlignment = Enum.Ho
 BloxFunGui.NotificationsBackgroundFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 BloxFunGui.NotificationsBackgroundFrame_GridLayout.VerticalAlignment = Enum.VerticalAlignment.Center
 BloxFunGui.NotificationsBackgroundFrame_GridLayout.CellSize = UDim2.new(0, 310, 0, 190)
+
+BloxFunGui.NotificationsBackgroundFrame_UICorner.CornerRadius = UDim.new(0, 12)
+BloxFunGui.NotificationsBackgroundFrame_UICorner.Name = "NotificationsBackgroundFrame_UICorner"
+BloxFunGui.NotificationsBackgroundFrame_UICorner.Parent = BloxFunGui.NotificationsBackgroundFrame
 ------------------------------------------------------------------------------------------------
 -----Other Properties:
 ----ThemeButtons:
@@ -8660,7 +8799,7 @@ BloxFunGui.TabThemesButton1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabThemesButton1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabThemesButton1_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabThemesButton1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabThemesButton1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabThemesButton1_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabThemesButton1_Roundify_Gradient.Name = "TabThemesButton1_Roundify_Gradient"
 BloxFunGui.TabThemesButton1_Roundify_Gradient.Parent = BloxFunGui.TabThemesButton1_Roundify
@@ -8747,7 +8886,7 @@ BloxFunGui.TabThemesButton2_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabThemesButton2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabThemesButton2_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabThemesButton2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabThemesButton2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabThemesButton2_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabThemesButton2_Roundify_Gradient.Name = "TabThemesButton2_Roundify_Gradient"
 BloxFunGui.TabThemesButton2_Roundify_Gradient.Parent = BloxFunGui.TabThemesButton2_Roundify
@@ -8844,7 +8983,7 @@ BloxFunGui.TabVmdlsButton1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton1_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton1_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton1_Roundify_Gradient.Name = "TabVmdlsButton1_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton1_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton1_Roundify
@@ -8931,7 +9070,7 @@ BloxFunGui.TabVmdlsButton42_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton42_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton42_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton42_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton42_Roundify_Gradient.Name = "TabVmdlsButton42_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton42_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton42_Roundify
@@ -8956,7 +9095,7 @@ BloxFunGui.TabVmdlsButton42_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton42_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton42_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton42_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton42_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton42_Script.Image = "rbxasset://textures/sky/sky512_rt.tex"
 
 BloxFunGui.TabVmdlsButton42_Roundify_InvisFrame.Name = "TabVmdlsButton42_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton42_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton42_Roundify
@@ -9018,7 +9157,7 @@ BloxFunGui.TabVmdlsButton2_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton2_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton2_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton2_Roundify_Gradient.Name = "TabVmdlsButton2_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton2_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton2_Roundify
@@ -9105,7 +9244,7 @@ BloxFunGui.TabVmdlsButton3_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton3_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton3_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton3_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton3_Roundify_Gradient.Name = "TabVmdlsButton3_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton3_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton3_Roundify
@@ -9192,7 +9331,7 @@ BloxFunGui.TabVmdlsButton4_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton4_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton4_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton4_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton4_Roundify_Gradient.Name = "TabVmdlsButton4_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton4_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton4_Roundify
@@ -9217,7 +9356,7 @@ BloxFunGui.TabVmdlsButton4_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 25
 BloxFunGui.TabVmdlsButton4_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton4_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton4_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton4_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton4_Script.Image = "rbxassetid://464915631"
 
 BloxFunGui.TabVmdlsButton4_Roundify_InvisFrame.Name = "TabVmdlsButton4_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton4_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton4_Roundify
@@ -9279,7 +9418,7 @@ BloxFunGui.TabVmdlsButton5_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton5_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton5_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton5_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton5_Roundify_Gradient.Name = "TabVmdlsButton5_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton5_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton5_Roundify
@@ -9304,7 +9443,7 @@ BloxFunGui.TabVmdlsButton5_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 25
 BloxFunGui.TabVmdlsButton5_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton5_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton5_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton5_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton5_Script.Image = "rbxassetid://464915621"
 
 BloxFunGui.TabVmdlsButton5_Roundify_InvisFrame.Name = "TabVmdlsButton5_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton5_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton5_Roundify
@@ -9366,7 +9505,7 @@ BloxFunGui.TabVmdlsButton6_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton6_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton6_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton6_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton6_Roundify_Gradient.Name = "TabVmdlsButton6_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton6_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton6_Roundify
@@ -9391,7 +9530,7 @@ BloxFunGui.TabVmdlsButton6_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 25
 BloxFunGui.TabVmdlsButton6_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton6_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton6_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton6_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton6_Script.Image = "rbxassetid://464915664"
 
 BloxFunGui.TabVmdlsButton6_Roundify_InvisFrame.Name = "TabVmdlsButton6_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton6_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton6_Roundify
@@ -9453,7 +9592,7 @@ BloxFunGui.TabVmdlsButton7_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton7_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton7_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton7_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton7_Roundify_Gradient.Name = "TabVmdlsButton7_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton7_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton7_Roundify
@@ -9478,7 +9617,7 @@ BloxFunGui.TabVmdlsButton7_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 25
 BloxFunGui.TabVmdlsButton7_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton7_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton7_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton7_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton7_Script.Image = "rbxassetid://464915627"
 
 BloxFunGui.TabVmdlsButton7_Roundify_InvisFrame.Name = "TabVmdlsButton7_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton7_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton7_Roundify
@@ -9540,7 +9679,7 @@ BloxFunGui.TabVmdlsButton8_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton8_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton8_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton8_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton8_Roundify_Gradient.Name = "TabVmdlsButton8_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton8_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton8_Roundify
@@ -9565,7 +9704,7 @@ BloxFunGui.TabVmdlsButton8_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 25
 BloxFunGui.TabVmdlsButton8_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton8_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton8_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton8_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton8_Script.Image = "rbxassetid://464915682"
 
 BloxFunGui.TabVmdlsButton8_Roundify_InvisFrame.Name = "TabVmdlsButton8_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton8_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton8_Roundify
@@ -9627,7 +9766,7 @@ BloxFunGui.TabVmdlsButton9_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton9_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton9_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton9_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton9_Roundify_Gradient.Name = "TabVmdlsButton9_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton9_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton9_Roundify
@@ -9652,7 +9791,7 @@ BloxFunGui.TabVmdlsButton9_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 25
 BloxFunGui.TabVmdlsButton9_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton9_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton9_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton9_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton9_Script.Image = "rbxassetid://464915618"
 
 BloxFunGui.TabVmdlsButton9_Roundify_InvisFrame.Name = "TabVmdlsButton9_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton9_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton9_Roundify
@@ -9714,7 +9853,7 @@ BloxFunGui.TabVmdlsButton10_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton10_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton10_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton10_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton10_Roundify_Gradient.Name = "TabVmdlsButton10_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton10_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton10_Roundify
@@ -9739,7 +9878,7 @@ BloxFunGui.TabVmdlsButton10_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton10_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton10_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton10_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton10_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton10_Script.Image = "rbxassetid://464915617"
 
 BloxFunGui.TabVmdlsButton10_Roundify_InvisFrame.Name = "TabVmdlsButton10_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton10_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton10_Roundify
@@ -9801,7 +9940,7 @@ BloxFunGui.TabVmdlsButton11_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton11_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton11_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton11_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton11_Roundify_Gradient.Name = "TabVmdlsButton11_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton11_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton11_Roundify
@@ -9888,7 +10027,7 @@ BloxFunGui.TabVmdlsButton12_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton12_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton12_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton12_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton12_Roundify_Gradient.Name = "TabVmdlsButton12_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton12_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton12_Roundify
@@ -9913,7 +10052,7 @@ BloxFunGui.TabVmdlsButton12_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton12_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton12_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton12_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton12_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton12_Script.Image = "rbxassetid://464915659"
 
 BloxFunGui.TabVmdlsButton12_Roundify_InvisFrame.Name = "TabVmdlsButton12_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton12_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton12_Roundify
@@ -9975,7 +10114,7 @@ BloxFunGui.TabVmdlsButton13_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton13_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton13_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton13_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton13_Roundify_Gradient.Name = "TabVmdlsButton13_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton13_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton13_Roundify
@@ -10000,7 +10139,7 @@ BloxFunGui.TabVmdlsButton13_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton13_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton13_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton13_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton13_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton13_Script.Image = "rbxassetid://464915645"
 
 BloxFunGui.TabVmdlsButton13_Roundify_InvisFrame.Name = "TabVmdlsButton13_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton13_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton13_Roundify
@@ -10062,7 +10201,7 @@ BloxFunGui.TabVmdlsButton14_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton14_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton14_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton14_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton14_Roundify_Gradient.Name = "TabVmdlsButton14_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton14_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton14_Roundify
@@ -10149,7 +10288,7 @@ BloxFunGui.TabVmdlsButton15_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton15_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton15_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton15_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton15_Roundify_Gradient.Name = "TabVmdlsButton15_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton15_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton15_Roundify
@@ -10174,7 +10313,7 @@ BloxFunGui.TabVmdlsButton15_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton15_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton15_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton15_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton15_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton15_Script.Image = "rbxassetid://464915653"
 
 BloxFunGui.TabVmdlsButton15_Roundify_InvisFrame.Name = "TabVmdlsButton15_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton15_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton15_Roundify
@@ -10236,7 +10375,7 @@ BloxFunGui.TabVmdlsButton16_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton16_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton16_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton16_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton16_Roundify_Gradient.Name = "TabVmdlsButton16_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton16_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton16_Roundify
@@ -10261,7 +10400,7 @@ BloxFunGui.TabVmdlsButton16_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton16_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton16_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton16_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton16_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton16_Script.Image = "rbxassetid://464915684"
 
 BloxFunGui.TabVmdlsButton16_Roundify_InvisFrame.Name = "TabVmdlsButton16_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton16_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton16_Roundify
@@ -10323,7 +10462,7 @@ BloxFunGui.TabVmdlsButton17_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton17_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton17_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton17_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton17_Roundify_Gradient.Name = "TabVmdlsButton17_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton17_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton17_Roundify
@@ -10348,7 +10487,7 @@ BloxFunGui.TabVmdlsButton17_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton17_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton17_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton17_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton17_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton17_Script.Image = "rbxassetid://464915661"
 
 BloxFunGui.TabVmdlsButton17_Roundify_InvisFrame.Name = "TabVmdlsButton17_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton17_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton17_Roundify
@@ -10410,7 +10549,7 @@ BloxFunGui.TabVmdlsButton18_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton18_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton18_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton18_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton18_Roundify_Gradient.Name = "TabVmdlsButton18_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton18_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton18_Roundify
@@ -10435,7 +10574,7 @@ BloxFunGui.TabVmdlsButton18_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton18_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton18_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton18_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton18_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton18_Script.Image = "rbxassetid://464915669"
 
 BloxFunGui.TabVmdlsButton18_Roundify_InvisFrame.Name = "TabVmdlsButton18_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton18_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton18_Roundify
@@ -10497,7 +10636,7 @@ BloxFunGui.TabVmdlsButton19_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton19_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton19_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton19_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton19_Roundify_Gradient.Name = "TabVmdlsButton19_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton19_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton19_Roundify
@@ -10522,7 +10661,7 @@ BloxFunGui.TabVmdlsButton19_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton19_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton19_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton19_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton19_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton19_Script.Image = "rbxassetid://464915657"
 
 BloxFunGui.TabVmdlsButton19_Roundify_InvisFrame.Name = "TabVmdlsButton19_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton19_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton19_Roundify
@@ -10584,7 +10723,7 @@ BloxFunGui.TabVmdlsButton20_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton20_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton20_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton20_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton20_Roundify_Gradient.Name = "TabVmdlsButton20_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton20_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton20_Roundify
@@ -10609,7 +10748,7 @@ BloxFunGui.TabVmdlsButton20_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton20_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton20_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton20_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton20_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton20_Script.Image = "rbxassetid://464915688"
 
 BloxFunGui.TabVmdlsButton20_Roundify_InvisFrame.Name = "TabVmdlsButton20_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton20_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton20_Roundify
@@ -10671,7 +10810,7 @@ BloxFunGui.TabVmdlsButton21_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton21_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton21_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton21_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton21_Roundify_Gradient.Name = "TabVmdlsButton21_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton21_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton21_Roundify
@@ -10696,7 +10835,7 @@ BloxFunGui.TabVmdlsButton21_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton21_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton21_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton21_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton21_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton21_Script.Image = "rbxassetid://464915648"
 
 BloxFunGui.TabVmdlsButton21_Roundify_InvisFrame.Name = "TabVmdlsButton21_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton21_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton21_Roundify
@@ -10758,7 +10897,7 @@ BloxFunGui.TabVmdlsButton22_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton22_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton22_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton22_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton22_Roundify_Gradient.Name = "TabVmdlsButton22_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton22_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton22_Roundify
@@ -10783,7 +10922,7 @@ BloxFunGui.TabVmdlsButton22_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton22_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton22_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton22_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton22_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton22_Script.Image = "rbxassetid://464915672"
 
 BloxFunGui.TabVmdlsButton22_Roundify_InvisFrame.Name = "TabVmdlsButton22_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton22_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton22_Roundify
@@ -10845,7 +10984,7 @@ BloxFunGui.TabVmdlsButton23_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton23_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton23_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton23_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton23_Roundify_Gradient.Name = "TabVmdlsButton23_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton23_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton23_Roundify
@@ -10870,7 +11009,7 @@ BloxFunGui.TabVmdlsButton23_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton23_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton23_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton23_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton23_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton23_Script.Image = "rbxassetid://464915643"
 
 BloxFunGui.TabVmdlsButton23_Roundify_InvisFrame.Name = "TabVmdlsButton23_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton23_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton23_Roundify
@@ -10932,7 +11071,7 @@ BloxFunGui.TabVmdlsButton24_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton24_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton24_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton24_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton24_Roundify_Gradient.Name = "TabVmdlsButton24_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton24_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton24_Roundify
@@ -10957,7 +11096,7 @@ BloxFunGui.TabVmdlsButton24_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton24_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton24_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton24_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton24_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton24_Script.Image = "rbxassetid://464915655"
 
 BloxFunGui.TabVmdlsButton24_Roundify_InvisFrame.Name = "TabVmdlsButton24_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton24_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton24_Roundify
@@ -11019,7 +11158,7 @@ BloxFunGui.TabVmdlsButton25_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton25_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton25_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton25_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton25_Roundify_Gradient.Name = "TabVmdlsButton25_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton25_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton25_Roundify
@@ -11044,7 +11183,7 @@ BloxFunGui.TabVmdlsButton25_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton25_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton25_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton25_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton25_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton25_Script.Image = "rbxassetid://464915625"
 
 BloxFunGui.TabVmdlsButton25_Roundify_InvisFrame.Name = "TabVmdlsButton25_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton25_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton25_Roundify
@@ -11106,7 +11245,7 @@ BloxFunGui.TabVmdlsButton26_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton26_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton26_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton26_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton26_Roundify_Gradient.Name = "TabVmdlsButton26_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton26_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton26_Roundify
@@ -11131,7 +11270,7 @@ BloxFunGui.TabVmdlsButton26_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton26_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton26_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton26_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton26_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton26_Script.Image = "rbxassetid://464915629"
 
 BloxFunGui.TabVmdlsButton26_Roundify_InvisFrame.Name = "TabVmdlsButton26_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton26_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton26_Roundify
@@ -11193,7 +11332,7 @@ BloxFunGui.TabVmdlsButton27_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton27_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton27_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton27_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton27_Roundify_Gradient.Name = "TabVmdlsButton27_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton27_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton27_Roundify
@@ -11218,7 +11357,7 @@ BloxFunGui.TabVmdlsButton27_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton27_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton27_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton27_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton27_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton27_Script.Image = "rbxassetid://464915639"
 
 BloxFunGui.TabVmdlsButton27_Roundify_InvisFrame.Name = "TabVmdlsButton27_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton27_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton27_Roundify
@@ -11280,7 +11419,7 @@ BloxFunGui.TabVmdlsButton28_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton28_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton28_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton28_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton28_Roundify_Gradient.Name = "TabVmdlsButton28_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton28_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton28_Roundify
@@ -11305,7 +11444,7 @@ BloxFunGui.TabVmdlsButton28_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton28_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton28_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton28_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton28_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton28_Script.Image = "rbxassetid://464915633"
 
 BloxFunGui.TabVmdlsButton28_Roundify_InvisFrame.Name = "TabVmdlsButton28_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton28_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton28_Roundify
@@ -11367,7 +11506,7 @@ BloxFunGui.TabVmdlsButton29_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton29_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton29_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton29_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton29_Roundify_Gradient.Name = "TabVmdlsButton29_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton29_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton29_Roundify
@@ -11392,7 +11531,7 @@ BloxFunGui.TabVmdlsButton29_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton29_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton29_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton29_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton29_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton29_Script.Image = "rbxassetid://464915612"
 
 BloxFunGui.TabVmdlsButton29_Roundify_InvisFrame.Name = "TabVmdlsButton29_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton29_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton29_Roundify
@@ -11454,7 +11593,7 @@ BloxFunGui.TabVmdlsButton30_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton30_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton30_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton30_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton30_Roundify_Gradient.Name = "TabVmdlsButton30_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton30_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton30_Roundify
@@ -11479,7 +11618,7 @@ BloxFunGui.TabVmdlsButton30_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton30_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton30_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton30_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton30_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton30_Script.Image = "rbxassetid://464915680"
 
 BloxFunGui.TabVmdlsButton30_Roundify_InvisFrame.Name = "TabVmdlsButton30_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton30_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton30_Roundify
@@ -11541,7 +11680,7 @@ BloxFunGui.TabVmdlsButton31_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton31_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton31_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton31_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton31_Roundify_Gradient.Name = "TabVmdlsButton31_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton31_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton31_Roundify
@@ -11566,7 +11705,7 @@ BloxFunGui.TabVmdlsButton31_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton31_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton31_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton31_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton31_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton31_Script.Image = "rbxassetid://464915611"
 
 BloxFunGui.TabVmdlsButton31_Roundify_InvisFrame.Name = "TabVmdlsButton31_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton31_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton31_Roundify
@@ -11628,7 +11767,7 @@ BloxFunGui.TabVmdlsButton32_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton32_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton32_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton32_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton32_Roundify_Gradient.Name = "TabVmdlsButton32_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton32_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton32_Roundify
@@ -11653,7 +11792,7 @@ BloxFunGui.TabVmdlsButton32_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton32_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton32_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton32_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton32_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton32_Script.Image = "rbxassetid://464915675"
 
 BloxFunGui.TabVmdlsButton32_Roundify_InvisFrame.Name = "TabVmdlsButton32_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton32_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton32_Roundify
@@ -11715,7 +11854,7 @@ BloxFunGui.TabVmdlsButton33_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton33_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton33_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton33_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton33_Roundify_Gradient.Name = "TabVmdlsButton33_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton33_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton33_Roundify
@@ -11740,7 +11879,7 @@ BloxFunGui.TabVmdlsButton33_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton33_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton33_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton33_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton33_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton33_Script.Image = "rbxassetid://464915615"
 
 BloxFunGui.TabVmdlsButton33_Roundify_InvisFrame.Name = "TabVmdlsButton33_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton33_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton33_Roundify
@@ -11802,7 +11941,7 @@ BloxFunGui.TabVmdlsButton34_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton34_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton34_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton34_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton34_Roundify_Gradient.Name = "TabVmdlsButton34_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton34_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton34_Roundify
@@ -11827,7 +11966,7 @@ BloxFunGui.TabVmdlsButton34_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton34_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton34_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton34_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton34_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton34_Script.Image = "rbxassetid://464915634"
 
 BloxFunGui.TabVmdlsButton34_Roundify_InvisFrame.Name = "TabVmdlsButton34_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton34_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton34_Roundify
@@ -11889,7 +12028,7 @@ BloxFunGui.TabVmdlsButton35_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton35_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton35_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton35_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton35_Roundify_Gradient.Name = "TabVmdlsButton35_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton35_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton35_Roundify
@@ -11914,7 +12053,7 @@ BloxFunGui.TabVmdlsButton35_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 2
 BloxFunGui.TabVmdlsButton35_Script.BackgroundTransparency = 1.000
 BloxFunGui.TabVmdlsButton35_Script.BorderSizePixel = 0
 BloxFunGui.TabVmdlsButton35_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.TabVmdlsButton35_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.TabVmdlsButton35_Script.Image = "rbxassetid://466542454"
 
 BloxFunGui.TabVmdlsButton35_Roundify_InvisFrame.Name = "TabVmdlsButton35_Roundify_InvisFrame"
 BloxFunGui.TabVmdlsButton35_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton35_Roundify
@@ -11976,7 +12115,7 @@ BloxFunGui.TabVmdlsButton36_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton36_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton36_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton36_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton36_Roundify_Gradient.Name = "TabVmdlsButton36_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton36_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton36_Roundify
@@ -12063,7 +12202,7 @@ BloxFunGui.TabVmdlsButton37_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton37_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton37_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton37_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton37_Roundify_Gradient.Name = "TabVmdlsButton37_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton37_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton37_Roundify
@@ -12150,7 +12289,7 @@ BloxFunGui.TabVmdlsButton38_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton38_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton38_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton38_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton38_Roundify_Gradient.Name = "TabVmdlsButton38_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton38_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton38_Roundify
@@ -12237,7 +12376,7 @@ BloxFunGui.TabVmdlsButton39_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton39_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton39_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton39_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton39_Roundify_Gradient.Name = "TabVmdlsButton39_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton39_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton39_Roundify
@@ -12324,7 +12463,7 @@ BloxFunGui.TabVmdlsButton40_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton40_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton40_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton40_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton40_Roundify_Gradient.Name = "TabVmdlsButton40_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton40_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton40_Roundify
@@ -12411,7 +12550,7 @@ BloxFunGui.TabVmdlsButton41_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.TabVmdlsButton41_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.TabVmdlsButton41_Roundify.SliceScale = 0.120
 
-BloxFunGui.TabVmdlsButton41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.TabVmdlsButton41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.TabVmdlsButton41_Roundify_Gradient.Rotation = 70
 BloxFunGui.TabVmdlsButton41_Roundify_Gradient.Name = "TabVmdlsButton41_Roundify_Gradient"
 BloxFunGui.TabVmdlsButton41_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton41_Roundify
@@ -12500,7 +12639,7 @@ BloxFunGui.Tab1Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button1_Roundify_Gradient.Name = "Tab1Button1_Roundify_Gradient"
 BloxFunGui.Tab1Button1_Roundify_Gradient.Parent = BloxFunGui.Tab1Button1_Roundify
@@ -12587,7 +12726,7 @@ BloxFunGui.Tab1Button2_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button2_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button2_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button2_Roundify_Gradient.Name = "Tab1Button2_Roundify_Gradient"
 BloxFunGui.Tab1Button2_Roundify_Gradient.Parent = BloxFunGui.Tab1Button2_Roundify
@@ -12674,7 +12813,7 @@ BloxFunGui.Tab1Button3_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button3_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button3_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button3_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button3_Roundify_Gradient.Name = "Tab1Button3_Roundify_Gradient"
 BloxFunGui.Tab1Button3_Roundify_Gradient.Parent = BloxFunGui.Tab1Button3_Roundify
@@ -12761,7 +12900,7 @@ BloxFunGui.Tab1Button4_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button4_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button4_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button4_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button4_Roundify_Gradient.Name = "Tab1Button4_Roundify_Gradient"
 BloxFunGui.Tab1Button4_Roundify_Gradient.Parent = BloxFunGui.Tab1Button4_Roundify
@@ -12848,7 +12987,7 @@ BloxFunGui.Tab1Button5_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button5_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button5_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button5_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button5_Roundify_Gradient.Name = "Tab1Button5_Roundify_Gradient"
 BloxFunGui.Tab1Button5_Roundify_Gradient.Parent = BloxFunGui.Tab1Button5_Roundify
@@ -12935,7 +13074,7 @@ BloxFunGui.Tab1Button6_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button6_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button6_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button6_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button6_Roundify_Gradient.Name = "Tab1Button6_Roundify_Gradient"
 BloxFunGui.Tab1Button6_Roundify_Gradient.Parent = BloxFunGui.Tab1Button6_Roundify
@@ -13022,7 +13161,7 @@ BloxFunGui.Tab1Button7_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button7_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button7_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button7_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button7_Roundify_Gradient.Name = "Tab1Button7_Roundify_Gradient"
 BloxFunGui.Tab1Button7_Roundify_Gradient.Parent = BloxFunGui.Tab1Button7_Roundify
@@ -13109,7 +13248,7 @@ BloxFunGui.Tab1Button8_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button8_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button8_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button8_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button8_Roundify_Gradient.Name = "Tab1Button8_Roundify_Gradient"
 BloxFunGui.Tab1Button8_Roundify_Gradient.Parent = BloxFunGui.Tab1Button8_Roundify
@@ -13196,7 +13335,7 @@ BloxFunGui.Tab1Button9_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button9_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button9_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button9_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button9_Roundify_Gradient.Name = "Tab1Button9_Roundify_Gradient"
 BloxFunGui.Tab1Button9_Roundify_Gradient.Parent = BloxFunGui.Tab1Button9_Roundify
@@ -13283,7 +13422,7 @@ BloxFunGui.Tab1Button10_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button10_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button10_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button10_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button10_Roundify_Gradient.Name = "Tab1Button10_Roundify_Gradient"
 BloxFunGui.Tab1Button10_Roundify_Gradient.Parent = BloxFunGui.Tab1Button10_Roundify
@@ -13370,7 +13509,7 @@ BloxFunGui.Tab1Button11_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button11_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button11_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button11_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button11_Roundify_Gradient.Name = "Tab1Button11_Roundify_Gradient"
 BloxFunGui.Tab1Button11_Roundify_Gradient.Parent = BloxFunGui.Tab1Button11_Roundify
@@ -13457,7 +13596,7 @@ BloxFunGui.Tab1Button12_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button12_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button12_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button12_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button12_Roundify_Gradient.Name = "Tab1Button12_Roundify_Gradient"
 BloxFunGui.Tab1Button12_Roundify_Gradient.Parent = BloxFunGui.Tab1Button12_Roundify
@@ -13544,7 +13683,7 @@ BloxFunGui.Tab1Button13_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button13_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button13_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button13_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button13_Roundify_Gradient.Name = "Tab1Button13_Roundify_Gradient"
 BloxFunGui.Tab1Button13_Roundify_Gradient.Parent = BloxFunGui.Tab1Button13_Roundify
@@ -13631,7 +13770,7 @@ BloxFunGui.Tab1Button14_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button14_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button14_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button14_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button14_Roundify_Gradient.Name = "Tab1Button14_Roundify_Gradient"
 BloxFunGui.Tab1Button14_Roundify_Gradient.Parent = BloxFunGui.Tab1Button14_Roundify
@@ -13718,7 +13857,7 @@ BloxFunGui.Tab1Button15_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button15_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button15_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button15_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button15_Roundify_Gradient.Name = "Tab1Button15_Roundify_Gradient"
 BloxFunGui.Tab1Button15_Roundify_Gradient.Parent = BloxFunGui.Tab1Button15_Roundify
@@ -13805,7 +13944,7 @@ BloxFunGui.Tab1Button16_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button16_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button16_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button16_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button16_Roundify_Gradient.Name = "Tab1Button16_Roundify_Gradient"
 BloxFunGui.Tab1Button16_Roundify_Gradient.Parent = BloxFunGui.Tab1Button16_Roundify
@@ -13892,7 +14031,7 @@ BloxFunGui.Tab1Button17_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button17_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button17_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button17_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button17_Roundify_Gradient.Name = "Tab1Button17_Roundify_Gradient"
 BloxFunGui.Tab1Button17_Roundify_Gradient.Parent = BloxFunGui.Tab1Button17_Roundify
@@ -13979,7 +14118,7 @@ BloxFunGui.Tab1Button18_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button18_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button18_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button18_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button18_Roundify_Gradient.Name = "Tab1Button18_Roundify_Gradient"
 BloxFunGui.Tab1Button18_Roundify_Gradient.Parent = BloxFunGui.Tab1Button18_Roundify
@@ -14066,7 +14205,7 @@ BloxFunGui.Tab1Button19_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button19_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button19_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button19_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button19_Roundify_Gradient.Name = "Tab1Button19_Roundify_Gradient"
 BloxFunGui.Tab1Button19_Roundify_Gradient.Parent = BloxFunGui.Tab1Button19_Roundify
@@ -14153,7 +14292,7 @@ BloxFunGui.Tab1Button20_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button20_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button20_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button20_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button20_Roundify_Gradient.Name = "Tab1Button20_Roundify_Gradient"
 BloxFunGui.Tab1Button20_Roundify_Gradient.Parent = BloxFunGui.Tab1Button20_Roundify
@@ -14240,7 +14379,7 @@ BloxFunGui.Tab1Button21_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button21_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button21_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button21_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button21_Roundify_Gradient.Name = "Tab1Button21_Roundify_Gradient"
 BloxFunGui.Tab1Button21_Roundify_Gradient.Parent = BloxFunGui.Tab1Button21_Roundify
@@ -14327,7 +14466,7 @@ BloxFunGui.Tab1Button22_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button22_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button22_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button22_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button22_Roundify_Gradient.Name = "Tab1Button22_Roundify_Gradient"
 BloxFunGui.Tab1Button22_Roundify_Gradient.Parent = BloxFunGui.Tab1Button22_Roundify
@@ -14414,7 +14553,7 @@ BloxFunGui.Tab1Button23_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button23_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button23_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button23_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button23_Roundify_Gradient.Name = "Tab1Button23_Roundify_Gradient"
 BloxFunGui.Tab1Button23_Roundify_Gradient.Parent = BloxFunGui.Tab1Button23_Roundify
@@ -14501,7 +14640,7 @@ BloxFunGui.Tab1Button24_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button24_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button24_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button24_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button24_Roundify_Gradient.Name = "Tab1Button24_Roundify_Gradient"
 BloxFunGui.Tab1Button24_Roundify_Gradient.Parent = BloxFunGui.Tab1Button24_Roundify
@@ -14588,7 +14727,7 @@ BloxFunGui.Tab1Button25_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button25_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button25_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button25_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button25_Roundify_Gradient.Name = "Tab1Button25_Roundify_Gradient"
 BloxFunGui.Tab1Button25_Roundify_Gradient.Parent = BloxFunGui.Tab1Button25_Roundify
@@ -14675,7 +14814,7 @@ BloxFunGui.Tab1Button26_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button26_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button26_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button26_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button26_Roundify_Gradient.Name = "Tab1Button26_Roundify_Gradient"
 BloxFunGui.Tab1Button26_Roundify_Gradient.Parent = BloxFunGui.Tab1Button26_Roundify
@@ -14762,7 +14901,7 @@ BloxFunGui.Tab1Button27_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button27_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button27_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button27_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button27_Roundify_Gradient.Name = "Tab1Button27_Roundify_Gradient"
 BloxFunGui.Tab1Button27_Roundify_Gradient.Parent = BloxFunGui.Tab1Button27_Roundify
@@ -14849,7 +14988,7 @@ BloxFunGui.Tab1Button28_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button28_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button28_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button28_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button28_Roundify_Gradient.Name = "Tab1Button28_Roundify_Gradient"
 BloxFunGui.Tab1Button28_Roundify_Gradient.Parent = BloxFunGui.Tab1Button28_Roundify
@@ -14936,7 +15075,7 @@ BloxFunGui.Tab1Button29_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button29_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button29_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button29_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button29_Roundify_Gradient.Name = "Tab1Button29_Roundify_Gradient"
 BloxFunGui.Tab1Button29_Roundify_Gradient.Parent = BloxFunGui.Tab1Button29_Roundify
@@ -15023,7 +15162,7 @@ BloxFunGui.Tab1Button30_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button30_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button30_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button30_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button30_Roundify_Gradient.Name = "Tab1Button30_Roundify_Gradient"
 BloxFunGui.Tab1Button30_Roundify_Gradient.Parent = BloxFunGui.Tab1Button30_Roundify
@@ -15110,7 +15249,7 @@ BloxFunGui.Tab1Button31_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button31_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button31_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button31_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button31_Roundify_Gradient.Name = "Tab1Button31_Roundify_Gradient"
 BloxFunGui.Tab1Button31_Roundify_Gradient.Parent = BloxFunGui.Tab1Button31_Roundify
@@ -15197,7 +15336,7 @@ BloxFunGui.Tab1Button32_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button32_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button32_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button32_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button32_Roundify_Gradient.Name = "Tab1Button32_Roundify_Gradient"
 BloxFunGui.Tab1Button32_Roundify_Gradient.Parent = BloxFunGui.Tab1Button32_Roundify
@@ -15284,7 +15423,7 @@ BloxFunGui.Tab1Button33_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button33_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button33_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button33_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button33_Roundify_Gradient.Name = "Tab1Button33_Roundify_Gradient"
 BloxFunGui.Tab1Button33_Roundify_Gradient.Parent = BloxFunGui.Tab1Button33_Roundify
@@ -15371,7 +15510,7 @@ BloxFunGui.Tab1Button34_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button34_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button34_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button34_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button34_Roundify_Gradient.Name = "Tab1Button34_Roundify_Gradient"
 BloxFunGui.Tab1Button34_Roundify_Gradient.Parent = BloxFunGui.Tab1Button34_Roundify
@@ -15458,7 +15597,7 @@ BloxFunGui.Tab1Button35_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button35_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button35_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button35_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button35_Roundify_Gradient.Name = "Tab1Button35_Roundify_Gradient"
 BloxFunGui.Tab1Button35_Roundify_Gradient.Parent = BloxFunGui.Tab1Button35_Roundify
@@ -15545,7 +15684,7 @@ BloxFunGui.Tab1Button36_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button36_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button36_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button36_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button36_Roundify_Gradient.Name = "Tab1Button36_Roundify_Gradient"
 BloxFunGui.Tab1Button36_Roundify_Gradient.Parent = BloxFunGui.Tab1Button36_Roundify
@@ -15632,7 +15771,7 @@ BloxFunGui.Tab1Button37_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button37_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button37_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button37_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button37_Roundify_Gradient.Name = "Tab1Button37_Roundify_Gradient"
 BloxFunGui.Tab1Button37_Roundify_Gradient.Parent = BloxFunGui.Tab1Button37_Roundify
@@ -15719,7 +15858,7 @@ BloxFunGui.Tab1Button38_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button38_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button38_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button38_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button38_Roundify_Gradient.Name = "Tab1Button38_Roundify_Gradient"
 BloxFunGui.Tab1Button38_Roundify_Gradient.Parent = BloxFunGui.Tab1Button38_Roundify
@@ -15806,7 +15945,7 @@ BloxFunGui.Tab1Button39_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button39_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button39_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button39_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button39_Roundify_Gradient.Name = "Tab1Button39_Roundify_Gradient"
 BloxFunGui.Tab1Button39_Roundify_Gradient.Parent = BloxFunGui.Tab1Button39_Roundify
@@ -15893,7 +16032,7 @@ BloxFunGui.Tab1Button40_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button40_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button40_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button40_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button40_Roundify_Gradient.Name = "Tab1Button40_Roundify_Gradient"
 BloxFunGui.Tab1Button40_Roundify_Gradient.Parent = BloxFunGui.Tab1Button40_Roundify
@@ -15980,7 +16119,7 @@ BloxFunGui.Tab1Button41_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button41_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button41_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button41_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button41_Roundify_Gradient.Name = "Tab1Button41_Roundify_Gradient"
 BloxFunGui.Tab1Button41_Roundify_Gradient.Parent = BloxFunGui.Tab1Button41_Roundify
@@ -16067,7 +16206,7 @@ BloxFunGui.Tab1Button42_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button42_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button42_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button42_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button42_Roundify_Gradient.Name = "Tab1Button42_Roundify_Gradient"
 BloxFunGui.Tab1Button42_Roundify_Gradient.Parent = BloxFunGui.Tab1Button42_Roundify
@@ -16154,7 +16293,7 @@ BloxFunGui.Tab1Button43_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button43_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button43_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button43_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button43_Roundify_Gradient.Name = "Tab1Button43_Roundify_Gradient"
 BloxFunGui.Tab1Button43_Roundify_Gradient.Parent = BloxFunGui.Tab1Button43_Roundify
@@ -16241,7 +16380,7 @@ BloxFunGui.Tab1Button44_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button44_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button44_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button44_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button44_Roundify_Gradient.Name = "Tab1Button44_Roundify_Gradient"
 BloxFunGui.Tab1Button44_Roundify_Gradient.Parent = BloxFunGui.Tab1Button44_Roundify
@@ -16328,7 +16467,7 @@ BloxFunGui.Tab1Button45_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button45_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button45_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button45_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button45_Roundify_Gradient.Name = "Tab1Button45_Roundify_Gradient"
 BloxFunGui.Tab1Button45_Roundify_Gradient.Parent = BloxFunGui.Tab1Button45_Roundify
@@ -16415,7 +16554,7 @@ BloxFunGui.Tab1Button46_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button46_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button46_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button46_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button46_Roundify_Gradient.Name = "Tab1Button46_Roundify_Gradient"
 BloxFunGui.Tab1Button46_Roundify_Gradient.Parent = BloxFunGui.Tab1Button46_Roundify
@@ -16502,7 +16641,7 @@ BloxFunGui.Tab1Button47_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button47_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button47_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button47_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button47_Roundify_Gradient.Name = "Tab1Button47_Roundify_Gradient"
 BloxFunGui.Tab1Button47_Roundify_Gradient.Parent = BloxFunGui.Tab1Button47_Roundify
@@ -16589,7 +16728,7 @@ BloxFunGui.Tab1Button48_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button48_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button48_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button48_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button48_Roundify_Gradient.Name = "Tab1Button48_Roundify_Gradient"
 BloxFunGui.Tab1Button48_Roundify_Gradient.Parent = BloxFunGui.Tab1Button48_Roundify
@@ -16676,7 +16815,7 @@ BloxFunGui.Tab1Button49_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button49_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button49_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button49_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button49_Roundify_Gradient.Name = "Tab1Button49_Roundify_Gradient"
 BloxFunGui.Tab1Button49_Roundify_Gradient.Parent = BloxFunGui.Tab1Button49_Roundify
@@ -16763,7 +16902,7 @@ BloxFunGui.Tab1Button50_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button50_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button50_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button50_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button50_Roundify_Gradient.Name = "Tab1Button50_Roundify_Gradient"
 BloxFunGui.Tab1Button50_Roundify_Gradient.Parent = BloxFunGui.Tab1Button50_Roundify
@@ -16850,7 +16989,7 @@ BloxFunGui.Tab1Button51_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button51_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button51_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button51_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button51_Roundify_Gradient.Name = "Tab1Button51_Roundify_Gradient"
 BloxFunGui.Tab1Button51_Roundify_Gradient.Parent = BloxFunGui.Tab1Button51_Roundify
@@ -16937,7 +17076,7 @@ BloxFunGui.Tab1Button52_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button52_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button52_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button52_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button52_Roundify_Gradient.Name = "Tab1Button52_Roundify_Gradient"
 BloxFunGui.Tab1Button52_Roundify_Gradient.Parent = BloxFunGui.Tab1Button52_Roundify
@@ -17024,7 +17163,7 @@ BloxFunGui.Tab1Button53_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button53_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button53_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button53_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button53_Roundify_Gradient.Name = "Tab1Button53_Roundify_Gradient"
 BloxFunGui.Tab1Button53_Roundify_Gradient.Parent = BloxFunGui.Tab1Button53_Roundify
@@ -17111,7 +17250,7 @@ BloxFunGui.Tab1Button54_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button54_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button54_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button54_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button54_Roundify_Gradient.Name = "Tab1Button54_Roundify_Gradient"
 BloxFunGui.Tab1Button54_Roundify_Gradient.Parent = BloxFunGui.Tab1Button54_Roundify
@@ -17198,7 +17337,7 @@ BloxFunGui.Tab1Button55_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button55_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button55_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button55_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button55_Roundify_Gradient.Name = "Tab1Button55_Roundify_Gradient"
 BloxFunGui.Tab1Button55_Roundify_Gradient.Parent = BloxFunGui.Tab1Button55_Roundify
@@ -17285,7 +17424,7 @@ BloxFunGui.Tab1Button56_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button56_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button56_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button56_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button56_Roundify_Gradient.Name = "Tab1Button56_Roundify_Gradient"
 BloxFunGui.Tab1Button56_Roundify_Gradient.Parent = BloxFunGui.Tab1Button56_Roundify
@@ -17372,7 +17511,7 @@ BloxFunGui.Tab1Button57_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button57_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button57_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button57_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button57_Roundify_Gradient.Name = "Tab1Button57_Roundify_Gradient"
 BloxFunGui.Tab1Button57_Roundify_Gradient.Parent = BloxFunGui.Tab1Button57_Roundify
@@ -17459,7 +17598,7 @@ BloxFunGui.Tab1Button58_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button58_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button58_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button58_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button58_Roundify_Gradient.Name = "Tab1Button58_Roundify_Gradient"
 BloxFunGui.Tab1Button58_Roundify_Gradient.Parent = BloxFunGui.Tab1Button58_Roundify
@@ -17546,7 +17685,7 @@ BloxFunGui.Tab1Button59_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button59_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button59_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button59_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button59_Roundify_Gradient.Name = "Tab1Button59_Roundify_Gradient"
 BloxFunGui.Tab1Button59_Roundify_Gradient.Parent = BloxFunGui.Tab1Button59_Roundify
@@ -17633,7 +17772,7 @@ BloxFunGui.Tab1Button60_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button60_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button60_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button60_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button60_Roundify_Gradient.Name = "Tab1Button60_Roundify_Gradient"
 BloxFunGui.Tab1Button60_Roundify_Gradient.Parent = BloxFunGui.Tab1Button60_Roundify
@@ -17720,7 +17859,7 @@ BloxFunGui.Tab1Button61_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button61_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button61_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button61_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button61_Roundify_Gradient.Name = "Tab1Button61_Roundify_Gradient"
 BloxFunGui.Tab1Button61_Roundify_Gradient.Parent = BloxFunGui.Tab1Button61_Roundify
@@ -17807,7 +17946,7 @@ BloxFunGui.Tab1Button62_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button62_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button62_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button62_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button62_Roundify_Gradient.Name = "Tab1Button62_Roundify_Gradient"
 BloxFunGui.Tab1Button62_Roundify_Gradient.Parent = BloxFunGui.Tab1Button62_Roundify
@@ -17894,7 +18033,7 @@ BloxFunGui.Tab1Button63_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button63_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button63_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button63_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button63_Roundify_Gradient.Name = "Tab1Button63_Roundify_Gradient"
 BloxFunGui.Tab1Button63_Roundify_Gradient.Parent = BloxFunGui.Tab1Button63_Roundify
@@ -17981,7 +18120,7 @@ BloxFunGui.Tab1Button64_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button64_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button64_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button64_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button64_Roundify_Gradient.Name = "Tab1Button64_Roundify_Gradient"
 BloxFunGui.Tab1Button64_Roundify_Gradient.Parent = BloxFunGui.Tab1Button64_Roundify
@@ -18068,7 +18207,7 @@ BloxFunGui.Tab1Button65_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button65_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button65_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button65_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button65_Roundify_Gradient.Name = "Tab1Button65_Roundify_Gradient"
 BloxFunGui.Tab1Button65_Roundify_Gradient.Parent = BloxFunGui.Tab1Button65_Roundify
@@ -18155,7 +18294,7 @@ BloxFunGui.Tab1Button66_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button66_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button66_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button66_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button66_Roundify_Gradient.Name = "Tab1Button66_Roundify_Gradient"
 BloxFunGui.Tab1Button66_Roundify_Gradient.Parent = BloxFunGui.Tab1Button66_Roundify
@@ -18242,7 +18381,7 @@ BloxFunGui.Tab1Button67_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button67_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button67_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button67_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button67_Roundify_Gradient.Name = "Tab1Button67_Roundify_Gradient"
 BloxFunGui.Tab1Button67_Roundify_Gradient.Parent = BloxFunGui.Tab1Button67_Roundify
@@ -18329,7 +18468,7 @@ BloxFunGui.Tab1Button68_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button68_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button68_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button68_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button68_Roundify_Gradient.Name = "Tab1Button68_Roundify_Gradient"
 BloxFunGui.Tab1Button68_Roundify_Gradient.Parent = BloxFunGui.Tab1Button68_Roundify
@@ -18416,7 +18555,7 @@ BloxFunGui.Tab1Button69_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button69_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button69_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button69_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button69_Roundify_Gradient.Name = "Tab1Button69_Roundify_Gradient"
 BloxFunGui.Tab1Button69_Roundify_Gradient.Parent = BloxFunGui.Tab1Button69_Roundify
@@ -18503,7 +18642,7 @@ BloxFunGui.Tab1Button70_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button70_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button70_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button70_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button70_Roundify_Gradient.Name = "Tab1Button70_Roundify_Gradient"
 BloxFunGui.Tab1Button70_Roundify_Gradient.Parent = BloxFunGui.Tab1Button70_Roundify
@@ -18590,7 +18729,7 @@ BloxFunGui.Tab1Button71_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button71_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button71_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button71_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button71_Roundify_Gradient.Name = "Tab1Button71_Roundify_Gradient"
 BloxFunGui.Tab1Button71_Roundify_Gradient.Parent = BloxFunGui.Tab1Button71_Roundify
@@ -18677,7 +18816,7 @@ BloxFunGui.Tab1Button72_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button72_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button72_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button72_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button72_Roundify_Gradient.Name = "Tab1Button72_Roundify_Gradient"
 BloxFunGui.Tab1Button72_Roundify_Gradient.Parent = BloxFunGui.Tab1Button72_Roundify
@@ -18764,7 +18903,7 @@ BloxFunGui.Tab1Button73_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button73_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button73_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button73_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button73_Roundify_Gradient.Name = "Tab1Button73_Roundify_Gradient"
 BloxFunGui.Tab1Button73_Roundify_Gradient.Parent = BloxFunGui.Tab1Button73_Roundify
@@ -18851,7 +18990,7 @@ BloxFunGui.Tab1Button74_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button74_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button74_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button74_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button74_Roundify_Gradient.Name = "Tab1Button74_Roundify_Gradient"
 BloxFunGui.Tab1Button74_Roundify_Gradient.Parent = BloxFunGui.Tab1Button74_Roundify
@@ -18938,7 +19077,7 @@ BloxFunGui.Tab1Button75_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button75_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button75_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button75_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button75_Roundify_Gradient.Name = "Tab1Button75_Roundify_Gradient"
 BloxFunGui.Tab1Button75_Roundify_Gradient.Parent = BloxFunGui.Tab1Button75_Roundify
@@ -19025,7 +19164,7 @@ BloxFunGui.Tab1Button76_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button76_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button76_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button76_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button76_Roundify_Gradient.Name = "Tab1Button76_Roundify_Gradient"
 BloxFunGui.Tab1Button76_Roundify_Gradient.Parent = BloxFunGui.Tab1Button76_Roundify
@@ -19112,7 +19251,7 @@ BloxFunGui.Tab1Button77_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button77_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button77_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button77_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button77_Roundify_Gradient.Name = "Tab1Button77_Roundify_Gradient"
 BloxFunGui.Tab1Button77_Roundify_Gradient.Parent = BloxFunGui.Tab1Button77_Roundify
@@ -19199,7 +19338,7 @@ BloxFunGui.Tab1Button78_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button78_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button78_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button78_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button78_Roundify_Gradient.Name = "Tab1Button78_Roundify_Gradient"
 BloxFunGui.Tab1Button78_Roundify_Gradient.Parent = BloxFunGui.Tab1Button78_Roundify
@@ -19286,7 +19425,7 @@ BloxFunGui.Tab1Button79_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button79_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button79_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button79_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button79_Roundify_Gradient.Name = "Tab1Button79_Roundify_Gradient"
 BloxFunGui.Tab1Button79_Roundify_Gradient.Parent = BloxFunGui.Tab1Button79_Roundify
@@ -19373,7 +19512,7 @@ BloxFunGui.Tab1Button80_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button80_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button80_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button80_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button80_Roundify_Gradient.Name = "Tab1Button80_Roundify_Gradient"
 BloxFunGui.Tab1Button80_Roundify_Gradient.Parent = BloxFunGui.Tab1Button80_Roundify
@@ -19460,7 +19599,7 @@ BloxFunGui.Tab1Button81_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button81_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button81_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button81_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button81_Roundify_Gradient.Name = "Tab1Button81_Roundify_Gradient"
 BloxFunGui.Tab1Button81_Roundify_Gradient.Parent = BloxFunGui.Tab1Button81_Roundify
@@ -19547,7 +19686,7 @@ BloxFunGui.Tab1Button82_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button82_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button82_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button82_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button82_Roundify_Gradient.Name = "Tab1Button82_Roundify_Gradient"
 BloxFunGui.Tab1Button82_Roundify_Gradient.Parent = BloxFunGui.Tab1Button82_Roundify
@@ -19634,7 +19773,7 @@ BloxFunGui.Tab1Button83_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button83_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button83_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button83_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button83_Roundify_Gradient.Name = "Tab1Button83_Roundify_Gradient"
 BloxFunGui.Tab1Button83_Roundify_Gradient.Parent = BloxFunGui.Tab1Button83_Roundify
@@ -19721,7 +19860,7 @@ BloxFunGui.Tab1Button84_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button84_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button84_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button84_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button84_Roundify_Gradient.Name = "Tab1Button84_Roundify_Gradient"
 BloxFunGui.Tab1Button84_Roundify_Gradient.Parent = BloxFunGui.Tab1Button84_Roundify
@@ -19808,7 +19947,7 @@ BloxFunGui.Tab1Button85_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button85_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button85_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button85_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button85_Roundify_Gradient.Name = "Tab1Button85_Roundify_Gradient"
 BloxFunGui.Tab1Button85_Roundify_Gradient.Parent = BloxFunGui.Tab1Button85_Roundify
@@ -19895,7 +20034,7 @@ BloxFunGui.Tab1Button86_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button86_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button86_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button86_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button86_Roundify_Gradient.Name = "Tab1Button86_Roundify_Gradient"
 BloxFunGui.Tab1Button86_Roundify_Gradient.Parent = BloxFunGui.Tab1Button86_Roundify
@@ -19982,7 +20121,7 @@ BloxFunGui.Tab1Button87_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button87_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button87_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button87_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button87_Roundify_Gradient.Name = "Tab1Button87_Roundify_Gradient"
 BloxFunGui.Tab1Button87_Roundify_Gradient.Parent = BloxFunGui.Tab1Button87_Roundify
@@ -20069,7 +20208,7 @@ BloxFunGui.Tab1Button88_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button88_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button88_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button88_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button88_Roundify_Gradient.Name = "Tab1Button88_Roundify_Gradient"
 BloxFunGui.Tab1Button88_Roundify_Gradient.Parent = BloxFunGui.Tab1Button88_Roundify
@@ -20156,7 +20295,7 @@ BloxFunGui.Tab1Button89_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button89_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button89_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button89_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button89_Roundify_Gradient.Name = "Tab1Button89_Roundify_Gradient"
 BloxFunGui.Tab1Button89_Roundify_Gradient.Parent = BloxFunGui.Tab1Button89_Roundify
@@ -20243,7 +20382,7 @@ BloxFunGui.Tab1Button90_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button90_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button90_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button90_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button90_Roundify_Gradient.Name = "Tab1Button90_Roundify_Gradient"
 BloxFunGui.Tab1Button90_Roundify_Gradient.Parent = BloxFunGui.Tab1Button90_Roundify
@@ -20330,7 +20469,7 @@ BloxFunGui.Tab1Button91_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button91_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button91_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button91_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button91_Roundify_Gradient.Name = "Tab1Button91_Roundify_Gradient"
 BloxFunGui.Tab1Button91_Roundify_Gradient.Parent = BloxFunGui.Tab1Button91_Roundify
@@ -20417,7 +20556,7 @@ BloxFunGui.Tab1Button92_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button92_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button92_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button92_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button92_Roundify_Gradient.Name = "Tab1Button92_Roundify_Gradient"
 BloxFunGui.Tab1Button92_Roundify_Gradient.Parent = BloxFunGui.Tab1Button92_Roundify
@@ -20504,7 +20643,7 @@ BloxFunGui.Tab1Button93_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button93_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button93_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button93_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button93_Roundify_Gradient.Name = "Tab1Button93_Roundify_Gradient"
 BloxFunGui.Tab1Button93_Roundify_Gradient.Parent = BloxFunGui.Tab1Button93_Roundify
@@ -20591,7 +20730,7 @@ BloxFunGui.Tab1Button94_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button94_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button94_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button94_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button94_Roundify_Gradient.Name = "Tab1Button94_Roundify_Gradient"
 BloxFunGui.Tab1Button94_Roundify_Gradient.Parent = BloxFunGui.Tab1Button94_Roundify
@@ -20678,7 +20817,7 @@ BloxFunGui.Tab1Button95_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button95_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button95_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button95_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button95_Roundify_Gradient.Name = "Tab1Button95_Roundify_Gradient"
 BloxFunGui.Tab1Button95_Roundify_Gradient.Parent = BloxFunGui.Tab1Button95_Roundify
@@ -20765,7 +20904,7 @@ BloxFunGui.Tab1Button96_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button96_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button96_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button96_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button96_Roundify_Gradient.Name = "Tab1Button96_Roundify_Gradient"
 BloxFunGui.Tab1Button96_Roundify_Gradient.Parent = BloxFunGui.Tab1Button96_Roundify
@@ -20852,7 +20991,7 @@ BloxFunGui.Tab1Button97_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button97_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button97_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button97_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button97_Roundify_Gradient.Name = "Tab1Button97_Roundify_Gradient"
 BloxFunGui.Tab1Button97_Roundify_Gradient.Parent = BloxFunGui.Tab1Button97_Roundify
@@ -20939,7 +21078,7 @@ BloxFunGui.Tab1Button98_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button98_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button98_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button98_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button98_Roundify_Gradient.Name = "Tab1Button98_Roundify_Gradient"
 BloxFunGui.Tab1Button98_Roundify_Gradient.Parent = BloxFunGui.Tab1Button98_Roundify
@@ -21026,7 +21165,7 @@ BloxFunGui.Tab1Button99_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button99_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button99_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button99_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button99_Roundify_Gradient.Name = "Tab1Button99_Roundify_Gradient"
 BloxFunGui.Tab1Button99_Roundify_Gradient.Parent = BloxFunGui.Tab1Button99_Roundify
@@ -21113,7 +21252,7 @@ BloxFunGui.Tab1Button100_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab1Button100_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab1Button100_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab1Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab1Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab1Button100_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab1Button100_Roundify_Gradient.Name = "Tab1Button100_Roundify_Gradient"
 BloxFunGui.Tab1Button100_Roundify_Gradient.Parent = BloxFunGui.Tab1Button100_Roundify
@@ -21204,7 +21343,7 @@ BloxFunGui.Tab2Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab2Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab2Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab2Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab2Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab2Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab2Button1_Roundify_Gradient.Name = "Tab2Button1_Roundify_Gradient"
 BloxFunGui.Tab2Button1_Roundify_Gradient.Parent = BloxFunGui.Tab2Button1_Roundify
@@ -21292,7 +21431,7 @@ BloxFunGui.Tab3Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button1_Roundify_Gradient.Name = "Tab3Button1_Roundify_Gradient"
 BloxFunGui.Tab3Button1_Roundify_Gradient.Parent = BloxFunGui.Tab3Button1_Roundify
@@ -21379,7 +21518,7 @@ BloxFunGui.Tab3Button2_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button2_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button2_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button2_Roundify_Gradient.Name = "Tab3Button2_Roundify_Gradient"
 BloxFunGui.Tab3Button2_Roundify_Gradient.Parent = BloxFunGui.Tab3Button2_Roundify
@@ -21404,7 +21543,7 @@ BloxFunGui.Tab3Button2_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button2_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button2_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button2_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button2_Script.Image = "rbxassetid://7160993553"
+BloxFunGui.Tab3Button2_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7380911441"
 
 BloxFunGui.Tab3Button2_Roundify_InvisFrame.Name = "Tab3Button2_Roundify_InvisFrame"
 BloxFunGui.Tab3Button2_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button2_Roundify
@@ -21466,7 +21605,7 @@ BloxFunGui.Tab3Button3_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button3_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button3_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button3_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button3_Roundify_Gradient.Name = "Tab3Button3_Roundify_Gradient"
 BloxFunGui.Tab3Button3_Roundify_Gradient.Parent = BloxFunGui.Tab3Button3_Roundify
@@ -21553,7 +21692,7 @@ BloxFunGui.Tab3Button4_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button4_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button4_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button4_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button4_Roundify_Gradient.Name = "Tab3Button4_Roundify_Gradient"
 BloxFunGui.Tab3Button4_Roundify_Gradient.Parent = BloxFunGui.Tab3Button4_Roundify
@@ -21640,7 +21779,7 @@ BloxFunGui.Tab3Button5_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button5_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button5_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button5_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button5_Roundify_Gradient.Name = "Tab3Button5_Roundify_Gradient"
 BloxFunGui.Tab3Button5_Roundify_Gradient.Parent = BloxFunGui.Tab3Button5_Roundify
@@ -21665,7 +21804,7 @@ BloxFunGui.Tab3Button5_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button5_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button5_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button5_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button5_Script.Image = "rbxassetid://7161029874"
+BloxFunGui.Tab3Button5_Script.Image = "rbxassetid://7709431360"
 
 BloxFunGui.Tab3Button5_Roundify_InvisFrame.Name = "Tab3Button5_Roundify_InvisFrame"
 BloxFunGui.Tab3Button5_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button5_Roundify
@@ -21727,7 +21866,7 @@ BloxFunGui.Tab3Button6_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button6_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button6_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button6_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button6_Roundify_Gradient.Name = "Tab3Button6_Roundify_Gradient"
 BloxFunGui.Tab3Button6_Roundify_Gradient.Parent = BloxFunGui.Tab3Button6_Roundify
@@ -21752,7 +21891,7 @@ BloxFunGui.Tab3Button6_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button6_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button6_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button6_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button6_Script.Image = "rbxassetid://7161038939"
+BloxFunGui.Tab3Button6_Script.Image = "rbxassetid://7709425889"
 
 BloxFunGui.Tab3Button6_Roundify_InvisFrame.Name = "Tab3Button6_Roundify_InvisFrame"
 BloxFunGui.Tab3Button6_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button6_Roundify
@@ -21814,7 +21953,7 @@ BloxFunGui.Tab3Button7_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button7_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button7_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button7_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button7_Roundify_Gradient.Name = "Tab3Button7_Roundify_Gradient"
 BloxFunGui.Tab3Button7_Roundify_Gradient.Parent = BloxFunGui.Tab3Button7_Roundify
@@ -21901,7 +22040,7 @@ BloxFunGui.Tab3Button8_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button8_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button8_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button8_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button8_Roundify_Gradient.Name = "Tab3Button8_Roundify_Gradient"
 BloxFunGui.Tab3Button8_Roundify_Gradient.Parent = BloxFunGui.Tab3Button8_Roundify
@@ -21988,7 +22127,7 @@ BloxFunGui.Tab3Button9_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button9_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button9_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button9_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button9_Roundify_Gradient.Name = "Tab3Button9_Roundify_Gradient"
 BloxFunGui.Tab3Button9_Roundify_Gradient.Parent = BloxFunGui.Tab3Button9_Roundify
@@ -22013,7 +22152,7 @@ BloxFunGui.Tab3Button9_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button9_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button9_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button9_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button9_Script.Image = "rbxassetid://7161082654"
+BloxFunGui.Tab3Button9_Script.Image = "rbxassetid://7709429418"
 
 BloxFunGui.Tab3Button9_Roundify_InvisFrame.Name = "Tab3Button9_Roundify_InvisFrame"
 BloxFunGui.Tab3Button9_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button9_Roundify
@@ -22075,7 +22214,7 @@ BloxFunGui.Tab3Button10_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button10_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button10_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button10_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button10_Roundify_Gradient.Name = "Tab3Button10_Roundify_Gradient"
 BloxFunGui.Tab3Button10_Roundify_Gradient.Parent = BloxFunGui.Tab3Button10_Roundify
@@ -22100,7 +22239,7 @@ BloxFunGui.Tab3Button10_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button10_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button10_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button10_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button10_Script.Image = "rbxassetid://7161101083"
+BloxFunGui.Tab3Button10_Script.Image = "rbxassetid://7709455260"
 
 BloxFunGui.Tab3Button10_Roundify_InvisFrame.Name = "Tab3Button10_Roundify_InvisFrame"
 BloxFunGui.Tab3Button10_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button10_Roundify
@@ -22162,7 +22301,7 @@ BloxFunGui.Tab3Button11_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button11_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button11_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button11_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button11_Roundify_Gradient.Name = "Tab3Button11_Roundify_Gradient"
 BloxFunGui.Tab3Button11_Roundify_Gradient.Parent = BloxFunGui.Tab3Button11_Roundify
@@ -22249,7 +22388,7 @@ BloxFunGui.Tab3Button12_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button12_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button12_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button12_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button12_Roundify_Gradient.Name = "Tab3Button12_Roundify_Gradient"
 BloxFunGui.Tab3Button12_Roundify_Gradient.Parent = BloxFunGui.Tab3Button12_Roundify
@@ -22336,7 +22475,7 @@ BloxFunGui.Tab3Button13_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button13_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button13_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button13_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button13_Roundify_Gradient.Name = "Tab3Button13_Roundify_Gradient"
 BloxFunGui.Tab3Button13_Roundify_Gradient.Parent = BloxFunGui.Tab3Button13_Roundify
@@ -22423,7 +22562,7 @@ BloxFunGui.Tab3Button14_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button14_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button14_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button14_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button14_Roundify_Gradient.Name = "Tab3Button14_Roundify_Gradient"
 BloxFunGui.Tab3Button14_Roundify_Gradient.Parent = BloxFunGui.Tab3Button14_Roundify
@@ -22510,7 +22649,7 @@ BloxFunGui.Tab3Button15_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button15_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button15_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button15_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button15_Roundify_Gradient.Name = "Tab3Button15_Roundify_Gradient"
 BloxFunGui.Tab3Button15_Roundify_Gradient.Parent = BloxFunGui.Tab3Button15_Roundify
@@ -22597,7 +22736,7 @@ BloxFunGui.Tab3Button16_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button16_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button16_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button16_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button16_Roundify_Gradient.Name = "Tab3Button16_Roundify_Gradient"
 BloxFunGui.Tab3Button16_Roundify_Gradient.Parent = BloxFunGui.Tab3Button16_Roundify
@@ -22684,7 +22823,7 @@ BloxFunGui.Tab3Button17_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button17_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button17_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button17_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button17_Roundify_Gradient.Name = "Tab3Button17_Roundify_Gradient"
 BloxFunGui.Tab3Button17_Roundify_Gradient.Parent = BloxFunGui.Tab3Button17_Roundify
@@ -22771,7 +22910,7 @@ BloxFunGui.Tab3Button18_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button18_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button18_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button18_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button18_Roundify_Gradient.Name = "Tab3Button18_Roundify_Gradient"
 BloxFunGui.Tab3Button18_Roundify_Gradient.Parent = BloxFunGui.Tab3Button18_Roundify
@@ -22858,7 +22997,7 @@ BloxFunGui.Tab3Button19_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button19_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button19_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button19_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button19_Roundify_Gradient.Name = "Tab3Button19_Roundify_Gradient"
 BloxFunGui.Tab3Button19_Roundify_Gradient.Parent = BloxFunGui.Tab3Button19_Roundify
@@ -22945,7 +23084,7 @@ BloxFunGui.Tab3Button20_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button20_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button20_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button20_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button20_Roundify_Gradient.Name = "Tab3Button20_Roundify_Gradient"
 BloxFunGui.Tab3Button20_Roundify_Gradient.Parent = BloxFunGui.Tab3Button20_Roundify
@@ -23032,7 +23171,7 @@ BloxFunGui.Tab3Button21_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button21_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button21_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button21_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button21_Roundify_Gradient.Name = "Tab3Button21_Roundify_Gradient"
 BloxFunGui.Tab3Button21_Roundify_Gradient.Parent = BloxFunGui.Tab3Button21_Roundify
@@ -23119,7 +23258,7 @@ BloxFunGui.Tab3Button22_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button22_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button22_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button22_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button22_Roundify_Gradient.Name = "Tab3Button22_Roundify_Gradient"
 BloxFunGui.Tab3Button22_Roundify_Gradient.Parent = BloxFunGui.Tab3Button22_Roundify
@@ -23206,7 +23345,7 @@ BloxFunGui.Tab3Button23_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button23_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button23_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button23_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button23_Roundify_Gradient.Name = "Tab3Button23_Roundify_Gradient"
 BloxFunGui.Tab3Button23_Roundify_Gradient.Parent = BloxFunGui.Tab3Button23_Roundify
@@ -23293,7 +23432,7 @@ BloxFunGui.Tab3Button24_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button24_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button24_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button24_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button24_Roundify_Gradient.Name = "Tab3Button24_Roundify_Gradient"
 BloxFunGui.Tab3Button24_Roundify_Gradient.Parent = BloxFunGui.Tab3Button24_Roundify
@@ -23380,7 +23519,7 @@ BloxFunGui.Tab3Button25_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button25_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button25_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button25_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button25_Roundify_Gradient.Name = "Tab3Button25_Roundify_Gradient"
 BloxFunGui.Tab3Button25_Roundify_Gradient.Parent = BloxFunGui.Tab3Button25_Roundify
@@ -23467,7 +23606,7 @@ BloxFunGui.Tab3Button26_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button26_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button26_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button26_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button26_Roundify_Gradient.Name = "Tab3Button26_Roundify_Gradient"
 BloxFunGui.Tab3Button26_Roundify_Gradient.Parent = BloxFunGui.Tab3Button26_Roundify
@@ -23554,7 +23693,7 @@ BloxFunGui.Tab3Button27_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button27_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button27_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button27_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button27_Roundify_Gradient.Name = "Tab3Button27_Roundify_Gradient"
 BloxFunGui.Tab3Button27_Roundify_Gradient.Parent = BloxFunGui.Tab3Button27_Roundify
@@ -23641,7 +23780,7 @@ BloxFunGui.Tab3Button28_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button28_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button28_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button28_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button28_Roundify_Gradient.Name = "Tab3Button28_Roundify_Gradient"
 BloxFunGui.Tab3Button28_Roundify_Gradient.Parent = BloxFunGui.Tab3Button28_Roundify
@@ -23728,7 +23867,7 @@ BloxFunGui.Tab3Button29_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button29_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button29_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button29_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button29_Roundify_Gradient.Name = "Tab3Button29_Roundify_Gradient"
 BloxFunGui.Tab3Button29_Roundify_Gradient.Parent = BloxFunGui.Tab3Button29_Roundify
@@ -23815,7 +23954,7 @@ BloxFunGui.Tab3Button30_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button30_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button30_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button30_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button30_Roundify_Gradient.Name = "Tab3Button30_Roundify_Gradient"
 BloxFunGui.Tab3Button30_Roundify_Gradient.Parent = BloxFunGui.Tab3Button30_Roundify
@@ -23902,7 +24041,7 @@ BloxFunGui.Tab3Button31_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button31_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button31_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button31_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button31_Roundify_Gradient.Name = "Tab3Button31_Roundify_Gradient"
 BloxFunGui.Tab3Button31_Roundify_Gradient.Parent = BloxFunGui.Tab3Button31_Roundify
@@ -23989,7 +24128,7 @@ BloxFunGui.Tab3Button32_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button32_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button32_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button32_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button32_Roundify_Gradient.Name = "Tab3Button32_Roundify_Gradient"
 BloxFunGui.Tab3Button32_Roundify_Gradient.Parent = BloxFunGui.Tab3Button32_Roundify
@@ -24076,7 +24215,7 @@ BloxFunGui.Tab3Button33_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button33_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button33_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button33_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button33_Roundify_Gradient.Name = "Tab3Button33_Roundify_Gradient"
 BloxFunGui.Tab3Button33_Roundify_Gradient.Parent = BloxFunGui.Tab3Button33_Roundify
@@ -24163,7 +24302,7 @@ BloxFunGui.Tab3Button34_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button34_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button34_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button34_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button34_Roundify_Gradient.Name = "Tab3Button34_Roundify_Gradient"
 BloxFunGui.Tab3Button34_Roundify_Gradient.Parent = BloxFunGui.Tab3Button34_Roundify
@@ -24250,7 +24389,7 @@ BloxFunGui.Tab3Button35_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button35_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button35_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button35_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button35_Roundify_Gradient.Name = "Tab3Button35_Roundify_Gradient"
 BloxFunGui.Tab3Button35_Roundify_Gradient.Parent = BloxFunGui.Tab3Button35_Roundify
@@ -24275,7 +24414,7 @@ BloxFunGui.Tab3Button35_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button35_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button35_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button35_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button35_Script.Image = "rbxassetid://7161341836"
+BloxFunGui.Tab3Button35_Script.Image = "rbxassetid://7709599735"
 
 BloxFunGui.Tab3Button35_Roundify_InvisFrame.Name = "Tab3Button35_Roundify_InvisFrame"
 BloxFunGui.Tab3Button35_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button35_Roundify
@@ -24337,7 +24476,7 @@ BloxFunGui.Tab3Button36_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button36_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button36_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button36_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button36_Roundify_Gradient.Name = "Tab3Button36_Roundify_Gradient"
 BloxFunGui.Tab3Button36_Roundify_Gradient.Parent = BloxFunGui.Tab3Button36_Roundify
@@ -24362,7 +24501,7 @@ BloxFunGui.Tab3Button36_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button36_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button36_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button36_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button36_Script.Image = "rbxassetid://7161342457"
+BloxFunGui.Tab3Button36_Script.Image = "rbxassetid://7709599735"
 
 BloxFunGui.Tab3Button36_Roundify_InvisFrame.Name = "Tab3Button36_Roundify_InvisFrame"
 BloxFunGui.Tab3Button36_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button36_Roundify
@@ -24424,7 +24563,7 @@ BloxFunGui.Tab3Button37_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button37_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button37_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button37_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button37_Roundify_Gradient.Name = "Tab3Button37_Roundify_Gradient"
 BloxFunGui.Tab3Button37_Roundify_Gradient.Parent = BloxFunGui.Tab3Button37_Roundify
@@ -24449,7 +24588,7 @@ BloxFunGui.Tab3Button37_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button37_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button37_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button37_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button37_Script.Image = "rbxassetid://7161345708"
+BloxFunGui.Tab3Button37_Script.Image = "rbxassetid://7709606634"
 
 BloxFunGui.Tab3Button37_Roundify_InvisFrame.Name = "Tab3Button37_Roundify_InvisFrame"
 BloxFunGui.Tab3Button37_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button37_Roundify
@@ -24511,7 +24650,7 @@ BloxFunGui.Tab3Button38_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button38_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button38_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button38_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button38_Roundify_Gradient.Name = "Tab3Button38_Roundify_Gradient"
 BloxFunGui.Tab3Button38_Roundify_Gradient.Parent = BloxFunGui.Tab3Button38_Roundify
@@ -24598,7 +24737,7 @@ BloxFunGui.Tab3Button39_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button39_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button39_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button39_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button39_Roundify_Gradient.Name = "Tab3Button39_Roundify_Gradient"
 BloxFunGui.Tab3Button39_Roundify_Gradient.Parent = BloxFunGui.Tab3Button39_Roundify
@@ -24685,7 +24824,7 @@ BloxFunGui.Tab3Button40_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button40_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button40_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button40_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button40_Roundify_Gradient.Name = "Tab3Button40_Roundify_Gradient"
 BloxFunGui.Tab3Button40_Roundify_Gradient.Parent = BloxFunGui.Tab3Button40_Roundify
@@ -24710,7 +24849,7 @@ BloxFunGui.Tab3Button40_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button40_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button40_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button40_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button40_Script.Image = "rbxassetid://7161375194"
+BloxFunGui.Tab3Button40_Script.Image = "rbxassetid://7709432993"
 
 BloxFunGui.Tab3Button40_Roundify_InvisFrame.Name = "Tab3Button40_Roundify_InvisFrame"
 BloxFunGui.Tab3Button40_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button40_Roundify
@@ -24772,7 +24911,7 @@ BloxFunGui.Tab3Button41_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button41_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button41_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button41_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button41_Roundify_Gradient.Name = "Tab3Button41_Roundify_Gradient"
 BloxFunGui.Tab3Button41_Roundify_Gradient.Parent = BloxFunGui.Tab3Button41_Roundify
@@ -24797,7 +24936,7 @@ BloxFunGui.Tab3Button41_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button41_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button41_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button41_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button41_Script.Image = "rbxassetid://7161371929"
+BloxFunGui.Tab3Button41_Script.Image = "rbxassetid://7709604697"
 
 BloxFunGui.Tab3Button41_Roundify_InvisFrame.Name = "Tab3Button41_Roundify_InvisFrame"
 BloxFunGui.Tab3Button41_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button41_Roundify
@@ -24859,7 +24998,7 @@ BloxFunGui.Tab3Button42_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button42_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button42_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button42_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button42_Roundify_Gradient.Name = "Tab3Button42_Roundify_Gradient"
 BloxFunGui.Tab3Button42_Roundify_Gradient.Parent = BloxFunGui.Tab3Button42_Roundify
@@ -24946,7 +25085,7 @@ BloxFunGui.Tab3Button43_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button43_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button43_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button43_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button43_Roundify_Gradient.Name = "Tab3Button43_Roundify_Gradient"
 BloxFunGui.Tab3Button43_Roundify_Gradient.Parent = BloxFunGui.Tab3Button43_Roundify
@@ -24971,7 +25110,7 @@ BloxFunGui.Tab3Button43_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button43_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button43_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button43_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button43_Script.Image = "rbxassetid://7161433443"
+BloxFunGui.Tab3Button43_Script.Image = "rbxassetid://7709605525"
 
 BloxFunGui.Tab3Button43_Roundify_InvisFrame.Name = "Tab3Button43_Roundify_InvisFrame"
 BloxFunGui.Tab3Button43_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button43_Roundify
@@ -25033,7 +25172,7 @@ BloxFunGui.Tab3Button44_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button44_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button44_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button44_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button44_Roundify_Gradient.Name = "Tab3Button44_Roundify_Gradient"
 BloxFunGui.Tab3Button44_Roundify_Gradient.Parent = BloxFunGui.Tab3Button44_Roundify
@@ -25058,7 +25197,7 @@ BloxFunGui.Tab3Button44_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button44_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button44_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button44_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button44_Script.Image = "rbxassetid://7161365772"
+BloxFunGui.Tab3Button44_Script.Image = "rbxassetid://7709435515"
 
 BloxFunGui.Tab3Button44_Roundify_InvisFrame.Name = "Tab3Button44_Roundify_InvisFrame"
 BloxFunGui.Tab3Button44_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button44_Roundify
@@ -25120,7 +25259,7 @@ BloxFunGui.Tab3Button45_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button45_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button45_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button45_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button45_Roundify_Gradient.Name = "Tab3Button45_Roundify_Gradient"
 BloxFunGui.Tab3Button45_Roundify_Gradient.Parent = BloxFunGui.Tab3Button45_Roundify
@@ -25145,7 +25284,7 @@ BloxFunGui.Tab3Button45_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button45_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button45_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button45_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button45_Script.Image = "rbxassetid://7374148777"
+BloxFunGui.Tab3Button45_Script.Image = "rbxassetid://7709433906"
 
 BloxFunGui.Tab3Button45_Roundify_InvisFrame.Name = "Tab3Button45_Roundify_InvisFrame"
 BloxFunGui.Tab3Button45_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button45_Roundify
@@ -25207,7 +25346,7 @@ BloxFunGui.Tab3Button46_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button46_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button46_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button46_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button46_Roundify_Gradient.Name = "Tab3Button46_Roundify_Gradient"
 BloxFunGui.Tab3Button46_Roundify_Gradient.Parent = BloxFunGui.Tab3Button46_Roundify
@@ -25294,7 +25433,7 @@ BloxFunGui.Tab3Button47_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button47_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button47_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button47_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button47_Roundify_Gradient.Name = "Tab3Button47_Roundify_Gradient"
 BloxFunGui.Tab3Button47_Roundify_Gradient.Parent = BloxFunGui.Tab3Button47_Roundify
@@ -25381,7 +25520,7 @@ BloxFunGui.Tab3Button48_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button48_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button48_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button48_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button48_Roundify_Gradient.Name = "Tab3Button48_Roundify_Gradient"
 BloxFunGui.Tab3Button48_Roundify_Gradient.Parent = BloxFunGui.Tab3Button48_Roundify
@@ -25468,7 +25607,7 @@ BloxFunGui.Tab3Button49_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button49_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button49_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button49_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button49_Roundify_Gradient.Name = "Tab3Button49_Roundify_Gradient"
 BloxFunGui.Tab3Button49_Roundify_Gradient.Parent = BloxFunGui.Tab3Button49_Roundify
@@ -25555,7 +25694,7 @@ BloxFunGui.Tab3Button50_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button50_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button50_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button50_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button50_Roundify_Gradient.Name = "Tab3Button50_Roundify_Gradient"
 BloxFunGui.Tab3Button50_Roundify_Gradient.Parent = BloxFunGui.Tab3Button50_Roundify
@@ -25642,7 +25781,7 @@ BloxFunGui.Tab3Button51_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button51_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button51_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button51_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button51_Roundify_Gradient.Name = "Tab3Button51_Roundify_Gradient"
 BloxFunGui.Tab3Button51_Roundify_Gradient.Parent = BloxFunGui.Tab3Button51_Roundify
@@ -25729,7 +25868,7 @@ BloxFunGui.Tab3Button52_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button52_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button52_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button52_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button52_Roundify_Gradient.Name = "Tab3Button52_Roundify_Gradient"
 BloxFunGui.Tab3Button52_Roundify_Gradient.Parent = BloxFunGui.Tab3Button52_Roundify
@@ -25816,7 +25955,7 @@ BloxFunGui.Tab3Button53_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button53_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button53_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button53_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button53_Roundify_Gradient.Name = "Tab3Button53_Roundify_Gradient"
 BloxFunGui.Tab3Button53_Roundify_Gradient.Parent = BloxFunGui.Tab3Button53_Roundify
@@ -25903,7 +26042,7 @@ BloxFunGui.Tab3Button54_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button54_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button54_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button54_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button54_Roundify_Gradient.Name = "Tab3Button54_Roundify_Gradient"
 BloxFunGui.Tab3Button54_Roundify_Gradient.Parent = BloxFunGui.Tab3Button54_Roundify
@@ -25990,7 +26129,7 @@ BloxFunGui.Tab3Button55_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button55_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button55_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button55_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button55_Roundify_Gradient.Name = "Tab3Button55_Roundify_Gradient"
 BloxFunGui.Tab3Button55_Roundify_Gradient.Parent = BloxFunGui.Tab3Button55_Roundify
@@ -26077,7 +26216,7 @@ BloxFunGui.Tab3Button56_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button56_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button56_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button56_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button56_Roundify_Gradient.Name = "Tab3Button56_Roundify_Gradient"
 BloxFunGui.Tab3Button56_Roundify_Gradient.Parent = BloxFunGui.Tab3Button56_Roundify
@@ -26164,7 +26303,7 @@ BloxFunGui.Tab3Button57_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button57_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button57_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button57_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button57_Roundify_Gradient.Name = "Tab3Button57_Roundify_Gradient"
 BloxFunGui.Tab3Button57_Roundify_Gradient.Parent = BloxFunGui.Tab3Button57_Roundify
@@ -26251,7 +26390,7 @@ BloxFunGui.Tab3Button58_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button58_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button58_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button58_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button58_Roundify_Gradient.Name = "Tab3Button58_Roundify_Gradient"
 BloxFunGui.Tab3Button58_Roundify_Gradient.Parent = BloxFunGui.Tab3Button58_Roundify
@@ -26338,7 +26477,7 @@ BloxFunGui.Tab3Button59_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button59_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button59_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button59_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button59_Roundify_Gradient.Name = "Tab3Button59_Roundify_Gradient"
 BloxFunGui.Tab3Button59_Roundify_Gradient.Parent = BloxFunGui.Tab3Button59_Roundify
@@ -26425,7 +26564,7 @@ BloxFunGui.Tab3Button60_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button60_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button60_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button60_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button60_Roundify_Gradient.Name = "Tab3Button60_Roundify_Gradient"
 BloxFunGui.Tab3Button60_Roundify_Gradient.Parent = BloxFunGui.Tab3Button60_Roundify
@@ -26512,7 +26651,7 @@ BloxFunGui.Tab3Button61_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button61_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button61_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button61_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button61_Roundify_Gradient.Name = "Tab3Button61_Roundify_Gradient"
 BloxFunGui.Tab3Button61_Roundify_Gradient.Parent = BloxFunGui.Tab3Button61_Roundify
@@ -26599,7 +26738,7 @@ BloxFunGui.Tab3Button62_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button62_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button62_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button62_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button62_Roundify_Gradient.Name = "Tab3Button62_Roundify_Gradient"
 BloxFunGui.Tab3Button62_Roundify_Gradient.Parent = BloxFunGui.Tab3Button62_Roundify
@@ -26686,7 +26825,7 @@ BloxFunGui.Tab3Button63_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button63_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button63_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button63_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button63_Roundify_Gradient.Name = "Tab3Button63_Roundify_Gradient"
 BloxFunGui.Tab3Button63_Roundify_Gradient.Parent = BloxFunGui.Tab3Button63_Roundify
@@ -26773,7 +26912,7 @@ BloxFunGui.Tab3Button64_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button64_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button64_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button64_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button64_Roundify_Gradient.Name = "Tab3Button64_Roundify_Gradient"
 BloxFunGui.Tab3Button64_Roundify_Gradient.Parent = BloxFunGui.Tab3Button64_Roundify
@@ -26860,7 +26999,7 @@ BloxFunGui.Tab3Button65_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button65_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button65_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button65_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button65_Roundify_Gradient.Name = "Tab3Button65_Roundify_Gradient"
 BloxFunGui.Tab3Button65_Roundify_Gradient.Parent = BloxFunGui.Tab3Button65_Roundify
@@ -26947,7 +27086,7 @@ BloxFunGui.Tab3Button66_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button66_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button66_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button66_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button66_Roundify_Gradient.Name = "Tab3Button66_Roundify_Gradient"
 BloxFunGui.Tab3Button66_Roundify_Gradient.Parent = BloxFunGui.Tab3Button66_Roundify
@@ -27034,7 +27173,7 @@ BloxFunGui.Tab3Button67_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button67_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button67_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button67_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button67_Roundify_Gradient.Name = "Tab3Button67_Roundify_Gradient"
 BloxFunGui.Tab3Button67_Roundify_Gradient.Parent = BloxFunGui.Tab3Button67_Roundify
@@ -27121,7 +27260,7 @@ BloxFunGui.Tab3Button68_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button68_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button68_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button68_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button68_Roundify_Gradient.Name = "Tab3Button68_Roundify_Gradient"
 BloxFunGui.Tab3Button68_Roundify_Gradient.Parent = BloxFunGui.Tab3Button68_Roundify
@@ -27208,7 +27347,7 @@ BloxFunGui.Tab3Button69_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button69_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button69_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button69_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button69_Roundify_Gradient.Name = "Tab3Button69_Roundify_Gradient"
 BloxFunGui.Tab3Button69_Roundify_Gradient.Parent = BloxFunGui.Tab3Button69_Roundify
@@ -27295,7 +27434,7 @@ BloxFunGui.Tab3Button70_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button70_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button70_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button70_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button70_Roundify_Gradient.Name = "Tab3Button70_Roundify_Gradient"
 BloxFunGui.Tab3Button70_Roundify_Gradient.Parent = BloxFunGui.Tab3Button70_Roundify
@@ -27382,7 +27521,7 @@ BloxFunGui.Tab3Button71_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button71_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button71_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button71_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button71_Roundify_Gradient.Name = "Tab3Button71_Roundify_Gradient"
 BloxFunGui.Tab3Button71_Roundify_Gradient.Parent = BloxFunGui.Tab3Button71_Roundify
@@ -27469,7 +27608,7 @@ BloxFunGui.Tab3Button72_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button72_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button72_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button72_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button72_Roundify_Gradient.Name = "Tab3Button72_Roundify_Gradient"
 BloxFunGui.Tab3Button72_Roundify_Gradient.Parent = BloxFunGui.Tab3Button72_Roundify
@@ -27556,7 +27695,7 @@ BloxFunGui.Tab3Button73_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button73_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button73_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button73_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button73_Roundify_Gradient.Name = "Tab3Button73_Roundify_Gradient"
 BloxFunGui.Tab3Button73_Roundify_Gradient.Parent = BloxFunGui.Tab3Button73_Roundify
@@ -27643,7 +27782,7 @@ BloxFunGui.Tab3Button74_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button74_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button74_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button74_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button74_Roundify_Gradient.Name = "Tab3Button74_Roundify_Gradient"
 BloxFunGui.Tab3Button74_Roundify_Gradient.Parent = BloxFunGui.Tab3Button74_Roundify
@@ -27730,7 +27869,7 @@ BloxFunGui.Tab3Button75_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button75_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button75_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button75_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button75_Roundify_Gradient.Name = "Tab3Button75_Roundify_Gradient"
 BloxFunGui.Tab3Button75_Roundify_Gradient.Parent = BloxFunGui.Tab3Button75_Roundify
@@ -27817,7 +27956,7 @@ BloxFunGui.Tab3Button76_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button76_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button76_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button76_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button76_Roundify_Gradient.Name = "Tab3Button76_Roundify_Gradient"
 BloxFunGui.Tab3Button76_Roundify_Gradient.Parent = BloxFunGui.Tab3Button76_Roundify
@@ -27904,7 +28043,7 @@ BloxFunGui.Tab3Button77_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button77_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button77_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button77_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button77_Roundify_Gradient.Name = "Tab3Button77_Roundify_Gradient"
 BloxFunGui.Tab3Button77_Roundify_Gradient.Parent = BloxFunGui.Tab3Button77_Roundify
@@ -27991,7 +28130,7 @@ BloxFunGui.Tab3Button78_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button78_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button78_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button78_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button78_Roundify_Gradient.Name = "Tab3Button78_Roundify_Gradient"
 BloxFunGui.Tab3Button78_Roundify_Gradient.Parent = BloxFunGui.Tab3Button78_Roundify
@@ -28078,7 +28217,7 @@ BloxFunGui.Tab3Button79_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button79_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button79_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button79_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button79_Roundify_Gradient.Name = "Tab3Button79_Roundify_Gradient"
 BloxFunGui.Tab3Button79_Roundify_Gradient.Parent = BloxFunGui.Tab3Button79_Roundify
@@ -28165,7 +28304,7 @@ BloxFunGui.Tab3Button80_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button80_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button80_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button80_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button80_Roundify_Gradient.Name = "Tab3Button80_Roundify_Gradient"
 BloxFunGui.Tab3Button80_Roundify_Gradient.Parent = BloxFunGui.Tab3Button80_Roundify
@@ -28252,7 +28391,7 @@ BloxFunGui.Tab3Button81_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button81_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button81_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button81_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button81_Roundify_Gradient.Name = "Tab3Button81_Roundify_Gradient"
 BloxFunGui.Tab3Button81_Roundify_Gradient.Parent = BloxFunGui.Tab3Button81_Roundify
@@ -28339,7 +28478,7 @@ BloxFunGui.Tab3Button82_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button82_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button82_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button82_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button82_Roundify_Gradient.Name = "Tab3Button82_Roundify_Gradient"
 BloxFunGui.Tab3Button82_Roundify_Gradient.Parent = BloxFunGui.Tab3Button82_Roundify
@@ -28426,7 +28565,7 @@ BloxFunGui.Tab3Button83_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button83_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button83_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button83_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button83_Roundify_Gradient.Name = "Tab3Button83_Roundify_Gradient"
 BloxFunGui.Tab3Button83_Roundify_Gradient.Parent = BloxFunGui.Tab3Button83_Roundify
@@ -28513,7 +28652,7 @@ BloxFunGui.Tab3Button84_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button84_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button84_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button84_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button84_Roundify_Gradient.Name = "Tab3Button84_Roundify_Gradient"
 BloxFunGui.Tab3Button84_Roundify_Gradient.Parent = BloxFunGui.Tab3Button84_Roundify
@@ -28600,7 +28739,7 @@ BloxFunGui.Tab3Button85_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button85_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button85_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button85_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button85_Roundify_Gradient.Name = "Tab3Button85_Roundify_Gradient"
 BloxFunGui.Tab3Button85_Roundify_Gradient.Parent = BloxFunGui.Tab3Button85_Roundify
@@ -28687,7 +28826,7 @@ BloxFunGui.Tab3Button86_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button86_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button86_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button86_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button86_Roundify_Gradient.Name = "Tab3Button86_Roundify_Gradient"
 BloxFunGui.Tab3Button86_Roundify_Gradient.Parent = BloxFunGui.Tab3Button86_Roundify
@@ -28774,7 +28913,7 @@ BloxFunGui.Tab3Button87_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button87_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button87_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button87_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button87_Roundify_Gradient.Name = "Tab3Button87_Roundify_Gradient"
 BloxFunGui.Tab3Button87_Roundify_Gradient.Parent = BloxFunGui.Tab3Button87_Roundify
@@ -28861,7 +29000,7 @@ BloxFunGui.Tab3Button88_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button88_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button88_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button88_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button88_Roundify_Gradient.Name = "Tab3Button88_Roundify_Gradient"
 BloxFunGui.Tab3Button88_Roundify_Gradient.Parent = BloxFunGui.Tab3Button88_Roundify
@@ -28948,7 +29087,7 @@ BloxFunGui.Tab3Button89_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button89_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button89_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button89_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button89_Roundify_Gradient.Name = "Tab3Button89_Roundify_Gradient"
 BloxFunGui.Tab3Button89_Roundify_Gradient.Parent = BloxFunGui.Tab3Button89_Roundify
@@ -29035,7 +29174,7 @@ BloxFunGui.Tab3Button90_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button90_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button90_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button90_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button90_Roundify_Gradient.Name = "Tab3Button90_Roundify_Gradient"
 BloxFunGui.Tab3Button90_Roundify_Gradient.Parent = BloxFunGui.Tab3Button90_Roundify
@@ -29122,7 +29261,7 @@ BloxFunGui.Tab3Button91_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button91_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button91_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button91_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button91_Roundify_Gradient.Name = "Tab3Button91_Roundify_Gradient"
 BloxFunGui.Tab3Button91_Roundify_Gradient.Parent = BloxFunGui.Tab3Button91_Roundify
@@ -29209,7 +29348,7 @@ BloxFunGui.Tab3Button92_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button92_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button92_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button92_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button92_Roundify_Gradient.Name = "Tab3Button92_Roundify_Gradient"
 BloxFunGui.Tab3Button92_Roundify_Gradient.Parent = BloxFunGui.Tab3Button92_Roundify
@@ -29296,7 +29435,7 @@ BloxFunGui.Tab3Button93_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button93_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button93_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button93_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button93_Roundify_Gradient.Name = "Tab3Button93_Roundify_Gradient"
 BloxFunGui.Tab3Button93_Roundify_Gradient.Parent = BloxFunGui.Tab3Button93_Roundify
@@ -29383,7 +29522,7 @@ BloxFunGui.Tab3Button94_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button94_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button94_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button94_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button94_Roundify_Gradient.Name = "Tab3Button94_Roundify_Gradient"
 BloxFunGui.Tab3Button94_Roundify_Gradient.Parent = BloxFunGui.Tab3Button94_Roundify
@@ -29470,7 +29609,7 @@ BloxFunGui.Tab3Button95_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button95_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button95_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button95_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button95_Roundify_Gradient.Name = "Tab3Button95_Roundify_Gradient"
 BloxFunGui.Tab3Button95_Roundify_Gradient.Parent = BloxFunGui.Tab3Button95_Roundify
@@ -29557,7 +29696,7 @@ BloxFunGui.Tab3Button96_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button96_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button96_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button96_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button96_Roundify_Gradient.Name = "Tab3Button96_Roundify_Gradient"
 BloxFunGui.Tab3Button96_Roundify_Gradient.Parent = BloxFunGui.Tab3Button96_Roundify
@@ -29644,7 +29783,7 @@ BloxFunGui.Tab3Button97_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button97_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button97_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button97_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button97_Roundify_Gradient.Name = "Tab3Button97_Roundify_Gradient"
 BloxFunGui.Tab3Button97_Roundify_Gradient.Parent = BloxFunGui.Tab3Button97_Roundify
@@ -29731,7 +29870,7 @@ BloxFunGui.Tab3Button98_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button98_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button98_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button98_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button98_Roundify_Gradient.Name = "Tab3Button98_Roundify_Gradient"
 BloxFunGui.Tab3Button98_Roundify_Gradient.Parent = BloxFunGui.Tab3Button98_Roundify
@@ -29818,7 +29957,7 @@ BloxFunGui.Tab3Button99_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button99_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button99_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button99_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button99_Roundify_Gradient.Name = "Tab3Button99_Roundify_Gradient"
 BloxFunGui.Tab3Button99_Roundify_Gradient.Parent = BloxFunGui.Tab3Button99_Roundify
@@ -29905,7 +30044,7 @@ BloxFunGui.Tab3Button100_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab3Button100_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab3Button100_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab3Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab3Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab3Button100_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab3Button100_Roundify_Gradient.Name = "Tab3Button100_Roundify_Gradient"
 BloxFunGui.Tab3Button100_Roundify_Gradient.Parent = BloxFunGui.Tab3Button100_Roundify
@@ -29994,7 +30133,7 @@ BloxFunGui.Tab4Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab4Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab4Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab4Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab4Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab4Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab4Button1_Roundify_Gradient.Name = "Tab4Button1_Roundify_Gradient"
 BloxFunGui.Tab4Button1_Roundify_Gradient.Parent = BloxFunGui.Tab4Button1_Roundify
@@ -30081,7 +30220,7 @@ BloxFunGui.Tab5Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab5Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab5Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab5Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab5Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab5Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab5Button1_Roundify_Gradient.Name = "Tab5Button1_Roundify_Gradient"
 BloxFunGui.Tab5Button1_Roundify_Gradient.Parent = BloxFunGui.Tab5Button1_Roundify
@@ -30169,7 +30308,7 @@ BloxFunGui.Tab6Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button1_Roundify_Gradient.Name = "Tab6Button1_Roundify_Gradient"
 BloxFunGui.Tab6Button1_Roundify_Gradient.Parent = BloxFunGui.Tab6Button1_Roundify
@@ -30256,7 +30395,7 @@ BloxFunGui.Tab6Button2_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button2_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button2_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button2_Roundify_Gradient.Name = "Tab6Button2_Roundify_Gradient"
 BloxFunGui.Tab6Button2_Roundify_Gradient.Parent = BloxFunGui.Tab6Button2_Roundify
@@ -30343,7 +30482,7 @@ BloxFunGui.Tab6Button3_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button3_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button3_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button3_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button3_Roundify_Gradient.Name = "Tab6Button3_Roundify_Gradient"
 BloxFunGui.Tab6Button3_Roundify_Gradient.Parent = BloxFunGui.Tab6Button3_Roundify
@@ -30430,7 +30569,7 @@ BloxFunGui.Tab6Button4_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button4_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button4_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button4_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button4_Roundify_Gradient.Name = "Tab6Button4_Roundify_Gradient"
 BloxFunGui.Tab6Button4_Roundify_Gradient.Parent = BloxFunGui.Tab6Button4_Roundify
@@ -30517,7 +30656,7 @@ BloxFunGui.Tab6Button5_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button5_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button5_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button5_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button5_Roundify_Gradient.Name = "Tab6Button5_Roundify_Gradient"
 BloxFunGui.Tab6Button5_Roundify_Gradient.Parent = BloxFunGui.Tab6Button5_Roundify
@@ -30604,7 +30743,7 @@ BloxFunGui.Tab6Button6_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button6_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button6_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button6_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button6_Roundify_Gradient.Name = "Tab6Button6_Roundify_Gradient"
 BloxFunGui.Tab6Button6_Roundify_Gradient.Parent = BloxFunGui.Tab6Button6_Roundify
@@ -30691,7 +30830,7 @@ BloxFunGui.Tab6Button7_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button7_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button7_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button7_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button7_Roundify_Gradient.Name = "Tab6Button7_Roundify_Gradient"
 BloxFunGui.Tab6Button7_Roundify_Gradient.Parent = BloxFunGui.Tab6Button7_Roundify
@@ -30778,7 +30917,7 @@ BloxFunGui.Tab6Button8_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button8_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button8_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button8_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button8_Roundify_Gradient.Name = "Tab6Button8_Roundify_Gradient"
 BloxFunGui.Tab6Button8_Roundify_Gradient.Parent = BloxFunGui.Tab6Button8_Roundify
@@ -30865,7 +31004,7 @@ BloxFunGui.Tab6Button9_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button9_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button9_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button9_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button9_Roundify_Gradient.Name = "Tab6Button9_Roundify_Gradient"
 BloxFunGui.Tab6Button9_Roundify_Gradient.Parent = BloxFunGui.Tab6Button9_Roundify
@@ -30952,7 +31091,7 @@ BloxFunGui.Tab6Button10_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button10_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button10_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button10_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button10_Roundify_Gradient.Name = "Tab6Button10_Roundify_Gradient"
 BloxFunGui.Tab6Button10_Roundify_Gradient.Parent = BloxFunGui.Tab6Button10_Roundify
@@ -31039,7 +31178,7 @@ BloxFunGui.Tab6Button11_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button11_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button11_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button11_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button11_Roundify_Gradient.Name = "Tab6Button11_Roundify_Gradient"
 BloxFunGui.Tab6Button11_Roundify_Gradient.Parent = BloxFunGui.Tab6Button11_Roundify
@@ -31126,7 +31265,7 @@ BloxFunGui.Tab6Button12_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button12_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button12_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button12_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button12_Roundify_Gradient.Name = "Tab6Button12_Roundify_Gradient"
 BloxFunGui.Tab6Button12_Roundify_Gradient.Parent = BloxFunGui.Tab6Button12_Roundify
@@ -31213,7 +31352,7 @@ BloxFunGui.Tab6Button13_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button13_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button13_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button13_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button13_Roundify_Gradient.Name = "Tab6Button13_Roundify_Gradient"
 BloxFunGui.Tab6Button13_Roundify_Gradient.Parent = BloxFunGui.Tab6Button13_Roundify
@@ -31300,7 +31439,7 @@ BloxFunGui.Tab6Button14_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button14_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button14_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button14_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button14_Roundify_Gradient.Name = "Tab6Button14_Roundify_Gradient"
 BloxFunGui.Tab6Button14_Roundify_Gradient.Parent = BloxFunGui.Tab6Button14_Roundify
@@ -31387,7 +31526,7 @@ BloxFunGui.Tab6Button15_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button15_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button15_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button15_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button15_Roundify_Gradient.Name = "Tab6Button15_Roundify_Gradient"
 BloxFunGui.Tab6Button15_Roundify_Gradient.Parent = BloxFunGui.Tab6Button15_Roundify
@@ -31474,7 +31613,7 @@ BloxFunGui.Tab6Button16_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button16_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button16_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button16_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button16_Roundify_Gradient.Name = "Tab6Button16_Roundify_Gradient"
 BloxFunGui.Tab6Button16_Roundify_Gradient.Parent = BloxFunGui.Tab6Button16_Roundify
@@ -31561,7 +31700,7 @@ BloxFunGui.Tab6Button17_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button17_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button17_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button17_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button17_Roundify_Gradient.Name = "Tab6Button17_Roundify_Gradient"
 BloxFunGui.Tab6Button17_Roundify_Gradient.Parent = BloxFunGui.Tab6Button17_Roundify
@@ -31648,7 +31787,7 @@ BloxFunGui.Tab6Button18_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button18_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button18_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button18_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button18_Roundify_Gradient.Name = "Tab6Button18_Roundify_Gradient"
 BloxFunGui.Tab6Button18_Roundify_Gradient.Parent = BloxFunGui.Tab6Button18_Roundify
@@ -31735,7 +31874,7 @@ BloxFunGui.Tab6Button19_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button19_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button19_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button19_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button19_Roundify_Gradient.Name = "Tab6Button19_Roundify_Gradient"
 BloxFunGui.Tab6Button19_Roundify_Gradient.Parent = BloxFunGui.Tab6Button19_Roundify
@@ -31822,7 +31961,7 @@ BloxFunGui.Tab6Button20_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button20_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button20_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button20_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button20_Roundify_Gradient.Name = "Tab6Button20_Roundify_Gradient"
 BloxFunGui.Tab6Button20_Roundify_Gradient.Parent = BloxFunGui.Tab6Button20_Roundify
@@ -31909,7 +32048,7 @@ BloxFunGui.Tab6Button21_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button21_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button21_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button21_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button21_Roundify_Gradient.Name = "Tab6Button21_Roundify_Gradient"
 BloxFunGui.Tab6Button21_Roundify_Gradient.Parent = BloxFunGui.Tab6Button21_Roundify
@@ -31996,7 +32135,7 @@ BloxFunGui.Tab6Button22_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button22_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button22_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button22_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button22_Roundify_Gradient.Name = "Tab6Button22_Roundify_Gradient"
 BloxFunGui.Tab6Button22_Roundify_Gradient.Parent = BloxFunGui.Tab6Button22_Roundify
@@ -32083,7 +32222,7 @@ BloxFunGui.Tab6Button23_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button23_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button23_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button23_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button23_Roundify_Gradient.Name = "Tab6Button23_Roundify_Gradient"
 BloxFunGui.Tab6Button23_Roundify_Gradient.Parent = BloxFunGui.Tab6Button23_Roundify
@@ -32170,7 +32309,7 @@ BloxFunGui.Tab6Button24_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button24_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button24_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button24_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button24_Roundify_Gradient.Name = "Tab6Button24_Roundify_Gradient"
 BloxFunGui.Tab6Button24_Roundify_Gradient.Parent = BloxFunGui.Tab6Button24_Roundify
@@ -32257,7 +32396,7 @@ BloxFunGui.Tab6Button25_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button25_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button25_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button25_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button25_Roundify_Gradient.Name = "Tab6Button25_Roundify_Gradient"
 BloxFunGui.Tab6Button25_Roundify_Gradient.Parent = BloxFunGui.Tab6Button25_Roundify
@@ -32344,7 +32483,7 @@ BloxFunGui.Tab6Button26_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button26_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button26_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button26_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button26_Roundify_Gradient.Name = "Tab6Button26_Roundify_Gradient"
 BloxFunGui.Tab6Button26_Roundify_Gradient.Parent = BloxFunGui.Tab6Button26_Roundify
@@ -32431,7 +32570,7 @@ BloxFunGui.Tab6Button27_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button27_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button27_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button27_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button27_Roundify_Gradient.Name = "Tab6Button27_Roundify_Gradient"
 BloxFunGui.Tab6Button27_Roundify_Gradient.Parent = BloxFunGui.Tab6Button27_Roundify
@@ -32518,7 +32657,7 @@ BloxFunGui.Tab6Button28_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button28_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button28_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button28_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button28_Roundify_Gradient.Name = "Tab6Button28_Roundify_Gradient"
 BloxFunGui.Tab6Button28_Roundify_Gradient.Parent = BloxFunGui.Tab6Button28_Roundify
@@ -32605,7 +32744,7 @@ BloxFunGui.Tab6Button29_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button29_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button29_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button29_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button29_Roundify_Gradient.Name = "Tab6Button29_Roundify_Gradient"
 BloxFunGui.Tab6Button29_Roundify_Gradient.Parent = BloxFunGui.Tab6Button29_Roundify
@@ -32692,7 +32831,7 @@ BloxFunGui.Tab6Button30_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button30_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button30_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button30_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button30_Roundify_Gradient.Name = "Tab6Button30_Roundify_Gradient"
 BloxFunGui.Tab6Button30_Roundify_Gradient.Parent = BloxFunGui.Tab6Button30_Roundify
@@ -32779,7 +32918,7 @@ BloxFunGui.Tab6Button31_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button31_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button31_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button31_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button31_Roundify_Gradient.Name = "Tab6Button31_Roundify_Gradient"
 BloxFunGui.Tab6Button31_Roundify_Gradient.Parent = BloxFunGui.Tab6Button31_Roundify
@@ -32866,7 +33005,7 @@ BloxFunGui.Tab6Button32_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button32_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button32_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button32_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button32_Roundify_Gradient.Name = "Tab6Button32_Roundify_Gradient"
 BloxFunGui.Tab6Button32_Roundify_Gradient.Parent = BloxFunGui.Tab6Button32_Roundify
@@ -32953,7 +33092,7 @@ BloxFunGui.Tab6Button33_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button33_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button33_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button33_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button33_Roundify_Gradient.Name = "Tab6Button33_Roundify_Gradient"
 BloxFunGui.Tab6Button33_Roundify_Gradient.Parent = BloxFunGui.Tab6Button33_Roundify
@@ -33040,7 +33179,7 @@ BloxFunGui.Tab6Button34_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button34_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button34_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button34_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button34_Roundify_Gradient.Name = "Tab6Button34_Roundify_Gradient"
 BloxFunGui.Tab6Button34_Roundify_Gradient.Parent = BloxFunGui.Tab6Button34_Roundify
@@ -33127,7 +33266,7 @@ BloxFunGui.Tab6Button35_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button35_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button35_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button35_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button35_Roundify_Gradient.Name = "Tab6Button35_Roundify_Gradient"
 BloxFunGui.Tab6Button35_Roundify_Gradient.Parent = BloxFunGui.Tab6Button35_Roundify
@@ -33214,7 +33353,7 @@ BloxFunGui.Tab6Button36_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button36_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button36_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button36_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button36_Roundify_Gradient.Name = "Tab6Button36_Roundify_Gradient"
 BloxFunGui.Tab6Button36_Roundify_Gradient.Parent = BloxFunGui.Tab6Button36_Roundify
@@ -33301,7 +33440,7 @@ BloxFunGui.Tab6Button37_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button37_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button37_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button37_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button37_Roundify_Gradient.Name = "Tab6Button37_Roundify_Gradient"
 BloxFunGui.Tab6Button37_Roundify_Gradient.Parent = BloxFunGui.Tab6Button37_Roundify
@@ -33388,7 +33527,7 @@ BloxFunGui.Tab6Button38_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button38_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button38_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button38_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button38_Roundify_Gradient.Name = "Tab6Button38_Roundify_Gradient"
 BloxFunGui.Tab6Button38_Roundify_Gradient.Parent = BloxFunGui.Tab6Button38_Roundify
@@ -33475,7 +33614,7 @@ BloxFunGui.Tab6Button39_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button39_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button39_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button39_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button39_Roundify_Gradient.Name = "Tab6Button39_Roundify_Gradient"
 BloxFunGui.Tab6Button39_Roundify_Gradient.Parent = BloxFunGui.Tab6Button39_Roundify
@@ -33562,7 +33701,7 @@ BloxFunGui.Tab6Button40_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button40_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button40_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button40_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button40_Roundify_Gradient.Name = "Tab6Button40_Roundify_Gradient"
 BloxFunGui.Tab6Button40_Roundify_Gradient.Parent = BloxFunGui.Tab6Button40_Roundify
@@ -33649,7 +33788,7 @@ BloxFunGui.Tab6Button41_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button41_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button41_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button41_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button41_Roundify_Gradient.Name = "Tab6Button41_Roundify_Gradient"
 BloxFunGui.Tab6Button41_Roundify_Gradient.Parent = BloxFunGui.Tab6Button41_Roundify
@@ -33736,7 +33875,7 @@ BloxFunGui.Tab6Button42_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button42_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button42_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button42_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button42_Roundify_Gradient.Name = "Tab6Button42_Roundify_Gradient"
 BloxFunGui.Tab6Button42_Roundify_Gradient.Parent = BloxFunGui.Tab6Button42_Roundify
@@ -33823,7 +33962,7 @@ BloxFunGui.Tab6Button43_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button43_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button43_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button43_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button43_Roundify_Gradient.Name = "Tab6Button43_Roundify_Gradient"
 BloxFunGui.Tab6Button43_Roundify_Gradient.Parent = BloxFunGui.Tab6Button43_Roundify
@@ -33910,7 +34049,7 @@ BloxFunGui.Tab6Button44_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button44_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button44_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button44_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button44_Roundify_Gradient.Name = "Tab6Button44_Roundify_Gradient"
 BloxFunGui.Tab6Button44_Roundify_Gradient.Parent = BloxFunGui.Tab6Button44_Roundify
@@ -33997,7 +34136,7 @@ BloxFunGui.Tab6Button45_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button45_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button45_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button45_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button45_Roundify_Gradient.Name = "Tab6Button45_Roundify_Gradient"
 BloxFunGui.Tab6Button45_Roundify_Gradient.Parent = BloxFunGui.Tab6Button45_Roundify
@@ -34084,7 +34223,7 @@ BloxFunGui.Tab6Button46_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button46_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button46_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button46_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button46_Roundify_Gradient.Name = "Tab6Button46_Roundify_Gradient"
 BloxFunGui.Tab6Button46_Roundify_Gradient.Parent = BloxFunGui.Tab6Button46_Roundify
@@ -34171,7 +34310,7 @@ BloxFunGui.Tab6Button47_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button47_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button47_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button47_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button47_Roundify_Gradient.Name = "Tab6Button47_Roundify_Gradient"
 BloxFunGui.Tab6Button47_Roundify_Gradient.Parent = BloxFunGui.Tab6Button47_Roundify
@@ -34258,7 +34397,7 @@ BloxFunGui.Tab6Button48_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button48_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button48_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button48_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button48_Roundify_Gradient.Name = "Tab6Button48_Roundify_Gradient"
 BloxFunGui.Tab6Button48_Roundify_Gradient.Parent = BloxFunGui.Tab6Button48_Roundify
@@ -34345,7 +34484,7 @@ BloxFunGui.Tab6Button49_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button49_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button49_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button49_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button49_Roundify_Gradient.Name = "Tab6Button49_Roundify_Gradient"
 BloxFunGui.Tab6Button49_Roundify_Gradient.Parent = BloxFunGui.Tab6Button49_Roundify
@@ -34432,7 +34571,7 @@ BloxFunGui.Tab6Button50_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button50_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button50_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button50_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button50_Roundify_Gradient.Name = "Tab6Button50_Roundify_Gradient"
 BloxFunGui.Tab6Button50_Roundify_Gradient.Parent = BloxFunGui.Tab6Button50_Roundify
@@ -34519,7 +34658,7 @@ BloxFunGui.Tab6Button51_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button51_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button51_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button51_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button51_Roundify_Gradient.Name = "Tab6Button51_Roundify_Gradient"
 BloxFunGui.Tab6Button51_Roundify_Gradient.Parent = BloxFunGui.Tab6Button51_Roundify
@@ -34606,7 +34745,7 @@ BloxFunGui.Tab6Button52_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button52_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button52_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button52_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button52_Roundify_Gradient.Name = "Tab6Button52_Roundify_Gradient"
 BloxFunGui.Tab6Button52_Roundify_Gradient.Parent = BloxFunGui.Tab6Button52_Roundify
@@ -34693,7 +34832,7 @@ BloxFunGui.Tab6Button53_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button53_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button53_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button53_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button53_Roundify_Gradient.Name = "Tab6Button53_Roundify_Gradient"
 BloxFunGui.Tab6Button53_Roundify_Gradient.Parent = BloxFunGui.Tab6Button53_Roundify
@@ -34780,7 +34919,7 @@ BloxFunGui.Tab6Button54_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button54_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button54_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button54_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button54_Roundify_Gradient.Name = "Tab6Button54_Roundify_Gradient"
 BloxFunGui.Tab6Button54_Roundify_Gradient.Parent = BloxFunGui.Tab6Button54_Roundify
@@ -34867,7 +35006,7 @@ BloxFunGui.Tab6Button55_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button55_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button55_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button55_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button55_Roundify_Gradient.Name = "Tab6Button55_Roundify_Gradient"
 BloxFunGui.Tab6Button55_Roundify_Gradient.Parent = BloxFunGui.Tab6Button55_Roundify
@@ -34954,7 +35093,7 @@ BloxFunGui.Tab6Button56_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button56_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button56_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button56_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button56_Roundify_Gradient.Name = "Tab6Button56_Roundify_Gradient"
 BloxFunGui.Tab6Button56_Roundify_Gradient.Parent = BloxFunGui.Tab6Button56_Roundify
@@ -35041,7 +35180,7 @@ BloxFunGui.Tab6Button57_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button57_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button57_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button57_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button57_Roundify_Gradient.Name = "Tab6Button57_Roundify_Gradient"
 BloxFunGui.Tab6Button57_Roundify_Gradient.Parent = BloxFunGui.Tab6Button57_Roundify
@@ -35128,7 +35267,7 @@ BloxFunGui.Tab6Button58_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button58_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button58_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button58_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button58_Roundify_Gradient.Name = "Tab6Button58_Roundify_Gradient"
 BloxFunGui.Tab6Button58_Roundify_Gradient.Parent = BloxFunGui.Tab6Button58_Roundify
@@ -35215,7 +35354,7 @@ BloxFunGui.Tab6Button59_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button59_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button59_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button59_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button59_Roundify_Gradient.Name = "Tab6Button59_Roundify_Gradient"
 BloxFunGui.Tab6Button59_Roundify_Gradient.Parent = BloxFunGui.Tab6Button59_Roundify
@@ -35302,7 +35441,7 @@ BloxFunGui.Tab6Button60_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button60_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button60_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button60_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button60_Roundify_Gradient.Name = "Tab6Button60_Roundify_Gradient"
 BloxFunGui.Tab6Button60_Roundify_Gradient.Parent = BloxFunGui.Tab6Button60_Roundify
@@ -35389,7 +35528,7 @@ BloxFunGui.Tab6Button61_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button61_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button61_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button61_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button61_Roundify_Gradient.Name = "Tab6Button61_Roundify_Gradient"
 BloxFunGui.Tab6Button61_Roundify_Gradient.Parent = BloxFunGui.Tab6Button61_Roundify
@@ -35476,7 +35615,7 @@ BloxFunGui.Tab6Button62_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button62_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button62_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button62_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button62_Roundify_Gradient.Name = "Tab6Button62_Roundify_Gradient"
 BloxFunGui.Tab6Button62_Roundify_Gradient.Parent = BloxFunGui.Tab6Button62_Roundify
@@ -35563,7 +35702,7 @@ BloxFunGui.Tab6Button63_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button63_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button63_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button63_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button63_Roundify_Gradient.Name = "Tab6Button63_Roundify_Gradient"
 BloxFunGui.Tab6Button63_Roundify_Gradient.Parent = BloxFunGui.Tab6Button63_Roundify
@@ -35650,7 +35789,7 @@ BloxFunGui.Tab6Button64_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button64_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button64_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button64_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button64_Roundify_Gradient.Name = "Tab6Button64_Roundify_Gradient"
 BloxFunGui.Tab6Button64_Roundify_Gradient.Parent = BloxFunGui.Tab6Button64_Roundify
@@ -35737,7 +35876,7 @@ BloxFunGui.Tab6Button65_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button65_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button65_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button65_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button65_Roundify_Gradient.Name = "Tab6Button65_Roundify_Gradient"
 BloxFunGui.Tab6Button65_Roundify_Gradient.Parent = BloxFunGui.Tab6Button65_Roundify
@@ -35824,7 +35963,7 @@ BloxFunGui.Tab6Button66_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button66_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button66_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button66_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button66_Roundify_Gradient.Name = "Tab6Button66_Roundify_Gradient"
 BloxFunGui.Tab6Button66_Roundify_Gradient.Parent = BloxFunGui.Tab6Button66_Roundify
@@ -35911,7 +36050,7 @@ BloxFunGui.Tab6Button67_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button67_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button67_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button67_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button67_Roundify_Gradient.Name = "Tab6Button67_Roundify_Gradient"
 BloxFunGui.Tab6Button67_Roundify_Gradient.Parent = BloxFunGui.Tab6Button67_Roundify
@@ -35998,7 +36137,7 @@ BloxFunGui.Tab6Button68_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button68_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button68_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button68_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button68_Roundify_Gradient.Name = "Tab6Button68_Roundify_Gradient"
 BloxFunGui.Tab6Button68_Roundify_Gradient.Parent = BloxFunGui.Tab6Button68_Roundify
@@ -36085,7 +36224,7 @@ BloxFunGui.Tab6Button69_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button69_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button69_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button69_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button69_Roundify_Gradient.Name = "Tab6Button69_Roundify_Gradient"
 BloxFunGui.Tab6Button69_Roundify_Gradient.Parent = BloxFunGui.Tab6Button69_Roundify
@@ -36172,7 +36311,7 @@ BloxFunGui.Tab6Button70_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button70_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button70_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button70_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button70_Roundify_Gradient.Name = "Tab6Button70_Roundify_Gradient"
 BloxFunGui.Tab6Button70_Roundify_Gradient.Parent = BloxFunGui.Tab6Button70_Roundify
@@ -36259,7 +36398,7 @@ BloxFunGui.Tab6Button71_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button71_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button71_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button71_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button71_Roundify_Gradient.Name = "Tab6Button71_Roundify_Gradient"
 BloxFunGui.Tab6Button71_Roundify_Gradient.Parent = BloxFunGui.Tab6Button71_Roundify
@@ -36346,7 +36485,7 @@ BloxFunGui.Tab6Button72_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button72_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button72_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button72_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button72_Roundify_Gradient.Name = "Tab6Button72_Roundify_Gradient"
 BloxFunGui.Tab6Button72_Roundify_Gradient.Parent = BloxFunGui.Tab6Button72_Roundify
@@ -36433,7 +36572,7 @@ BloxFunGui.Tab6Button73_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button73_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button73_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button73_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button73_Roundify_Gradient.Name = "Tab6Button73_Roundify_Gradient"
 BloxFunGui.Tab6Button73_Roundify_Gradient.Parent = BloxFunGui.Tab6Button73_Roundify
@@ -36520,7 +36659,7 @@ BloxFunGui.Tab6Button74_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button74_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button74_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button74_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button74_Roundify_Gradient.Name = "Tab6Button74_Roundify_Gradient"
 BloxFunGui.Tab6Button74_Roundify_Gradient.Parent = BloxFunGui.Tab6Button74_Roundify
@@ -36607,7 +36746,7 @@ BloxFunGui.Tab6Button75_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button75_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button75_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button75_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button75_Roundify_Gradient.Name = "Tab6Button75_Roundify_Gradient"
 BloxFunGui.Tab6Button75_Roundify_Gradient.Parent = BloxFunGui.Tab6Button75_Roundify
@@ -36694,7 +36833,7 @@ BloxFunGui.Tab6Button76_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button76_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button76_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button76_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button76_Roundify_Gradient.Name = "Tab6Button76_Roundify_Gradient"
 BloxFunGui.Tab6Button76_Roundify_Gradient.Parent = BloxFunGui.Tab6Button76_Roundify
@@ -36781,7 +36920,7 @@ BloxFunGui.Tab6Button77_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button77_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button77_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button77_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button77_Roundify_Gradient.Name = "Tab6Button77_Roundify_Gradient"
 BloxFunGui.Tab6Button77_Roundify_Gradient.Parent = BloxFunGui.Tab6Button77_Roundify
@@ -36868,7 +37007,7 @@ BloxFunGui.Tab6Button78_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button78_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button78_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button78_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button78_Roundify_Gradient.Name = "Tab6Button78_Roundify_Gradient"
 BloxFunGui.Tab6Button78_Roundify_Gradient.Parent = BloxFunGui.Tab6Button78_Roundify
@@ -36955,7 +37094,7 @@ BloxFunGui.Tab6Button79_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button79_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button79_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button79_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button79_Roundify_Gradient.Name = "Tab6Button79_Roundify_Gradient"
 BloxFunGui.Tab6Button79_Roundify_Gradient.Parent = BloxFunGui.Tab6Button79_Roundify
@@ -37042,7 +37181,7 @@ BloxFunGui.Tab6Button80_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button80_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button80_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button80_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button80_Roundify_Gradient.Name = "Tab6Button80_Roundify_Gradient"
 BloxFunGui.Tab6Button80_Roundify_Gradient.Parent = BloxFunGui.Tab6Button80_Roundify
@@ -37129,7 +37268,7 @@ BloxFunGui.Tab6Button81_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button81_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button81_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button81_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button81_Roundify_Gradient.Name = "Tab6Button81_Roundify_Gradient"
 BloxFunGui.Tab6Button81_Roundify_Gradient.Parent = BloxFunGui.Tab6Button81_Roundify
@@ -37216,7 +37355,7 @@ BloxFunGui.Tab6Button82_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button82_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button82_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button82_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button82_Roundify_Gradient.Name = "Tab6Button82_Roundify_Gradient"
 BloxFunGui.Tab6Button82_Roundify_Gradient.Parent = BloxFunGui.Tab6Button82_Roundify
@@ -37303,7 +37442,7 @@ BloxFunGui.Tab6Button83_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button83_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button83_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button83_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button83_Roundify_Gradient.Name = "Tab6Button83_Roundify_Gradient"
 BloxFunGui.Tab6Button83_Roundify_Gradient.Parent = BloxFunGui.Tab6Button83_Roundify
@@ -37390,7 +37529,7 @@ BloxFunGui.Tab6Button84_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button84_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button84_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button84_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button84_Roundify_Gradient.Name = "Tab6Button84_Roundify_Gradient"
 BloxFunGui.Tab6Button84_Roundify_Gradient.Parent = BloxFunGui.Tab6Button84_Roundify
@@ -37477,7 +37616,7 @@ BloxFunGui.Tab6Button85_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button85_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button85_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button85_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button85_Roundify_Gradient.Name = "Tab6Button85_Roundify_Gradient"
 BloxFunGui.Tab6Button85_Roundify_Gradient.Parent = BloxFunGui.Tab6Button85_Roundify
@@ -37564,7 +37703,7 @@ BloxFunGui.Tab6Button86_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button86_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button86_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button86_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button86_Roundify_Gradient.Name = "Tab6Button86_Roundify_Gradient"
 BloxFunGui.Tab6Button86_Roundify_Gradient.Parent = BloxFunGui.Tab6Button86_Roundify
@@ -37651,7 +37790,7 @@ BloxFunGui.Tab6Button87_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button87_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button87_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button87_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button87_Roundify_Gradient.Name = "Tab6Button87_Roundify_Gradient"
 BloxFunGui.Tab6Button87_Roundify_Gradient.Parent = BloxFunGui.Tab6Button87_Roundify
@@ -37738,7 +37877,7 @@ BloxFunGui.Tab6Button88_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button88_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button88_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button88_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button88_Roundify_Gradient.Name = "Tab6Button88_Roundify_Gradient"
 BloxFunGui.Tab6Button88_Roundify_Gradient.Parent = BloxFunGui.Tab6Button88_Roundify
@@ -37825,7 +37964,7 @@ BloxFunGui.Tab6Button89_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button89_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button89_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button89_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button89_Roundify_Gradient.Name = "Tab6Button89_Roundify_Gradient"
 BloxFunGui.Tab6Button89_Roundify_Gradient.Parent = BloxFunGui.Tab6Button89_Roundify
@@ -37912,7 +38051,7 @@ BloxFunGui.Tab6Button90_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button90_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button90_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button90_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button90_Roundify_Gradient.Name = "Tab6Button90_Roundify_Gradient"
 BloxFunGui.Tab6Button90_Roundify_Gradient.Parent = BloxFunGui.Tab6Button90_Roundify
@@ -37999,7 +38138,7 @@ BloxFunGui.Tab6Button91_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button91_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button91_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button91_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button91_Roundify_Gradient.Name = "Tab6Button91_Roundify_Gradient"
 BloxFunGui.Tab6Button91_Roundify_Gradient.Parent = BloxFunGui.Tab6Button91_Roundify
@@ -38086,7 +38225,7 @@ BloxFunGui.Tab6Button92_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button92_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button92_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button92_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button92_Roundify_Gradient.Name = "Tab6Button92_Roundify_Gradient"
 BloxFunGui.Tab6Button92_Roundify_Gradient.Parent = BloxFunGui.Tab6Button92_Roundify
@@ -38173,7 +38312,7 @@ BloxFunGui.Tab6Button93_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button93_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button93_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button93_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button93_Roundify_Gradient.Name = "Tab6Button93_Roundify_Gradient"
 BloxFunGui.Tab6Button93_Roundify_Gradient.Parent = BloxFunGui.Tab6Button93_Roundify
@@ -38260,7 +38399,7 @@ BloxFunGui.Tab6Button94_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button94_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button94_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button94_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button94_Roundify_Gradient.Name = "Tab6Button94_Roundify_Gradient"
 BloxFunGui.Tab6Button94_Roundify_Gradient.Parent = BloxFunGui.Tab6Button94_Roundify
@@ -38347,7 +38486,7 @@ BloxFunGui.Tab6Button95_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button95_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button95_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button95_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button95_Roundify_Gradient.Name = "Tab6Button95_Roundify_Gradient"
 BloxFunGui.Tab6Button95_Roundify_Gradient.Parent = BloxFunGui.Tab6Button95_Roundify
@@ -38434,7 +38573,7 @@ BloxFunGui.Tab6Button96_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button96_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button96_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button96_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button96_Roundify_Gradient.Name = "Tab6Button96_Roundify_Gradient"
 BloxFunGui.Tab6Button96_Roundify_Gradient.Parent = BloxFunGui.Tab6Button96_Roundify
@@ -38521,7 +38660,7 @@ BloxFunGui.Tab6Button97_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button97_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button97_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button97_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button97_Roundify_Gradient.Name = "Tab6Button97_Roundify_Gradient"
 BloxFunGui.Tab6Button97_Roundify_Gradient.Parent = BloxFunGui.Tab6Button97_Roundify
@@ -38608,7 +38747,7 @@ BloxFunGui.Tab6Button98_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button98_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button98_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button98_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button98_Roundify_Gradient.Name = "Tab6Button98_Roundify_Gradient"
 BloxFunGui.Tab6Button98_Roundify_Gradient.Parent = BloxFunGui.Tab6Button98_Roundify
@@ -38695,7 +38834,7 @@ BloxFunGui.Tab6Button99_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button99_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button99_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button99_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button99_Roundify_Gradient.Name = "Tab6Button99_Roundify_Gradient"
 BloxFunGui.Tab6Button99_Roundify_Gradient.Parent = BloxFunGui.Tab6Button99_Roundify
@@ -38782,7 +38921,7 @@ BloxFunGui.Tab6Button100_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab6Button100_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab6Button100_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab6Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab6Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab6Button100_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab6Button100_Roundify_Gradient.Name = "Tab6Button100_Roundify_Gradient"
 BloxFunGui.Tab6Button100_Roundify_Gradient.Parent = BloxFunGui.Tab6Button100_Roundify
@@ -38874,7 +39013,7 @@ BloxFunGui.Tab7Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button1_Roundify_Gradient.Name = "Tab7Button1_Roundify_Gradient"
 BloxFunGui.Tab7Button1_Roundify_Gradient.Parent = BloxFunGui.Tab7Button1_Roundify
@@ -38961,7 +39100,7 @@ BloxFunGui.Tab7Button2_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button2_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button2_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button2_Roundify_Gradient.Name = "Tab7Button2_Roundify_Gradient"
 BloxFunGui.Tab7Button2_Roundify_Gradient.Parent = BloxFunGui.Tab7Button2_Roundify
@@ -39048,7 +39187,7 @@ BloxFunGui.Tab7Button3_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button3_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button3_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button3_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button3_Roundify_Gradient.Name = "Tab7Button3_Roundify_Gradient"
 BloxFunGui.Tab7Button3_Roundify_Gradient.Parent = BloxFunGui.Tab7Button3_Roundify
@@ -39135,7 +39274,7 @@ BloxFunGui.Tab7Button4_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button4_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button4_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button4_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button4_Roundify_Gradient.Name = "Tab7Button4_Roundify_Gradient"
 BloxFunGui.Tab7Button4_Roundify_Gradient.Parent = BloxFunGui.Tab7Button4_Roundify
@@ -39222,7 +39361,7 @@ BloxFunGui.Tab7Button5_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button5_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button5_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button5_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button5_Roundify_Gradient.Name = "Tab7Button5_Roundify_Gradient"
 BloxFunGui.Tab7Button5_Roundify_Gradient.Parent = BloxFunGui.Tab7Button5_Roundify
@@ -39309,7 +39448,7 @@ BloxFunGui.Tab7Button6_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button6_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button6_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button6_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button6_Roundify_Gradient.Name = "Tab7Button6_Roundify_Gradient"
 BloxFunGui.Tab7Button6_Roundify_Gradient.Parent = BloxFunGui.Tab7Button6_Roundify
@@ -39396,7 +39535,7 @@ BloxFunGui.Tab7Button7_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button7_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button7_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button7_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button7_Roundify_Gradient.Name = "Tab7Button7_Roundify_Gradient"
 BloxFunGui.Tab7Button7_Roundify_Gradient.Parent = BloxFunGui.Tab7Button7_Roundify
@@ -39483,7 +39622,7 @@ BloxFunGui.Tab7Button8_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button8_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button8_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button8_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button8_Roundify_Gradient.Name = "Tab7Button8_Roundify_Gradient"
 BloxFunGui.Tab7Button8_Roundify_Gradient.Parent = BloxFunGui.Tab7Button8_Roundify
@@ -39570,7 +39709,7 @@ BloxFunGui.Tab7Button9_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button9_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button9_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button9_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button9_Roundify_Gradient.Name = "Tab7Button9_Roundify_Gradient"
 BloxFunGui.Tab7Button9_Roundify_Gradient.Parent = BloxFunGui.Tab7Button9_Roundify
@@ -39657,7 +39796,7 @@ BloxFunGui.Tab7Button10_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button10_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button10_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button10_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button10_Roundify_Gradient.Name = "Tab7Button10_Roundify_Gradient"
 BloxFunGui.Tab7Button10_Roundify_Gradient.Parent = BloxFunGui.Tab7Button10_Roundify
@@ -39744,7 +39883,7 @@ BloxFunGui.Tab7Button11_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button11_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button11_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button11_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button11_Roundify_Gradient.Name = "Tab7Button11_Roundify_Gradient"
 BloxFunGui.Tab7Button11_Roundify_Gradient.Parent = BloxFunGui.Tab7Button11_Roundify
@@ -39831,7 +39970,7 @@ BloxFunGui.Tab7Button12_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button12_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button12_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button12_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button12_Roundify_Gradient.Name = "Tab7Button12_Roundify_Gradient"
 BloxFunGui.Tab7Button12_Roundify_Gradient.Parent = BloxFunGui.Tab7Button12_Roundify
@@ -39918,7 +40057,7 @@ BloxFunGui.Tab7Button13_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button13_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button13_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button13_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button13_Roundify_Gradient.Name = "Tab7Button13_Roundify_Gradient"
 BloxFunGui.Tab7Button13_Roundify_Gradient.Parent = BloxFunGui.Tab7Button13_Roundify
@@ -40005,7 +40144,7 @@ BloxFunGui.Tab7Button14_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button14_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button14_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button14_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button14_Roundify_Gradient.Name = "Tab7Button14_Roundify_Gradient"
 BloxFunGui.Tab7Button14_Roundify_Gradient.Parent = BloxFunGui.Tab7Button14_Roundify
@@ -40092,7 +40231,7 @@ BloxFunGui.Tab7Button15_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button15_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button15_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button15_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button15_Roundify_Gradient.Name = "Tab7Button15_Roundify_Gradient"
 BloxFunGui.Tab7Button15_Roundify_Gradient.Parent = BloxFunGui.Tab7Button15_Roundify
@@ -40179,7 +40318,7 @@ BloxFunGui.Tab7Button16_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button16_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button16_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button16_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button16_Roundify_Gradient.Name = "Tab7Button16_Roundify_Gradient"
 BloxFunGui.Tab7Button16_Roundify_Gradient.Parent = BloxFunGui.Tab7Button16_Roundify
@@ -40266,7 +40405,7 @@ BloxFunGui.Tab7Button17_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button17_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button17_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button17_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button17_Roundify_Gradient.Name = "Tab7Button17_Roundify_Gradient"
 BloxFunGui.Tab7Button17_Roundify_Gradient.Parent = BloxFunGui.Tab7Button17_Roundify
@@ -40353,7 +40492,7 @@ BloxFunGui.Tab7Button18_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button18_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button18_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button18_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button18_Roundify_Gradient.Name = "Tab7Button18_Roundify_Gradient"
 BloxFunGui.Tab7Button18_Roundify_Gradient.Parent = BloxFunGui.Tab7Button18_Roundify
@@ -40440,7 +40579,7 @@ BloxFunGui.Tab7Button19_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button19_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button19_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button19_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button19_Roundify_Gradient.Name = "Tab7Button19_Roundify_Gradient"
 BloxFunGui.Tab7Button19_Roundify_Gradient.Parent = BloxFunGui.Tab7Button19_Roundify
@@ -40527,7 +40666,7 @@ BloxFunGui.Tab7Button20_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button20_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button20_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button20_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button20_Roundify_Gradient.Name = "Tab7Button20_Roundify_Gradient"
 BloxFunGui.Tab7Button20_Roundify_Gradient.Parent = BloxFunGui.Tab7Button20_Roundify
@@ -40614,7 +40753,7 @@ BloxFunGui.Tab7Button21_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button21_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button21_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button21_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button21_Roundify_Gradient.Name = "Tab7Button21_Roundify_Gradient"
 BloxFunGui.Tab7Button21_Roundify_Gradient.Parent = BloxFunGui.Tab7Button21_Roundify
@@ -40701,7 +40840,7 @@ BloxFunGui.Tab7Button22_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button22_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button22_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button22_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button22_Roundify_Gradient.Name = "Tab7Button22_Roundify_Gradient"
 BloxFunGui.Tab7Button22_Roundify_Gradient.Parent = BloxFunGui.Tab7Button22_Roundify
@@ -40788,7 +40927,7 @@ BloxFunGui.Tab7Button23_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button23_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button23_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button23_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button23_Roundify_Gradient.Name = "Tab7Button23_Roundify_Gradient"
 BloxFunGui.Tab7Button23_Roundify_Gradient.Parent = BloxFunGui.Tab7Button23_Roundify
@@ -40875,7 +41014,7 @@ BloxFunGui.Tab7Button24_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button24_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button24_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button24_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button24_Roundify_Gradient.Name = "Tab7Button24_Roundify_Gradient"
 BloxFunGui.Tab7Button24_Roundify_Gradient.Parent = BloxFunGui.Tab7Button24_Roundify
@@ -40962,7 +41101,7 @@ BloxFunGui.Tab7Button25_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button25_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button25_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button25_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button25_Roundify_Gradient.Name = "Tab7Button25_Roundify_Gradient"
 BloxFunGui.Tab7Button25_Roundify_Gradient.Parent = BloxFunGui.Tab7Button25_Roundify
@@ -41049,7 +41188,7 @@ BloxFunGui.Tab7Button26_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button26_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button26_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button26_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button26_Roundify_Gradient.Name = "Tab7Button26_Roundify_Gradient"
 BloxFunGui.Tab7Button26_Roundify_Gradient.Parent = BloxFunGui.Tab7Button26_Roundify
@@ -41136,7 +41275,7 @@ BloxFunGui.Tab7Button27_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button27_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button27_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button27_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button27_Roundify_Gradient.Name = "Tab7Button27_Roundify_Gradient"
 BloxFunGui.Tab7Button27_Roundify_Gradient.Parent = BloxFunGui.Tab7Button27_Roundify
@@ -41223,7 +41362,7 @@ BloxFunGui.Tab7Button28_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button28_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button28_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button28_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button28_Roundify_Gradient.Name = "Tab7Button28_Roundify_Gradient"
 BloxFunGui.Tab7Button28_Roundify_Gradient.Parent = BloxFunGui.Tab7Button28_Roundify
@@ -41310,7 +41449,7 @@ BloxFunGui.Tab7Button29_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button29_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button29_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button29_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button29_Roundify_Gradient.Name = "Tab7Button29_Roundify_Gradient"
 BloxFunGui.Tab7Button29_Roundify_Gradient.Parent = BloxFunGui.Tab7Button29_Roundify
@@ -41397,7 +41536,7 @@ BloxFunGui.Tab7Button30_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button30_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button30_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button30_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button30_Roundify_Gradient.Name = "Tab7Button30_Roundify_Gradient"
 BloxFunGui.Tab7Button30_Roundify_Gradient.Parent = BloxFunGui.Tab7Button30_Roundify
@@ -41484,7 +41623,7 @@ BloxFunGui.Tab7Button31_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button31_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button31_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button31_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button31_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button31_Roundify_Gradient.Name = "Tab7Button31_Roundify_Gradient"
 BloxFunGui.Tab7Button31_Roundify_Gradient.Parent = BloxFunGui.Tab7Button31_Roundify
@@ -41571,7 +41710,7 @@ BloxFunGui.Tab7Button32_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button32_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button32_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button32_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button32_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button32_Roundify_Gradient.Name = "Tab7Button32_Roundify_Gradient"
 BloxFunGui.Tab7Button32_Roundify_Gradient.Parent = BloxFunGui.Tab7Button32_Roundify
@@ -41658,7 +41797,7 @@ BloxFunGui.Tab7Button33_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button33_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button33_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button33_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button33_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button33_Roundify_Gradient.Name = "Tab7Button33_Roundify_Gradient"
 BloxFunGui.Tab7Button33_Roundify_Gradient.Parent = BloxFunGui.Tab7Button33_Roundify
@@ -41745,7 +41884,7 @@ BloxFunGui.Tab7Button34_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button34_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button34_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button34_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button34_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button34_Roundify_Gradient.Name = "Tab7Button34_Roundify_Gradient"
 BloxFunGui.Tab7Button34_Roundify_Gradient.Parent = BloxFunGui.Tab7Button34_Roundify
@@ -41832,7 +41971,7 @@ BloxFunGui.Tab7Button35_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button35_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button35_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button35_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button35_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button35_Roundify_Gradient.Name = "Tab7Button35_Roundify_Gradient"
 BloxFunGui.Tab7Button35_Roundify_Gradient.Parent = BloxFunGui.Tab7Button35_Roundify
@@ -41919,7 +42058,7 @@ BloxFunGui.Tab7Button36_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button36_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button36_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button36_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button36_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button36_Roundify_Gradient.Name = "Tab7Button36_Roundify_Gradient"
 BloxFunGui.Tab7Button36_Roundify_Gradient.Parent = BloxFunGui.Tab7Button36_Roundify
@@ -42006,7 +42145,7 @@ BloxFunGui.Tab7Button37_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button37_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button37_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button37_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button37_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button37_Roundify_Gradient.Name = "Tab7Button37_Roundify_Gradient"
 BloxFunGui.Tab7Button37_Roundify_Gradient.Parent = BloxFunGui.Tab7Button37_Roundify
@@ -42093,7 +42232,7 @@ BloxFunGui.Tab7Button38_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button38_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button38_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button38_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button38_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button38_Roundify_Gradient.Name = "Tab7Button38_Roundify_Gradient"
 BloxFunGui.Tab7Button38_Roundify_Gradient.Parent = BloxFunGui.Tab7Button38_Roundify
@@ -42180,7 +42319,7 @@ BloxFunGui.Tab7Button39_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button39_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button39_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button39_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button39_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button39_Roundify_Gradient.Name = "Tab7Button39_Roundify_Gradient"
 BloxFunGui.Tab7Button39_Roundify_Gradient.Parent = BloxFunGui.Tab7Button39_Roundify
@@ -42267,7 +42406,7 @@ BloxFunGui.Tab7Button40_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button40_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button40_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button40_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button40_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button40_Roundify_Gradient.Name = "Tab7Button40_Roundify_Gradient"
 BloxFunGui.Tab7Button40_Roundify_Gradient.Parent = BloxFunGui.Tab7Button40_Roundify
@@ -42354,7 +42493,7 @@ BloxFunGui.Tab7Button41_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button41_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button41_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button41_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button41_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button41_Roundify_Gradient.Name = "Tab7Button41_Roundify_Gradient"
 BloxFunGui.Tab7Button41_Roundify_Gradient.Parent = BloxFunGui.Tab7Button41_Roundify
@@ -42441,7 +42580,7 @@ BloxFunGui.Tab7Button42_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button42_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button42_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button42_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button42_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button42_Roundify_Gradient.Name = "Tab7Button42_Roundify_Gradient"
 BloxFunGui.Tab7Button42_Roundify_Gradient.Parent = BloxFunGui.Tab7Button42_Roundify
@@ -42528,7 +42667,7 @@ BloxFunGui.Tab7Button43_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button43_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button43_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button43_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button43_Roundify_Gradient.Name = "Tab7Button43_Roundify_Gradient"
 BloxFunGui.Tab7Button43_Roundify_Gradient.Parent = BloxFunGui.Tab7Button43_Roundify
@@ -42615,7 +42754,7 @@ BloxFunGui.Tab7Button44_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button44_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button44_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button44_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button44_Roundify_Gradient.Name = "Tab7Button44_Roundify_Gradient"
 BloxFunGui.Tab7Button44_Roundify_Gradient.Parent = BloxFunGui.Tab7Button44_Roundify
@@ -42702,7 +42841,7 @@ BloxFunGui.Tab7Button45_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button45_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button45_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button45_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button45_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button45_Roundify_Gradient.Name = "Tab7Button45_Roundify_Gradient"
 BloxFunGui.Tab7Button45_Roundify_Gradient.Parent = BloxFunGui.Tab7Button45_Roundify
@@ -42789,7 +42928,7 @@ BloxFunGui.Tab7Button46_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button46_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button46_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button46_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button46_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button46_Roundify_Gradient.Name = "Tab7Button46_Roundify_Gradient"
 BloxFunGui.Tab7Button46_Roundify_Gradient.Parent = BloxFunGui.Tab7Button46_Roundify
@@ -42876,7 +43015,7 @@ BloxFunGui.Tab7Button47_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button47_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button47_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button47_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button47_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button47_Roundify_Gradient.Name = "Tab7Button47_Roundify_Gradient"
 BloxFunGui.Tab7Button47_Roundify_Gradient.Parent = BloxFunGui.Tab7Button47_Roundify
@@ -42963,7 +43102,7 @@ BloxFunGui.Tab7Button48_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button48_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button48_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button48_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button48_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button48_Roundify_Gradient.Name = "Tab7Button48_Roundify_Gradient"
 BloxFunGui.Tab7Button48_Roundify_Gradient.Parent = BloxFunGui.Tab7Button48_Roundify
@@ -43050,7 +43189,7 @@ BloxFunGui.Tab7Button49_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button49_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button49_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button49_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button49_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button49_Roundify_Gradient.Name = "Tab7Button49_Roundify_Gradient"
 BloxFunGui.Tab7Button49_Roundify_Gradient.Parent = BloxFunGui.Tab7Button49_Roundify
@@ -43137,7 +43276,7 @@ BloxFunGui.Tab7Button50_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button50_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button50_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button50_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button50_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button50_Roundify_Gradient.Name = "Tab7Button50_Roundify_Gradient"
 BloxFunGui.Tab7Button50_Roundify_Gradient.Parent = BloxFunGui.Tab7Button50_Roundify
@@ -43224,7 +43363,7 @@ BloxFunGui.Tab7Button51_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button51_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button51_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button51_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button51_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button51_Roundify_Gradient.Name = "Tab7Button51_Roundify_Gradient"
 BloxFunGui.Tab7Button51_Roundify_Gradient.Parent = BloxFunGui.Tab7Button51_Roundify
@@ -43311,7 +43450,7 @@ BloxFunGui.Tab7Button52_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button52_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button52_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button52_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button52_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button52_Roundify_Gradient.Name = "Tab7Button52_Roundify_Gradient"
 BloxFunGui.Tab7Button52_Roundify_Gradient.Parent = BloxFunGui.Tab7Button52_Roundify
@@ -43398,7 +43537,7 @@ BloxFunGui.Tab7Button53_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button53_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button53_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button53_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button53_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button53_Roundify_Gradient.Name = "Tab7Button53_Roundify_Gradient"
 BloxFunGui.Tab7Button53_Roundify_Gradient.Parent = BloxFunGui.Tab7Button53_Roundify
@@ -43485,7 +43624,7 @@ BloxFunGui.Tab7Button54_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button54_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button54_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button54_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button54_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button54_Roundify_Gradient.Name = "Tab7Button54_Roundify_Gradient"
 BloxFunGui.Tab7Button54_Roundify_Gradient.Parent = BloxFunGui.Tab7Button54_Roundify
@@ -43572,7 +43711,7 @@ BloxFunGui.Tab7Button55_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button55_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button55_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button55_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button55_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button55_Roundify_Gradient.Name = "Tab7Button55_Roundify_Gradient"
 BloxFunGui.Tab7Button55_Roundify_Gradient.Parent = BloxFunGui.Tab7Button55_Roundify
@@ -43659,7 +43798,7 @@ BloxFunGui.Tab7Button56_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button56_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button56_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button56_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button56_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button56_Roundify_Gradient.Name = "Tab7Button56_Roundify_Gradient"
 BloxFunGui.Tab7Button56_Roundify_Gradient.Parent = BloxFunGui.Tab7Button56_Roundify
@@ -43746,7 +43885,7 @@ BloxFunGui.Tab7Button57_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button57_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button57_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button57_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button57_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button57_Roundify_Gradient.Name = "Tab7Button57_Roundify_Gradient"
 BloxFunGui.Tab7Button57_Roundify_Gradient.Parent = BloxFunGui.Tab7Button57_Roundify
@@ -43833,7 +43972,7 @@ BloxFunGui.Tab7Button58_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button58_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button58_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button58_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button58_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button58_Roundify_Gradient.Name = "Tab7Button58_Roundify_Gradient"
 BloxFunGui.Tab7Button58_Roundify_Gradient.Parent = BloxFunGui.Tab7Button58_Roundify
@@ -43920,7 +44059,7 @@ BloxFunGui.Tab7Button59_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button59_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button59_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button59_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button59_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button59_Roundify_Gradient.Name = "Tab7Button59_Roundify_Gradient"
 BloxFunGui.Tab7Button59_Roundify_Gradient.Parent = BloxFunGui.Tab7Button59_Roundify
@@ -44007,7 +44146,7 @@ BloxFunGui.Tab7Button60_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button60_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button60_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button60_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button60_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button60_Roundify_Gradient.Name = "Tab7Button60_Roundify_Gradient"
 BloxFunGui.Tab7Button60_Roundify_Gradient.Parent = BloxFunGui.Tab7Button60_Roundify
@@ -44094,7 +44233,7 @@ BloxFunGui.Tab7Button61_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button61_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button61_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button61_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button61_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button61_Roundify_Gradient.Name = "Tab7Button61_Roundify_Gradient"
 BloxFunGui.Tab7Button61_Roundify_Gradient.Parent = BloxFunGui.Tab7Button61_Roundify
@@ -44181,7 +44320,7 @@ BloxFunGui.Tab7Button62_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button62_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button62_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button62_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button62_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button62_Roundify_Gradient.Name = "Tab7Button62_Roundify_Gradient"
 BloxFunGui.Tab7Button62_Roundify_Gradient.Parent = BloxFunGui.Tab7Button62_Roundify
@@ -44268,7 +44407,7 @@ BloxFunGui.Tab7Button63_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button63_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button63_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button63_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button63_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button63_Roundify_Gradient.Name = "Tab7Button63_Roundify_Gradient"
 BloxFunGui.Tab7Button63_Roundify_Gradient.Parent = BloxFunGui.Tab7Button63_Roundify
@@ -44355,7 +44494,7 @@ BloxFunGui.Tab7Button64_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button64_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button64_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button64_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button64_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button64_Roundify_Gradient.Name = "Tab7Button64_Roundify_Gradient"
 BloxFunGui.Tab7Button64_Roundify_Gradient.Parent = BloxFunGui.Tab7Button64_Roundify
@@ -44442,7 +44581,7 @@ BloxFunGui.Tab7Button65_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button65_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button65_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button65_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button65_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button65_Roundify_Gradient.Name = "Tab7Button65_Roundify_Gradient"
 BloxFunGui.Tab7Button65_Roundify_Gradient.Parent = BloxFunGui.Tab7Button65_Roundify
@@ -44529,7 +44668,7 @@ BloxFunGui.Tab7Button66_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button66_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button66_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button66_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button66_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button66_Roundify_Gradient.Name = "Tab7Button66_Roundify_Gradient"
 BloxFunGui.Tab7Button66_Roundify_Gradient.Parent = BloxFunGui.Tab7Button66_Roundify
@@ -44616,7 +44755,7 @@ BloxFunGui.Tab7Button67_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button67_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button67_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button67_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button67_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button67_Roundify_Gradient.Name = "Tab7Button67_Roundify_Gradient"
 BloxFunGui.Tab7Button67_Roundify_Gradient.Parent = BloxFunGui.Tab7Button67_Roundify
@@ -44703,7 +44842,7 @@ BloxFunGui.Tab7Button68_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button68_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button68_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button68_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button68_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button68_Roundify_Gradient.Name = "Tab7Button68_Roundify_Gradient"
 BloxFunGui.Tab7Button68_Roundify_Gradient.Parent = BloxFunGui.Tab7Button68_Roundify
@@ -44790,7 +44929,7 @@ BloxFunGui.Tab7Button69_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button69_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button69_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button69_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button69_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button69_Roundify_Gradient.Name = "Tab7Button69_Roundify_Gradient"
 BloxFunGui.Tab7Button69_Roundify_Gradient.Parent = BloxFunGui.Tab7Button69_Roundify
@@ -44877,7 +45016,7 @@ BloxFunGui.Tab7Button70_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button70_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button70_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button70_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button70_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button70_Roundify_Gradient.Name = "Tab7Button70_Roundify_Gradient"
 BloxFunGui.Tab7Button70_Roundify_Gradient.Parent = BloxFunGui.Tab7Button70_Roundify
@@ -44964,7 +45103,7 @@ BloxFunGui.Tab7Button71_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button71_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button71_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button71_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button71_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button71_Roundify_Gradient.Name = "Tab7Button71_Roundify_Gradient"
 BloxFunGui.Tab7Button71_Roundify_Gradient.Parent = BloxFunGui.Tab7Button71_Roundify
@@ -45051,7 +45190,7 @@ BloxFunGui.Tab7Button72_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button72_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button72_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button72_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button72_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button72_Roundify_Gradient.Name = "Tab7Button72_Roundify_Gradient"
 BloxFunGui.Tab7Button72_Roundify_Gradient.Parent = BloxFunGui.Tab7Button72_Roundify
@@ -45138,7 +45277,7 @@ BloxFunGui.Tab7Button73_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button73_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button73_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button73_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button73_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button73_Roundify_Gradient.Name = "Tab7Button73_Roundify_Gradient"
 BloxFunGui.Tab7Button73_Roundify_Gradient.Parent = BloxFunGui.Tab7Button73_Roundify
@@ -45225,7 +45364,7 @@ BloxFunGui.Tab7Button74_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button74_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button74_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button74_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button74_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button74_Roundify_Gradient.Name = "Tab7Button74_Roundify_Gradient"
 BloxFunGui.Tab7Button74_Roundify_Gradient.Parent = BloxFunGui.Tab7Button74_Roundify
@@ -45312,7 +45451,7 @@ BloxFunGui.Tab7Button75_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button75_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button75_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button75_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button75_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button75_Roundify_Gradient.Name = "Tab7Button75_Roundify_Gradient"
 BloxFunGui.Tab7Button75_Roundify_Gradient.Parent = BloxFunGui.Tab7Button75_Roundify
@@ -45399,7 +45538,7 @@ BloxFunGui.Tab7Button76_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button76_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button76_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button76_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button76_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button76_Roundify_Gradient.Name = "Tab7Button76_Roundify_Gradient"
 BloxFunGui.Tab7Button76_Roundify_Gradient.Parent = BloxFunGui.Tab7Button76_Roundify
@@ -45486,7 +45625,7 @@ BloxFunGui.Tab7Button77_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button77_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button77_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button77_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button77_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button77_Roundify_Gradient.Name = "Tab7Button77_Roundify_Gradient"
 BloxFunGui.Tab7Button77_Roundify_Gradient.Parent = BloxFunGui.Tab7Button77_Roundify
@@ -45573,7 +45712,7 @@ BloxFunGui.Tab7Button78_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button78_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button78_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button78_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button78_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button78_Roundify_Gradient.Name = "Tab7Button78_Roundify_Gradient"
 BloxFunGui.Tab7Button78_Roundify_Gradient.Parent = BloxFunGui.Tab7Button78_Roundify
@@ -45660,7 +45799,7 @@ BloxFunGui.Tab7Button79_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button79_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button79_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button79_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button79_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button79_Roundify_Gradient.Name = "Tab7Button79_Roundify_Gradient"
 BloxFunGui.Tab7Button79_Roundify_Gradient.Parent = BloxFunGui.Tab7Button79_Roundify
@@ -45747,7 +45886,7 @@ BloxFunGui.Tab7Button80_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button80_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button80_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button80_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button80_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button80_Roundify_Gradient.Name = "Tab7Button80_Roundify_Gradient"
 BloxFunGui.Tab7Button80_Roundify_Gradient.Parent = BloxFunGui.Tab7Button80_Roundify
@@ -45834,7 +45973,7 @@ BloxFunGui.Tab7Button81_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button81_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button81_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button81_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button81_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button81_Roundify_Gradient.Name = "Tab7Button81_Roundify_Gradient"
 BloxFunGui.Tab7Button81_Roundify_Gradient.Parent = BloxFunGui.Tab7Button81_Roundify
@@ -45921,7 +46060,7 @@ BloxFunGui.Tab7Button82_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button82_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button82_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button82_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button82_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button82_Roundify_Gradient.Name = "Tab7Button82_Roundify_Gradient"
 BloxFunGui.Tab7Button82_Roundify_Gradient.Parent = BloxFunGui.Tab7Button82_Roundify
@@ -46008,7 +46147,7 @@ BloxFunGui.Tab7Button83_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button83_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button83_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button83_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button83_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button83_Roundify_Gradient.Name = "Tab7Button83_Roundify_Gradient"
 BloxFunGui.Tab7Button83_Roundify_Gradient.Parent = BloxFunGui.Tab7Button83_Roundify
@@ -46095,7 +46234,7 @@ BloxFunGui.Tab7Button84_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button84_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button84_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button84_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button84_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button84_Roundify_Gradient.Name = "Tab7Button84_Roundify_Gradient"
 BloxFunGui.Tab7Button84_Roundify_Gradient.Parent = BloxFunGui.Tab7Button84_Roundify
@@ -46182,7 +46321,7 @@ BloxFunGui.Tab7Button85_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button85_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button85_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button85_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button85_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button85_Roundify_Gradient.Name = "Tab7Button85_Roundify_Gradient"
 BloxFunGui.Tab7Button85_Roundify_Gradient.Parent = BloxFunGui.Tab7Button85_Roundify
@@ -46269,7 +46408,7 @@ BloxFunGui.Tab7Button86_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button86_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button86_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button86_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button86_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button86_Roundify_Gradient.Name = "Tab7Button86_Roundify_Gradient"
 BloxFunGui.Tab7Button86_Roundify_Gradient.Parent = BloxFunGui.Tab7Button86_Roundify
@@ -46356,7 +46495,7 @@ BloxFunGui.Tab7Button87_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button87_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button87_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button87_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button87_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button87_Roundify_Gradient.Name = "Tab7Button87_Roundify_Gradient"
 BloxFunGui.Tab7Button87_Roundify_Gradient.Parent = BloxFunGui.Tab7Button87_Roundify
@@ -46443,7 +46582,7 @@ BloxFunGui.Tab7Button88_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button88_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button88_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button88_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button88_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button88_Roundify_Gradient.Name = "Tab7Button88_Roundify_Gradient"
 BloxFunGui.Tab7Button88_Roundify_Gradient.Parent = BloxFunGui.Tab7Button88_Roundify
@@ -46530,7 +46669,7 @@ BloxFunGui.Tab7Button89_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button89_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button89_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button89_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button89_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button89_Roundify_Gradient.Name = "Tab7Button89_Roundify_Gradient"
 BloxFunGui.Tab7Button89_Roundify_Gradient.Parent = BloxFunGui.Tab7Button89_Roundify
@@ -46617,7 +46756,7 @@ BloxFunGui.Tab7Button90_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button90_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button90_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button90_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button90_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button90_Roundify_Gradient.Name = "Tab7Button90_Roundify_Gradient"
 BloxFunGui.Tab7Button90_Roundify_Gradient.Parent = BloxFunGui.Tab7Button90_Roundify
@@ -46704,7 +46843,7 @@ BloxFunGui.Tab7Button91_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button91_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button91_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button91_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button91_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button91_Roundify_Gradient.Name = "Tab7Button91_Roundify_Gradient"
 BloxFunGui.Tab7Button91_Roundify_Gradient.Parent = BloxFunGui.Tab7Button91_Roundify
@@ -46791,7 +46930,7 @@ BloxFunGui.Tab7Button92_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button92_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button92_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button92_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button92_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button92_Roundify_Gradient.Name = "Tab7Button92_Roundify_Gradient"
 BloxFunGui.Tab7Button92_Roundify_Gradient.Parent = BloxFunGui.Tab7Button92_Roundify
@@ -46878,7 +47017,7 @@ BloxFunGui.Tab7Button93_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button93_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button93_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button93_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button93_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button93_Roundify_Gradient.Name = "Tab7Button93_Roundify_Gradient"
 BloxFunGui.Tab7Button93_Roundify_Gradient.Parent = BloxFunGui.Tab7Button93_Roundify
@@ -46965,7 +47104,7 @@ BloxFunGui.Tab7Button94_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button94_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button94_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button94_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button94_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button94_Roundify_Gradient.Name = "Tab7Button94_Roundify_Gradient"
 BloxFunGui.Tab7Button94_Roundify_Gradient.Parent = BloxFunGui.Tab7Button94_Roundify
@@ -47052,7 +47191,7 @@ BloxFunGui.Tab7Button95_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button95_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button95_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button95_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button95_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button95_Roundify_Gradient.Name = "Tab7Button95_Roundify_Gradient"
 BloxFunGui.Tab7Button95_Roundify_Gradient.Parent = BloxFunGui.Tab7Button95_Roundify
@@ -47139,7 +47278,7 @@ BloxFunGui.Tab7Button96_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button96_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button96_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button96_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button96_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button96_Roundify_Gradient.Name = "Tab7Button96_Roundify_Gradient"
 BloxFunGui.Tab7Button96_Roundify_Gradient.Parent = BloxFunGui.Tab7Button96_Roundify
@@ -47226,7 +47365,7 @@ BloxFunGui.Tab7Button97_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button97_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button97_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button97_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button97_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button97_Roundify_Gradient.Name = "Tab7Button97_Roundify_Gradient"
 BloxFunGui.Tab7Button97_Roundify_Gradient.Parent = BloxFunGui.Tab7Button97_Roundify
@@ -47313,7 +47452,7 @@ BloxFunGui.Tab7Button98_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button98_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button98_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button98_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button98_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button98_Roundify_Gradient.Name = "Tab7Button98_Roundify_Gradient"
 BloxFunGui.Tab7Button98_Roundify_Gradient.Parent = BloxFunGui.Tab7Button98_Roundify
@@ -47400,7 +47539,7 @@ BloxFunGui.Tab7Button99_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button99_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button99_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button99_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button99_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button99_Roundify_Gradient.Name = "Tab7Button99_Roundify_Gradient"
 BloxFunGui.Tab7Button99_Roundify_Gradient.Parent = BloxFunGui.Tab7Button99_Roundify
@@ -47487,7 +47626,7 @@ BloxFunGui.Tab7Button100_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab7Button100_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab7Button100_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab7Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab7Button100_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab7Button100_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab7Button100_Roundify_Gradient.Name = "Tab7Button100_Roundify_Gradient"
 BloxFunGui.Tab7Button100_Roundify_Gradient.Parent = BloxFunGui.Tab7Button100_Roundify
@@ -47577,7 +47716,7 @@ BloxFunGui.Tab8Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button1_Roundify_Gradient.Name = "Tab8Button1_Roundify_Gradient"
 BloxFunGui.Tab8Button1_Roundify_Gradient.Parent = BloxFunGui.Tab8Button1_Roundify
@@ -47664,7 +47803,7 @@ BloxFunGui.Tab8Button2_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button2_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button2_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button2_Roundify_Gradient.Name = "Tab8Button2_Roundify_Gradient"
 BloxFunGui.Tab8Button2_Roundify_Gradient.Parent = BloxFunGui.Tab8Button2_Roundify
@@ -47751,7 +47890,7 @@ BloxFunGui.Tab8Button3_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button3_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button3_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button3_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button3_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button3_Roundify_Gradient.Name = "Tab8Button3_Roundify_Gradient"
 BloxFunGui.Tab8Button3_Roundify_Gradient.Parent = BloxFunGui.Tab8Button3_Roundify
@@ -47838,7 +47977,7 @@ BloxFunGui.Tab8Button4_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button4_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button4_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button4_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button4_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button4_Roundify_Gradient.Name = "Tab8Button4_Roundify_Gradient"
 BloxFunGui.Tab8Button4_Roundify_Gradient.Parent = BloxFunGui.Tab8Button4_Roundify
@@ -47925,7 +48064,7 @@ BloxFunGui.Tab8Button5_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button5_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button5_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button5_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button5_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button5_Roundify_Gradient.Name = "Tab8Button5_Roundify_Gradient"
 BloxFunGui.Tab8Button5_Roundify_Gradient.Parent = BloxFunGui.Tab8Button5_Roundify
@@ -48012,7 +48151,7 @@ BloxFunGui.Tab8Button6_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button6_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button6_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button6_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button6_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button6_Roundify_Gradient.Name = "Tab8Button6_Roundify_Gradient"
 BloxFunGui.Tab8Button6_Roundify_Gradient.Parent = BloxFunGui.Tab8Button6_Roundify
@@ -48099,7 +48238,7 @@ BloxFunGui.Tab8Button7_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button7_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button7_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button7_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button7_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button7_Roundify_Gradient.Name = "Tab8Button7_Roundify_Gradient"
 BloxFunGui.Tab8Button7_Roundify_Gradient.Parent = BloxFunGui.Tab8Button7_Roundify
@@ -48186,7 +48325,7 @@ BloxFunGui.Tab8Button8_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button8_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button8_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button8_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button8_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button8_Roundify_Gradient.Name = "Tab8Button8_Roundify_Gradient"
 BloxFunGui.Tab8Button8_Roundify_Gradient.Parent = BloxFunGui.Tab8Button8_Roundify
@@ -48273,7 +48412,7 @@ BloxFunGui.Tab8Button9_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button9_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button9_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button9_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button9_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button9_Roundify_Gradient.Name = "Tab8Button9_Roundify_Gradient"
 BloxFunGui.Tab8Button9_Roundify_Gradient.Parent = BloxFunGui.Tab8Button9_Roundify
@@ -48360,7 +48499,7 @@ BloxFunGui.Tab8Button10_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button10_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button10_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button10_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button10_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button10_Roundify_Gradient.Name = "Tab8Button10_Roundify_Gradient"
 BloxFunGui.Tab8Button10_Roundify_Gradient.Parent = BloxFunGui.Tab8Button10_Roundify
@@ -48447,7 +48586,7 @@ BloxFunGui.Tab8Button11_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button11_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button11_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button11_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button11_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button11_Roundify_Gradient.Name = "Tab8Button11_Roundify_Gradient"
 BloxFunGui.Tab8Button11_Roundify_Gradient.Parent = BloxFunGui.Tab8Button11_Roundify
@@ -48534,7 +48673,7 @@ BloxFunGui.Tab8Button12_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button12_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button12_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button12_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button12_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button12_Roundify_Gradient.Name = "Tab8Button12_Roundify_Gradient"
 BloxFunGui.Tab8Button12_Roundify_Gradient.Parent = BloxFunGui.Tab8Button12_Roundify
@@ -48621,7 +48760,7 @@ BloxFunGui.Tab8Button13_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button13_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button13_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button13_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button13_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button13_Roundify_Gradient.Name = "Tab8Button13_Roundify_Gradient"
 BloxFunGui.Tab8Button13_Roundify_Gradient.Parent = BloxFunGui.Tab8Button13_Roundify
@@ -48708,7 +48847,7 @@ BloxFunGui.Tab8Button14_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button14_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button14_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button14_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button14_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button14_Roundify_Gradient.Name = "Tab8Button14_Roundify_Gradient"
 BloxFunGui.Tab8Button14_Roundify_Gradient.Parent = BloxFunGui.Tab8Button14_Roundify
@@ -48795,7 +48934,7 @@ BloxFunGui.Tab8Button15_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button15_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button15_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button15_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button15_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button15_Roundify_Gradient.Name = "Tab8Button15_Roundify_Gradient"
 BloxFunGui.Tab8Button15_Roundify_Gradient.Parent = BloxFunGui.Tab8Button15_Roundify
@@ -48882,7 +49021,7 @@ BloxFunGui.Tab8Button16_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button16_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button16_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button16_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button16_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button16_Roundify_Gradient.Name = "Tab8Button16_Roundify_Gradient"
 BloxFunGui.Tab8Button16_Roundify_Gradient.Parent = BloxFunGui.Tab8Button16_Roundify
@@ -48969,7 +49108,7 @@ BloxFunGui.Tab8Button17_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button17_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button17_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button17_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button17_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button17_Roundify_Gradient.Name = "Tab8Button17_Roundify_Gradient"
 BloxFunGui.Tab8Button17_Roundify_Gradient.Parent = BloxFunGui.Tab8Button17_Roundify
@@ -49056,7 +49195,7 @@ BloxFunGui.Tab8Button18_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button18_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button18_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button18_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button18_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button18_Roundify_Gradient.Name = "Tab8Button18_Roundify_Gradient"
 BloxFunGui.Tab8Button18_Roundify_Gradient.Parent = BloxFunGui.Tab8Button18_Roundify
@@ -49143,7 +49282,7 @@ BloxFunGui.Tab8Button19_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button19_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button19_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button19_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button19_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button19_Roundify_Gradient.Name = "Tab8Button19_Roundify_Gradient"
 BloxFunGui.Tab8Button19_Roundify_Gradient.Parent = BloxFunGui.Tab8Button19_Roundify
@@ -49230,7 +49369,7 @@ BloxFunGui.Tab8Button20_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button20_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button20_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button20_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button20_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button20_Roundify_Gradient.Name = "Tab8Button20_Roundify_Gradient"
 BloxFunGui.Tab8Button20_Roundify_Gradient.Parent = BloxFunGui.Tab8Button20_Roundify
@@ -49317,7 +49456,7 @@ BloxFunGui.Tab8Button21_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button21_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button21_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button21_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button21_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button21_Roundify_Gradient.Name = "Tab8Button21_Roundify_Gradient"
 BloxFunGui.Tab8Button21_Roundify_Gradient.Parent = BloxFunGui.Tab8Button21_Roundify
@@ -49404,7 +49543,7 @@ BloxFunGui.Tab8Button22_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button22_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button22_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button22_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button22_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button22_Roundify_Gradient.Name = "Tab8Button22_Roundify_Gradient"
 BloxFunGui.Tab8Button22_Roundify_Gradient.Parent = BloxFunGui.Tab8Button22_Roundify
@@ -49491,7 +49630,7 @@ BloxFunGui.Tab8Button23_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button23_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button23_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button23_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button23_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button23_Roundify_Gradient.Name = "Tab8Button23_Roundify_Gradient"
 BloxFunGui.Tab8Button23_Roundify_Gradient.Parent = BloxFunGui.Tab8Button23_Roundify
@@ -49578,7 +49717,7 @@ BloxFunGui.Tab8Button24_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button24_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button24_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button24_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button24_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button24_Roundify_Gradient.Name = "Tab8Button24_Roundify_Gradient"
 BloxFunGui.Tab8Button24_Roundify_Gradient.Parent = BloxFunGui.Tab8Button24_Roundify
@@ -49665,7 +49804,7 @@ BloxFunGui.Tab8Button25_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button25_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button25_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button25_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button25_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button25_Roundify_Gradient.Name = "Tab8Button25_Roundify_Gradient"
 BloxFunGui.Tab8Button25_Roundify_Gradient.Parent = BloxFunGui.Tab8Button25_Roundify
@@ -49752,7 +49891,7 @@ BloxFunGui.Tab8Button26_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button26_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button26_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button26_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button26_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button26_Roundify_Gradient.Name = "Tab8Button26_Roundify_Gradient"
 BloxFunGui.Tab8Button26_Roundify_Gradient.Parent = BloxFunGui.Tab8Button26_Roundify
@@ -49839,7 +49978,7 @@ BloxFunGui.Tab8Button27_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button27_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button27_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button27_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button27_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button27_Roundify_Gradient.Name = "Tab8Button27_Roundify_Gradient"
 BloxFunGui.Tab8Button27_Roundify_Gradient.Parent = BloxFunGui.Tab8Button27_Roundify
@@ -49926,7 +50065,7 @@ BloxFunGui.Tab8Button28_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button28_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button28_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button28_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button28_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button28_Roundify_Gradient.Name = "Tab8Button28_Roundify_Gradient"
 BloxFunGui.Tab8Button28_Roundify_Gradient.Parent = BloxFunGui.Tab8Button28_Roundify
@@ -50013,7 +50152,7 @@ BloxFunGui.Tab8Button29_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button29_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button29_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button29_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button29_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button29_Roundify_Gradient.Name = "Tab8Button29_Roundify_Gradient"
 BloxFunGui.Tab8Button29_Roundify_Gradient.Parent = BloxFunGui.Tab8Button29_Roundify
@@ -50100,7 +50239,7 @@ BloxFunGui.Tab8Button30_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab8Button30_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab8Button30_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab8Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab8Button30_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab8Button30_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab8Button30_Roundify_Gradient.Name = "Tab8Button30_Roundify_Gradient"
 BloxFunGui.Tab8Button30_Roundify_Gradient.Parent = BloxFunGui.Tab8Button30_Roundify
@@ -50189,7 +50328,7 @@ BloxFunGui.Tab9Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab9Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab9Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab9Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab9Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab9Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab9Button1_Roundify_Gradient.Name = "Tab9Button1_Roundify_Gradient"
 BloxFunGui.Tab9Button1_Roundify_Gradient.Parent = BloxFunGui.Tab9Button1_Roundify
@@ -50276,7 +50415,7 @@ BloxFunGui.Tab10Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab10Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab10Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab10Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab10Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab10Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab10Button1_Roundify_Gradient.Name = "Tab10Button1_Roundify_Gradient"
 BloxFunGui.Tab10Button1_Roundify_Gradient.Parent = BloxFunGui.Tab10Button1_Roundify
@@ -50363,7 +50502,7 @@ BloxFunGui.Tab11Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab11Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab11Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab11Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab11Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab11Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab11Button1_Roundify_Gradient.Name = "Tab11Button1_Roundify_Gradient"
 BloxFunGui.Tab11Button1_Roundify_Gradient.Parent = BloxFunGui.Tab11Button1_Roundify
@@ -50450,7 +50589,7 @@ BloxFunGui.Tab12Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab12Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab12Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab12Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab12Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab12Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab12Button1_Roundify_Gradient.Name = "Tab12Button1_Roundify_Gradient"
 BloxFunGui.Tab12Button1_Roundify_Gradient.Parent = BloxFunGui.Tab12Button1_Roundify
@@ -50537,7 +50676,7 @@ BloxFunGui.Tab13Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab13Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab13Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab13Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab13Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab13Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab13Button1_Roundify_Gradient.Name = "Tab13Button1_Roundify_Gradient"
 BloxFunGui.Tab13Button1_Roundify_Gradient.Parent = BloxFunGui.Tab13Button1_Roundify
@@ -50625,7 +50764,7 @@ BloxFunGui.Tab14Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab14Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab14Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab14Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab14Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab14Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab14Button1_Roundify_Gradient.Name = "Tab14Button1_Roundify_Gradient"
 BloxFunGui.Tab14Button1_Roundify_Gradient.Parent = BloxFunGui.Tab14Button1_Roundify
@@ -50713,7 +50852,7 @@ BloxFunGui.Tab15Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab15Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab15Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab15Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab15Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab15Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab15Button1_Roundify_Gradient.Name = "Tab15Button1_Roundify_Gradient"
 BloxFunGui.Tab15Button1_Roundify_Gradient.Parent = BloxFunGui.Tab15Button1_Roundify
@@ -50801,7 +50940,7 @@ BloxFunGui.Tab16Button1_Roundify.ScaleType = Enum.ScaleType.Slice
 BloxFunGui.Tab16Button1_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
 BloxFunGui.Tab16Button1_Roundify.SliceScale = 0.120
 
-BloxFunGui.Tab16Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 157, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 119, 0))}
+BloxFunGui.Tab16Button1_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
 BloxFunGui.Tab16Button1_Roundify_Gradient.Rotation = 70
 BloxFunGui.Tab16Button1_Roundify_Gradient.Name = "Tab16Button1_Roundify_Gradient"
 BloxFunGui.Tab16Button1_Roundify_Gradient.Parent = BloxFunGui.Tab16Button1_Roundify
@@ -53278,7 +53417,7 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button46_Frame.Tab3But
 end)
 --3/47
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button47_Frame.Tab3Button47_Roundify.Tab3Button47_Roundify_Frame.Tab3Button47_Script.MouseButton1Down:connect(function()
-	print("3/47")
+	print("3/48")
 end)
 --3/48
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button48_Frame.Tab3Button48_Roundify.Tab3Button48_Roundify_Frame.Tab3Button48_Script.MouseButton1Down:connect(function()
@@ -57185,6 +57324,8 @@ end)
 --Destroy Gui:
 game.CoreGui.BloxFunGui.MainFrame1.TabSettingsScrollingFrame.DestroyGuiButton.MouseButton1Down:connect(function()
 	game.CoreGui.BloxFunGui:Destroy()
+	game.CoreGui.BF_MouseEngine:Destroy()
+	game:GetService("UserInputService").MouseBehavior = Enum.MouseBehavior.LockCenter
 end)
 ----------------------------------------------------------------------------------------------------
 --Skybox Changer Object:
@@ -57205,7 +57346,32 @@ game:GetService('UserInputService').InputBegan:Connect(function(input,ok0)
 	if not ok0 then
 		if input.KeyCode.Name == BFkeybinds.ToggleKeybind then
 			toggleUi()
+			if game.CoreGui.BloxFunGui.Enabled == true then
+			    game:GetService("UserInputService").MouseBehavior = Enum.MouseBehavior.Default
+			elseif game.CoreGui.BloxFunGui.Enabled == false then
+			    game:GetService("UserInputService").MouseBehavior = Enum.MouseBehavior.LockCenter
+			end
 		end
 	end
+end)
+----------------------------------------------------------------------------------------------------
+--Mouse:
+local _mouseScreen = Instance.new("ScreenGui", game.CoreGui)
+_mouseScreen.Name = "BF_MouseEngine"
+_mouseScreen.DisplayOrder = 1
+
+local _mouseCursor = Instance.new("ImageLabel")
+_mouseCursor.Name = "BF_MouseIcon"
+_mouseCursor.Parent = game.CoreGui.BF_MouseEngine
+_mouseCursor.Image = "rbxassetid://7729019377"
+_mouseCursor.Size = UDim2.new(0, 55, 0, 55)
+_mouseCursor.ImageColor3 = Color3.fromRGB(255, 255, 255)
+_mouseCursor.BackgroundTransparency = 1
+_mouseCursor.ZIndex = 1000
+
+game:GetService("RunService").RenderStepped:connect(function()
+    local _getMouse = game.Players.LocalPlayer:GetMouse()
+	_mouseCursor.Visible = game.CoreGui.BloxFunGui.Enabled
+	_mouseCursor.Position = UDim2.new(0, _getMouse.X - 28, 0, _getMouse.Y - 27)
 end)
 ----------------------------------------------------------------------------------------------------
