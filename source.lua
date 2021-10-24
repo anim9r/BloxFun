@@ -3280,6 +3280,19 @@ local BloxFunGui = {
 	Tab5Button1_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
 	Tab5Button1_AssetName = Instance.new("TextLabel"),
 	Tab5Button1_TextLabel_Gradient = Instance.new("UIGradient"),
+	--5/2
+	Tab5Button2_Frame = Instance.new("Frame"),
+	Tab5Button2_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab5Button2_Roundify = Instance.new("ImageLabel"),
+	Tab5Button2_Roundify_Gradient = Instance.new("UIGradient"),
+	Tab5Button2_Roundify_Frame = Instance.new("Frame"),
+	Tab5Button2_Roundify_InvisFrame = Instance.new("Frame"),
+	Tab5Button2_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	Tab5Button2_Script = Instance.new("ImageButton"),
+	Tab5Button2_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	Tab5Button2_AssetName = Instance.new("TextLabel"),
+	Tab5Button2_TextLabel_Gradient = Instance.new("UIGradient"),
+	--Last: 5/2
 	----------------------------------------------------------------------------------------
 	---Tab6:
 	--6/1
@@ -7376,7 +7389,7 @@ BloxFunGui.VersionText.BorderSizePixel = 0
 BloxFunGui.VersionText.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.VersionText.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.VersionText.Font = Enum.Font.Cartoon
-BloxFunGui.VersionText.Text = "Last Updated: 17/10/2021"
+BloxFunGui.VersionText.Text = "Last Updated: 25/10/2021"
 BloxFunGui.VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.VersionText.TextScaled = true
 BloxFunGui.VersionText.TextSize = 50.000
@@ -7433,7 +7446,7 @@ BloxFunGui.ChangesText.BorderSizePixel = 0
 BloxFunGui.ChangesText.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.ChangesText.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.ChangesText.Font = Enum.Font.Cartoon
-BloxFunGui.ChangesText.Text = "+ 24 gloves;"
+BloxFunGui.ChangesText.Text = "+2 Custom Gloves; +2 Custom Skins; +1 Custom Map;"
 BloxFunGui.ChangesText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.ChangesText.TextScaled = true
 BloxFunGui.ChangesText.TextSize = 50.000
@@ -16318,7 +16331,7 @@ BloxFunGui.Tab1Button43_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button43_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button43_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button43_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button43_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button43_Script.Image = "rbxassetid://7826488873"
 
 BloxFunGui.Tab1Button43_Roundify_InvisFrame.Name = "Tab1Button43_Roundify_InvisFrame"
 BloxFunGui.Tab1Button43_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button43_Roundify
@@ -16341,7 +16354,7 @@ BloxFunGui.Tab1Button43_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button43_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button43_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button43_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button43_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button43_AssetName.Text = "AK47 | Hallows 2"
 BloxFunGui.Tab1Button43_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button43_AssetName.TextScaled = true
 BloxFunGui.Tab1Button43_AssetName.TextSize = 11.000
@@ -16405,7 +16418,7 @@ BloxFunGui.Tab1Button44_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button44_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button44_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button44_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button44_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button44_Script.Image = "rbxassetid://7826330132"
 
 BloxFunGui.Tab1Button44_Roundify_InvisFrame.Name = "Tab1Button44_Roundify_InvisFrame"
 BloxFunGui.Tab1Button44_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button44_Roundify
@@ -16428,7 +16441,7 @@ BloxFunGui.Tab1Button44_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button44_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button44_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button44_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button44_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button44_AssetName.Text = "Desert Eagle | Hallows"
 BloxFunGui.Tab1Button44_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button44_AssetName.TextScaled = true
 BloxFunGui.Tab1Button44_AssetName.TextSize = 11.000
@@ -30278,6 +30291,95 @@ BloxFunGui.Tab5Button1_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenc
 BloxFunGui.Tab5Button1_TextLabel_Gradient.Rotation = 80
 BloxFunGui.Tab5Button1_TextLabel_Gradient.Name = "Tab5Button1_TextLabel_Gradient"
 BloxFunGui.Tab5Button1_TextLabel_Gradient.Parent = BloxFunGui.Tab5Button1_AssetName
+
+--5/2
+
+BloxFunGui.Tab5Button2_Frame.Name = "Tab5Button2_Frame"
+BloxFunGui.Tab5Button2_Frame.Parent = BloxFunGui.Tab5ScrollingFrame
+BloxFunGui.Tab5Button2_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab5Button2_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab5Button2_Frame.BorderSizePixel = 0
+BloxFunGui.Tab5Button2_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.Tab5Button2_Frame_GridLayout.Name = "Tab5Button2_Frame_GridLayout"
+BloxFunGui.Tab5Button2_Frame_GridLayout.Parent = BloxFunGui.Tab5Button2_Frame
+BloxFunGui.Tab5Button2_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab5Button2_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab5Button2_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab5Button2_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.Tab5Button2_Roundify.Name = "Tab5Button2_Roundify"
+BloxFunGui.Tab5Button2_Roundify.Parent = BloxFunGui.Tab5Button2_Frame
+BloxFunGui.Tab5Button2_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.Tab5Button2_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab5Button2_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.Tab5Button2_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.Tab5Button2_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.Tab5Button2_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.Tab5Button2_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.Tab5Button2_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.Tab5Button2_Roundify.SliceScale = 0.120
+
+BloxFunGui.Tab5Button2_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
+BloxFunGui.Tab5Button2_Roundify_Gradient.Rotation = 70
+BloxFunGui.Tab5Button2_Roundify_Gradient.Name = "Tab5Button2_Roundify_Gradient"
+BloxFunGui.Tab5Button2_Roundify_Gradient.Parent = BloxFunGui.Tab5Button2_Roundify
+
+BloxFunGui.Tab5Button2_Roundify_Frame.Name = "Tab5Button2_Roundify_Frame"
+BloxFunGui.Tab5Button2_Roundify_Frame.Parent = BloxFunGui.Tab5Button2_Roundify
+BloxFunGui.Tab5Button2_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab5Button2_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.Tab5Button2_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.Tab5Button2_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.Tab5Button2_Roundify_Frame_GridLayout.Name = "Tab5Button2_Roundify_Frame_GridLayout"
+BloxFunGui.Tab5Button2_Roundify_Frame_GridLayout.Parent = BloxFunGui.Tab5Button2_Roundify_Frame
+BloxFunGui.Tab5Button2_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab5Button2_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab5Button2_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.Tab5Button2_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.Tab5Button2_Script.Name = "Tab5Button2_Script"
+BloxFunGui.Tab5Button2_Script.Parent = BloxFunGui.Tab5Button2_Roundify_Frame
+BloxFunGui.Tab5Button2_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab5Button2_Script.BackgroundTransparency = 1.000
+BloxFunGui.Tab5Button2_Script.BorderSizePixel = 0
+BloxFunGui.Tab5Button2_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.Tab5Button2_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.Tab5Button2_Roundify_InvisFrame.Name = "Tab5Button2_Roundify_InvisFrame"
+BloxFunGui.Tab5Button2_Roundify_InvisFrame.Parent = BloxFunGui.Tab5Button2_Roundify
+BloxFunGui.Tab5Button2_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab5Button2_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.Tab5Button2_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.Tab5Button2_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.Tab5Button2_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.Tab5Button2_Roundify_InvisFrame_GridLayout.Name = "Tab5Button2_Roundify_InvisFrame_GridLayout"
+BloxFunGui.Tab5Button2_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.Tab5Button2_Roundify_InvisFrame
+BloxFunGui.Tab5Button2_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.Tab5Button2_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.Tab5Button2_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.Tab5Button2_AssetName.Name = "Tab5Button2_AssetName"
+BloxFunGui.Tab5Button2_AssetName.Parent = BloxFunGui.Tab5Button2_Roundify_InvisFrame
+BloxFunGui.Tab5Button2_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab5Button2_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.Tab5Button2_AssetName.BorderSizePixel = 0
+BloxFunGui.Tab5Button2_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.Tab5Button2_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.Tab5Button2_AssetName.Text = "Japan Inferno"
+BloxFunGui.Tab5Button2_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.Tab5Button2_AssetName.TextScaled = true
+BloxFunGui.Tab5Button2_AssetName.TextSize = 11.000
+BloxFunGui.Tab5Button2_AssetName.TextWrapped = true
+
+BloxFunGui.Tab5Button2_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.Tab5Button2_TextLabel_Gradient.Rotation = 80
+BloxFunGui.Tab5Button2_TextLabel_Gradient.Name = "Tab5Button2_TextLabel_Gradient"
+BloxFunGui.Tab5Button2_TextLabel_Gradient.Parent = BloxFunGui.Tab5Button2_AssetName
+
+--Last: 5/2
 ---------------------------------------------------------------------------------------------------
 ---Tab6:
 --6/1
@@ -50177,7 +50279,7 @@ BloxFunGui.Tab8Button29_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button29_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button29_Script.BorderSizePixel = 0
 BloxFunGui.Tab8Button29_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab8Button29_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab8Button29_Script.Image = "rbxassetid://7826211960"
 
 BloxFunGui.Tab8Button29_Roundify_InvisFrame.Name = "Tab8Button29_Roundify_InvisFrame"
 BloxFunGui.Tab8Button29_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button29_Roundify
@@ -50200,7 +50302,7 @@ BloxFunGui.Tab8Button29_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button29_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button29_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button29_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button29_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button29_AssetName.Text = "Sports Glove | Caoba"
 BloxFunGui.Tab8Button29_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button29_AssetName.TextScaled = true
 BloxFunGui.Tab8Button29_AssetName.TextSize = 11.000
@@ -50264,7 +50366,7 @@ BloxFunGui.Tab8Button30_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button30_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button30_Script.BorderSizePixel = 0
 BloxFunGui.Tab8Button30_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab8Button30_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab8Button30_Script.Image = "rbxassetid://7826483572"
 
 BloxFunGui.Tab8Button30_Roundify_InvisFrame.Name = "Tab8Button30_Roundify_InvisFrame"
 BloxFunGui.Tab8Button30_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button30_Roundify
@@ -50287,7 +50389,7 @@ BloxFunGui.Tab8Button30_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button30_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab8Button30_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab8Button30_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab8Button30_AssetName.Text = "Asset"
+BloxFunGui.Tab8Button30_AssetName.Text = "Sports Glove | Hallows 2"
 BloxFunGui.Tab8Button30_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button30_AssetName.TextScaled = true
 BloxFunGui.Tab8Button30_AssetName.TextSize = 11.000
@@ -52299,11 +52401,18 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button42_Frame.Tab1But
 end)
 --1/43
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button43_Frame.Tab1Button43_Roundify.Tab1Button43_Roundify_Frame.Tab1Button43_Script.MouseButton1Down:connect(function()
-	print("1/43")
+	--AK47 Hallows 2
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Handle.TextureID = "rbxassetid://7826367064"
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Bolt.TextureID = "rbxassetid://7826367064"
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Mag.TextureID = "rbxassetid://7826367064"
 end)
 --1/44
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button44_Frame.Tab1Button44_Roundify.Tab1Button44_Roundify_Frame.Tab1Button44_Script.MouseButton1Down:connect(function()
-	print("1/44")
+	--Deagle Hallows
+	game.ReplicatedStorage.Viewmodels["v_DesertEagle"].Handle.TextureID = "rbxassetid://7826232738"
+	game.ReplicatedStorage.Viewmodels["v_DesertEagle"].Slide.TextureID = "rbxassetid://7826232738"
+	game.ReplicatedStorage.Viewmodels["v_DesertEagle"].Mag2.TextureID = "rbxassetid://7826232738"
+	game.ReplicatedStorage.Viewmodels["v_DesertEagle"].Mag.TextureID = "rbxassetid://7826232738"
 end)
 --1/45
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button45_Frame.Tab1Button45_Roundify.Tab1Button45_Roundify_Frame.Tab1Button45_Script.MouseButton1Down:connect(function()
@@ -53417,7 +53526,7 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button46_Frame.Tab3But
 end)
 --3/47
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button47_Frame.Tab3Button47_Roundify.Tab3Button47_Roundify_Frame.Tab3Button47_Script.MouseButton1Down:connect(function()
-	print("3/48")
+	print("3/47")
 end)
 --3/48
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button48_Frame.Tab3Button48_Roundify.Tab3Button48_Roundify_Frame.Tab3Button48_Script.MouseButton1Down:connect(function()
@@ -53671,6 +53780,19 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab5ScrollingFrame.Tab5Button1_Frame.Tab5Butt
 		Child.Parent = Model2.Parent
 	end
 	Model2:Destroy()
+end)
+--5/2
+game.CoreGui.BloxFunGui.MainFrame1.Tab5ScrollingFrame.Tab5Button2_Frame.Tab5Button2_Roundify.Tab5Button2_Roundify_Frame.Tab5Button2_Script.MouseButton1Down:connect(function()
+	--Japan Inferno
+	game.Workspace.Map["Geometry"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.Workspace.Map)
+	game:GetObjects('rbxassetid://6584084481')[1].Parent = Model1
+	Model1 = game.Workspace.Map.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+		Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
 end)
 ----------------------------------------------------------------------------------------------------
 ---Tab6:
@@ -56634,11 +56756,129 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button28_Frame.Tab8But
 end)
 --8/29
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button29_Frame.Tab8Button29_Roundify.Tab8Button29_Roundify_Frame.Tab8Button29_Script.MouseButton1Down:connect(function()
-	--
+	--Sports Caoba
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7826110396"
+	local r_gl_asset = "rbxassetid://7826110396"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --8/30
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button30_Frame.Tab8Button30_Roundify.Tab8Button30_Roundify_Frame.Tab8Button30_Script.MouseButton1Down:connect(function()
-	--
+	--Hallows 2
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["ECArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SASArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["IDFArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["UTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GCTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PCArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["BDSArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GSGArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["SPArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["WDArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["GTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["PTArms"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["AAArms"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7687143935')[1].Parent = Model1
+	Model1 = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model1:GetChildren()) do
+	    Child.Parent = Model1.Parent
+	end
+	Model1:Destroy()
+	wait()
+	Model2 = game.ReplicatedStorage.Viewmodels["Sports_Models"]
+	for _, Child in pairs(Model2:GetChildren()) do
+	    Child.Parent = Model2.Parent
+	end
+	Model2:Destroy()
+	wait()
+	local l_gl_asset = "rbxassetid://7826373546"
+	local r_gl_asset = "rbxassetid://7826373546"
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].LGlove.Mesh.TextureId = l_gl_asset
+	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
+	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].RGlove.Mesh.TextureId = r_gl_asset
 end)
 --Last: 30
 ----------------------------------------------------------------------------------------------------
