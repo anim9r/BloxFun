@@ -831,7 +831,31 @@ local BloxFunGui = {
 	TabVmdlsButton41_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
 	TabVmdlsButton41_AssetName = Instance.new("TextLabel"),
 	TabVmdlsButton41_TextLabel_Gradient = Instance.new("UIGradient"),
-	--Last: 42
+	--Vmdls/43
+	TabVmdlsButton43_Frame = Instance.new("Frame"),
+	TabVmdlsButton43_Frame_GridLayout = Instance.new("UIGridLayout"),
+	TabVmdlsButton43_Roundify = Instance.new("ImageLabel"),
+	TabVmdlsButton43_Roundify_Gradient = Instance.new("UIGradient"),
+	TabVmdlsButton43_Roundify_Frame = Instance.new("Frame"),
+	TabVmdlsButton43_Roundify_InvisFrame = Instance.new("Frame"),
+	TabVmdlsButton43_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	TabVmdlsButton43_Script = Instance.new("ImageButton"),
+	TabVmdlsButton43_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	TabVmdlsButton43_AssetName = Instance.new("TextLabel"),
+	TabVmdlsButton43_TextLabel_Gradient = Instance.new("UIGradient"),
+	--Vmdls/44
+	TabVmdlsButton44_Frame = Instance.new("Frame"),
+	TabVmdlsButton44_Frame_GridLayout = Instance.new("UIGridLayout"),
+	TabVmdlsButton44_Roundify = Instance.new("ImageLabel"),
+	TabVmdlsButton44_Roundify_Gradient = Instance.new("UIGradient"),
+	TabVmdlsButton44_Roundify_Frame = Instance.new("Frame"),
+	TabVmdlsButton44_Roundify_InvisFrame = Instance.new("Frame"),
+	TabVmdlsButton44_Roundify_Frame_GridLayout = Instance.new("UIGridLayout"),
+	TabVmdlsButton44_Script = Instance.new("ImageButton"),
+	TabVmdlsButton44_Roundify_InvisFrame_GridLayout = Instance.new("UIGridLayout"),
+	TabVmdlsButton44_AssetName = Instance.new("TextLabel"),
+	TabVmdlsButton44_TextLabel_Gradient = Instance.new("UIGradient"),
+	--Last: 44
 	----------------------------------------------------------------------------------------
 	---Tab1:
 	--1/1
@@ -7389,7 +7413,7 @@ BloxFunGui.VersionText.BorderSizePixel = 0
 BloxFunGui.VersionText.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.VersionText.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.VersionText.Font = Enum.Font.Cartoon
-BloxFunGui.VersionText.Text = "Last Updated: 25/10/2021"
+BloxFunGui.VersionText.Text = "Last Updated: 06/11/2021"
 BloxFunGui.VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.VersionText.TextScaled = true
 BloxFunGui.VersionText.TextSize = 50.000
@@ -7446,7 +7470,7 @@ BloxFunGui.ChangesText.BorderSizePixel = 0
 BloxFunGui.ChangesText.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.ChangesText.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.ChangesText.Font = Enum.Font.Cartoon
-BloxFunGui.ChangesText.Text = "+2 Custom Gloves; +2 Custom Skins; +1 Custom Map;"
+BloxFunGui.ChangesText.Text = "+Some Icons; +Halloween Bomb(auto-equipped); +5 Custom Skins; +6 Custom Models; -Japan Inferno; Fixed Skyboxes;"
 BloxFunGui.ChangesText.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.ChangesText.TextScaled = true
 BloxFunGui.ChangesText.TextSize = 50.000
@@ -8541,7 +8565,7 @@ BloxFunGui.Persons2Text.BorderSizePixel = 0
 BloxFunGui.Persons2Text.Position = UDim2.new(0.150343642, 0, 0, 0)
 BloxFunGui.Persons2Text.Size = UDim2.new(0, 405, 0, 50)
 BloxFunGui.Persons2Text.Font = Enum.Font.Cartoon
-BloxFunGui.Persons2Text.Text = "Bad Ader; Leton; LuNaR; Xadek; Came;"
+BloxFunGui.Persons2Text.Text = "Bad Ader; Leton; LuNaR; Xadek; Came; DerAdminLucky;"
 BloxFunGui.Persons2Text.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Persons2Text.TextScaled = true
 BloxFunGui.Persons2Text.TextSize = 50.000
@@ -12622,7 +12646,181 @@ BloxFunGui.TabVmdlsButton41_TextLabel_Gradient.Rotation = 80
 BloxFunGui.TabVmdlsButton41_TextLabel_Gradient.Name = "TabVmdlsButton41_TextLabel_Gradient"
 BloxFunGui.TabVmdlsButton41_TextLabel_Gradient.Parent = BloxFunGui.TabVmdlsButton41_AssetName
 
---Last: 42
+--Vmdls/43
+
+BloxFunGui.TabVmdlsButton43_Frame.Name = "TabVmdlsButton43_Frame"
+BloxFunGui.TabVmdlsButton43_Frame.Parent = BloxFunGui.TabVmdlsScrollingFrame
+BloxFunGui.TabVmdlsButton43_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton43_Frame.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton43_Frame.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton43_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.TabVmdlsButton43_Frame_GridLayout.Name = "TabVmdlsButton43_Frame_GridLayout"
+BloxFunGui.TabVmdlsButton43_Frame_GridLayout.Parent = BloxFunGui.TabVmdlsButton43_Frame
+BloxFunGui.TabVmdlsButton43_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.TabVmdlsButton43_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.TabVmdlsButton43_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.TabVmdlsButton43_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.TabVmdlsButton43_Roundify.Name = "TabVmdlsButton43_Roundify"
+BloxFunGui.TabVmdlsButton43_Roundify.Parent = BloxFunGui.TabVmdlsButton43_Frame
+BloxFunGui.TabVmdlsButton43_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.TabVmdlsButton43_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton43_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton43_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.TabVmdlsButton43_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.TabVmdlsButton43_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.TabVmdlsButton43_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.TabVmdlsButton43_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.TabVmdlsButton43_Roundify.SliceScale = 0.120
+
+BloxFunGui.TabVmdlsButton43_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
+BloxFunGui.TabVmdlsButton43_Roundify_Gradient.Rotation = 70
+BloxFunGui.TabVmdlsButton43_Roundify_Gradient.Name = "TabVmdlsButton43_Roundify_Gradient"
+BloxFunGui.TabVmdlsButton43_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton43_Roundify
+
+BloxFunGui.TabVmdlsButton43_Roundify_Frame.Name = "TabVmdlsButton43_Roundify_Frame"
+BloxFunGui.TabVmdlsButton43_Roundify_Frame.Parent = BloxFunGui.TabVmdlsButton43_Roundify
+BloxFunGui.TabVmdlsButton43_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton43_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton43_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton43_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.TabVmdlsButton43_Roundify_Frame_GridLayout.Name = "TabVmdlsButton43_Roundify_Frame_GridLayout"
+BloxFunGui.TabVmdlsButton43_Roundify_Frame_GridLayout.Parent = BloxFunGui.TabVmdlsButton43_Roundify_Frame
+BloxFunGui.TabVmdlsButton43_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.TabVmdlsButton43_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.TabVmdlsButton43_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.TabVmdlsButton43_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.TabVmdlsButton43_Script.Name = "TabVmdlsButton43_Script"
+BloxFunGui.TabVmdlsButton43_Script.Parent = BloxFunGui.TabVmdlsButton43_Roundify_Frame
+BloxFunGui.TabVmdlsButton43_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton43_Script.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton43_Script.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton43_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.TabVmdlsButton43_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame.Name = "TabVmdlsButton43_Roundify_InvisFrame"
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton43_Roundify
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame_GridLayout.Name = "TabVmdlsButton43_Roundify_InvisFrame_GridLayout"
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.TabVmdlsButton43_AssetName.Name = "TabVmdlsButton43_AssetName"
+BloxFunGui.TabVmdlsButton43_AssetName.Parent = BloxFunGui.TabVmdlsButton43_Roundify_InvisFrame
+BloxFunGui.TabVmdlsButton43_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton43_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton43_AssetName.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton43_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.TabVmdlsButton43_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.TabVmdlsButton43_AssetName.Text = "C4 Bomb"
+BloxFunGui.TabVmdlsButton43_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton43_AssetName.TextScaled = true
+BloxFunGui.TabVmdlsButton43_AssetName.TextSize = 11.000
+BloxFunGui.TabVmdlsButton43_AssetName.TextWrapped = true
+
+BloxFunGui.TabVmdlsButton43_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabVmdlsButton43_TextLabel_Gradient.Rotation = 80
+BloxFunGui.TabVmdlsButton43_TextLabel_Gradient.Name = "TabVmdlsButton43_TextLabel_Gradient"
+BloxFunGui.TabVmdlsButton43_TextLabel_Gradient.Parent = BloxFunGui.TabVmdlsButton43_AssetName
+
+--Vmdls/44
+
+BloxFunGui.TabVmdlsButton44_Frame.Name = "TabVmdlsButton44_Frame"
+BloxFunGui.TabVmdlsButton44_Frame.Parent = BloxFunGui.TabVmdlsScrollingFrame
+BloxFunGui.TabVmdlsButton44_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton44_Frame.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton44_Frame.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton44_Frame.Size = UDim2.new(0, 100, 0, 100)
+
+BloxFunGui.TabVmdlsButton44_Frame_GridLayout.Name = "TabVmdlsButton44_Frame_GridLayout"
+BloxFunGui.TabVmdlsButton44_Frame_GridLayout.Parent = BloxFunGui.TabVmdlsButton44_Frame
+BloxFunGui.TabVmdlsButton44_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.TabVmdlsButton44_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.TabVmdlsButton44_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.TabVmdlsButton44_Frame_GridLayout.CellSize = UDim2.new(0, 100, 0, 120)
+
+BloxFunGui.TabVmdlsButton44_Roundify.Name = "TabVmdlsButton44_Roundify"
+BloxFunGui.TabVmdlsButton44_Roundify.Parent = BloxFunGui.TabVmdlsButton44_Frame
+BloxFunGui.TabVmdlsButton44_Roundify.AnchorPoint = Vector2.new(0.5, 0.5)
+BloxFunGui.TabVmdlsButton44_Roundify.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton44_Roundify.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton44_Roundify.Position = UDim2.new(4.44999981, 0, 1.62000012, 0)
+BloxFunGui.TabVmdlsButton44_Roundify.Size = UDim2.new(1, 24, 1, 24)
+BloxFunGui.TabVmdlsButton44_Roundify.Image = "rbxassetid://3570695787"
+BloxFunGui.TabVmdlsButton44_Roundify.ScaleType = Enum.ScaleType.Slice
+BloxFunGui.TabVmdlsButton44_Roundify.SliceCenter = Rect.new(100, 100, 100, 100)
+BloxFunGui.TabVmdlsButton44_Roundify.SliceScale = 0.120
+
+BloxFunGui.TabVmdlsButton44_Roundify_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(45, 207, 104)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(36, 119, 30))}
+BloxFunGui.TabVmdlsButton44_Roundify_Gradient.Rotation = 70
+BloxFunGui.TabVmdlsButton44_Roundify_Gradient.Name = "TabVmdlsButton44_Roundify_Gradient"
+BloxFunGui.TabVmdlsButton44_Roundify_Gradient.Parent = BloxFunGui.TabVmdlsButton44_Roundify
+
+BloxFunGui.TabVmdlsButton44_Roundify_Frame.Name = "TabVmdlsButton44_Roundify_Frame"
+BloxFunGui.TabVmdlsButton44_Roundify_Frame.Parent = BloxFunGui.TabVmdlsButton44_Roundify
+BloxFunGui.TabVmdlsButton44_Roundify_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton44_Roundify_Frame.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton44_Roundify_Frame.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton44_Roundify_Frame.Size = UDim2.new(0, 100, 0, 85)
+
+BloxFunGui.TabVmdlsButton44_Roundify_Frame_GridLayout.Name = "TabVmdlsButton44_Roundify_Frame_GridLayout"
+BloxFunGui.TabVmdlsButton44_Roundify_Frame_GridLayout.Parent = BloxFunGui.TabVmdlsButton44_Roundify_Frame
+BloxFunGui.TabVmdlsButton44_Roundify_Frame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.TabVmdlsButton44_Roundify_Frame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.TabVmdlsButton44_Roundify_Frame_GridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+BloxFunGui.TabVmdlsButton44_Roundify_Frame_GridLayout.CellSize = UDim2.new(0, 88, 0, 83)
+
+BloxFunGui.TabVmdlsButton44_Script.Name = "TabVmdlsButton44_Script"
+BloxFunGui.TabVmdlsButton44_Script.Parent = BloxFunGui.TabVmdlsButton44_Roundify_Frame
+BloxFunGui.TabVmdlsButton44_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton44_Script.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton44_Script.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton44_Script.Size = UDim2.new(0, 100, 0, 100)
+BloxFunGui.TabVmdlsButton44_Script.Image = "rbxassetid://6645815505"
+
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame.Name = "TabVmdlsButton44_Roundify_InvisFrame"
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame.Parent = BloxFunGui.TabVmdlsButton44_Roundify
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame.Position = UDim2.new(0, 0, 0.708333313, 0)
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame.Size = UDim2.new(0, 100, 0, 35)
+
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame_GridLayout.Name = "TabVmdlsButton44_Roundify_InvisFrame_GridLayout"
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame_GridLayout.Parent = BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame_GridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame_GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame_GridLayout.CellSize = UDim2.new(0, 96, 0, 35)
+
+BloxFunGui.TabVmdlsButton44_AssetName.Name = "TabVmdlsButton44_AssetName"
+BloxFunGui.TabVmdlsButton44_AssetName.Parent = BloxFunGui.TabVmdlsButton44_Roundify_InvisFrame
+BloxFunGui.TabVmdlsButton44_AssetName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton44_AssetName.BackgroundTransparency = 1.000
+BloxFunGui.TabVmdlsButton44_AssetName.BorderSizePixel = 0
+BloxFunGui.TabVmdlsButton44_AssetName.Size = UDim2.new(0, 200, 0, 50)
+BloxFunGui.TabVmdlsButton44_AssetName.Font = Enum.Font.Cartoon
+BloxFunGui.TabVmdlsButton44_AssetName.Text = "Sounds"
+BloxFunGui.TabVmdlsButton44_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
+BloxFunGui.TabVmdlsButton44_AssetName.TextScaled = true
+BloxFunGui.TabVmdlsButton44_AssetName.TextSize = 11.000
+BloxFunGui.TabVmdlsButton44_AssetName.TextWrapped = true
+
+BloxFunGui.TabVmdlsButton44_TextLabel_Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(236, 236, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(239, 239, 239))}
+BloxFunGui.TabVmdlsButton44_TextLabel_Gradient.Rotation = 80
+BloxFunGui.TabVmdlsButton44_TextLabel_Gradient.Name = "TabVmdlsButton44_TextLabel_Gradient"
+BloxFunGui.TabVmdlsButton44_TextLabel_Gradient.Parent = BloxFunGui.TabVmdlsButton44_AssetName
+
+--Last: 44
 ---------------------------------------------------------------------------------------------------
 ---Tab1:
 --1/1
@@ -12677,7 +12875,7 @@ BloxFunGui.Tab1Button1_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button1_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button1_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button1_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button1_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button1_Script.Image = "rbxassetid://7892953811"
 
 BloxFunGui.Tab1Button1_Roundify_InvisFrame.Name = "Tab1Button1_Roundify_InvisFrame"
 BloxFunGui.Tab1Button1_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button1_Roundify
@@ -12764,7 +12962,7 @@ BloxFunGui.Tab1Button2_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button2_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button2_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button2_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button2_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button2_Script.Image = "rbxassetid://7892953828"
 
 BloxFunGui.Tab1Button2_Roundify_InvisFrame.Name = "Tab1Button2_Roundify_InvisFrame"
 BloxFunGui.Tab1Button2_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button2_Roundify
@@ -12851,7 +13049,7 @@ BloxFunGui.Tab1Button3_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button3_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button3_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button3_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button3_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button3_Script.Image = "rbxassetid://7892953741"
 
 BloxFunGui.Tab1Button3_Roundify_InvisFrame.Name = "Tab1Button3_Roundify_InvisFrame"
 BloxFunGui.Tab1Button3_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button3_Roundify
@@ -12938,7 +13136,7 @@ BloxFunGui.Tab1Button4_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button4_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button4_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button4_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button4_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button4_Script.Image = "rbxassetid://7893071624"
 
 BloxFunGui.Tab1Button4_Roundify_InvisFrame.Name = "Tab1Button4_Roundify_InvisFrame"
 BloxFunGui.Tab1Button4_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button4_Roundify
@@ -13025,7 +13223,7 @@ BloxFunGui.Tab1Button5_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button5_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button5_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button5_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button5_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button5_Script.Image = "rbxassetid://7892953835"
 
 BloxFunGui.Tab1Button5_Roundify_InvisFrame.Name = "Tab1Button5_Roundify_InvisFrame"
 BloxFunGui.Tab1Button5_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button5_Roundify
@@ -13112,7 +13310,7 @@ BloxFunGui.Tab1Button6_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button6_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button6_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button6_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button6_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button6_Script.Image = "rbxassetid://7893071671"
 
 BloxFunGui.Tab1Button6_Roundify_InvisFrame.Name = "Tab1Button6_Roundify_InvisFrame"
 BloxFunGui.Tab1Button6_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button6_Roundify
@@ -13199,7 +13397,7 @@ BloxFunGui.Tab1Button7_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button7_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button7_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button7_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button7_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button7_Script.Image = "rbxassetid://7893071657"
 
 BloxFunGui.Tab1Button7_Roundify_InvisFrame.Name = "Tab1Button7_Roundify_InvisFrame"
 BloxFunGui.Tab1Button7_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button7_Roundify
@@ -13373,7 +13571,7 @@ BloxFunGui.Tab1Button9_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button9_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button9_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button9_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button9_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button9_Script.Image = "rbxassetid://7892953827"
 
 BloxFunGui.Tab1Button9_Roundify_InvisFrame.Name = "Tab1Button9_Roundify_InvisFrame"
 BloxFunGui.Tab1Button9_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button9_Roundify
@@ -13460,7 +13658,7 @@ BloxFunGui.Tab1Button10_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button10_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button10_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button10_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button10_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button10_Script.Image = "rbxassetid://7892953814"
 
 BloxFunGui.Tab1Button10_Roundify_InvisFrame.Name = "Tab1Button10_Roundify_InvisFrame"
 BloxFunGui.Tab1Button10_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button10_Roundify
@@ -13547,7 +13745,7 @@ BloxFunGui.Tab1Button11_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button11_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button11_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button11_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button11_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button11_Script.Image = "rbxassetid://6698311442"
 
 BloxFunGui.Tab1Button11_Roundify_InvisFrame.Name = "Tab1Button11_Roundify_InvisFrame"
 BloxFunGui.Tab1Button11_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button11_Roundify
@@ -13570,7 +13768,7 @@ BloxFunGui.Tab1Button11_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button11_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button11_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button11_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button11_AssetName.Text = "AK47 | Weeb"
+BloxFunGui.Tab1Button11_AssetName.Text = "AK47 | Vulcan"
 BloxFunGui.Tab1Button11_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button11_AssetName.TextScaled = true
 BloxFunGui.Tab1Button11_AssetName.TextSize = 11.000
@@ -13634,7 +13832,7 @@ BloxFunGui.Tab1Button12_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button12_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button12_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button12_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button12_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button12_Script.Image = "rbxassetid://7893071733"
 
 BloxFunGui.Tab1Button12_Roundify_InvisFrame.Name = "Tab1Button12_Roundify_InvisFrame"
 BloxFunGui.Tab1Button12_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button12_Roundify
@@ -13721,7 +13919,7 @@ BloxFunGui.Tab1Button13_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button13_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button13_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button13_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button13_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button13_Script.Image = "rbxassetid://7893071629"
 
 BloxFunGui.Tab1Button13_Roundify_InvisFrame.Name = "Tab1Button13_Roundify_InvisFrame"
 BloxFunGui.Tab1Button13_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button13_Roundify
@@ -13808,7 +14006,7 @@ BloxFunGui.Tab1Button14_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button14_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button14_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button14_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button14_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button14_Script.Image = "rbxassetid://7893071704"
 
 BloxFunGui.Tab1Button14_Roundify_InvisFrame.Name = "Tab1Button14_Roundify_InvisFrame"
 BloxFunGui.Tab1Button14_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button14_Roundify
@@ -13895,7 +14093,7 @@ BloxFunGui.Tab1Button15_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button15_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button15_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button15_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button15_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button15_Script.Image = "rbxassetid://7892953862"
 
 BloxFunGui.Tab1Button15_Roundify_InvisFrame.Name = "Tab1Button15_Roundify_InvisFrame"
 BloxFunGui.Tab1Button15_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button15_Roundify
@@ -13982,7 +14180,7 @@ BloxFunGui.Tab1Button16_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button16_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button16_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button16_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button16_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button16_Script.Image = "rbxassetid://7893071600"
 
 BloxFunGui.Tab1Button16_Roundify_InvisFrame.Name = "Tab1Button16_Roundify_InvisFrame"
 BloxFunGui.Tab1Button16_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button16_Roundify
@@ -14069,7 +14267,7 @@ BloxFunGui.Tab1Button17_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button17_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button17_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button17_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button17_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button17_Script.Image = "rbxassetid://7893071749"
 
 BloxFunGui.Tab1Button17_Roundify_InvisFrame.Name = "Tab1Button17_Roundify_InvisFrame"
 BloxFunGui.Tab1Button17_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button17_Roundify
@@ -14156,7 +14354,7 @@ BloxFunGui.Tab1Button18_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button18_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button18_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button18_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button18_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button18_Script.Image = "rbxassetid://7892953789"
 
 BloxFunGui.Tab1Button18_Roundify_InvisFrame.Name = "Tab1Button18_Roundify_InvisFrame"
 BloxFunGui.Tab1Button18_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button18_Roundify
@@ -14243,7 +14441,7 @@ BloxFunGui.Tab1Button19_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button19_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button19_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button19_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button19_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button19_Script.Image = "rbxassetid://7892953891"
 
 BloxFunGui.Tab1Button19_Roundify_InvisFrame.Name = "Tab1Button19_Roundify_InvisFrame"
 BloxFunGui.Tab1Button19_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button19_Roundify
@@ -14330,7 +14528,7 @@ BloxFunGui.Tab1Button20_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button20_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button20_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button20_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button20_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button20_Script.Image = "rbxassetid://7893071730"
 
 BloxFunGui.Tab1Button20_Roundify_InvisFrame.Name = "Tab1Button20_Roundify_InvisFrame"
 BloxFunGui.Tab1Button20_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button20_Roundify
@@ -14504,7 +14702,7 @@ BloxFunGui.Tab1Button22_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button22_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button22_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button22_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button22_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button22_Script.Image = "rbxassetid://7893071742"
 
 BloxFunGui.Tab1Button22_Roundify_InvisFrame.Name = "Tab1Button22_Roundify_InvisFrame"
 BloxFunGui.Tab1Button22_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button22_Roundify
@@ -14591,7 +14789,7 @@ BloxFunGui.Tab1Button23_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button23_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button23_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button23_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button23_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button23_Script.Image = "rbxassetid://7893071738"
 
 BloxFunGui.Tab1Button23_Roundify_InvisFrame.Name = "Tab1Button23_Roundify_InvisFrame"
 BloxFunGui.Tab1Button23_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button23_Roundify
@@ -14678,7 +14876,7 @@ BloxFunGui.Tab1Button24_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button24_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button24_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button24_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button24_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button24_Script.Image = "rbxassetid://7893071690"
 
 BloxFunGui.Tab1Button24_Roundify_InvisFrame.Name = "Tab1Button24_Roundify_InvisFrame"
 BloxFunGui.Tab1Button24_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button24_Roundify
@@ -14765,7 +14963,7 @@ BloxFunGui.Tab1Button25_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button25_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button25_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button25_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button25_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button25_Script.Image = "rbxassetid://7893071506"
 
 BloxFunGui.Tab1Button25_Roundify_InvisFrame.Name = "Tab1Button25_Roundify_InvisFrame"
 BloxFunGui.Tab1Button25_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button25_Roundify
@@ -14852,7 +15050,7 @@ BloxFunGui.Tab1Button26_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button26_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button26_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button26_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button26_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button26_Script.Image = "rbxassetid://7893071863"
 
 BloxFunGui.Tab1Button26_Roundify_InvisFrame.Name = "Tab1Button26_Roundify_InvisFrame"
 BloxFunGui.Tab1Button26_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button26_Roundify
@@ -14939,7 +15137,7 @@ BloxFunGui.Tab1Button27_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button27_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button27_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button27_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button27_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button27_Script.Image = "rbxassetid://7893071662"
 
 BloxFunGui.Tab1Button27_Roundify_InvisFrame.Name = "Tab1Button27_Roundify_InvisFrame"
 BloxFunGui.Tab1Button27_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button27_Roundify
@@ -15026,7 +15224,7 @@ BloxFunGui.Tab1Button28_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button28_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button28_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button28_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button28_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button28_Script.Image = "rbxassetid://7892953126"
 
 BloxFunGui.Tab1Button28_Roundify_InvisFrame.Name = "Tab1Button28_Roundify_InvisFrame"
 BloxFunGui.Tab1Button28_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button28_Roundify
@@ -15113,7 +15311,7 @@ BloxFunGui.Tab1Button29_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button29_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button29_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button29_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button29_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button29_Script.Image = "rbxassetid://7893071713"
 
 BloxFunGui.Tab1Button29_Roundify_InvisFrame.Name = "Tab1Button29_Roundify_InvisFrame"
 BloxFunGui.Tab1Button29_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button29_Roundify
@@ -15374,7 +15572,7 @@ BloxFunGui.Tab1Button32_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button32_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button32_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button32_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button32_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button32_Script.Image = "rbxassetid://7893071768"
 
 BloxFunGui.Tab1Button32_Roundify_InvisFrame.Name = "Tab1Button32_Roundify_InvisFrame"
 BloxFunGui.Tab1Button32_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button32_Roundify
@@ -15461,7 +15659,7 @@ BloxFunGui.Tab1Button33_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button33_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button33_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button33_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button33_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button33_Script.Image = "rbxassetid://7900399301"
 
 BloxFunGui.Tab1Button33_Roundify_InvisFrame.Name = "Tab1Button33_Roundify_InvisFrame"
 BloxFunGui.Tab1Button33_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button33_Roundify
@@ -15484,7 +15682,7 @@ BloxFunGui.Tab1Button33_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button33_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button33_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button33_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button33_AssetName.Text = "AWP | Chromatic Abberation"
+BloxFunGui.Tab1Button33_AssetName.Text = "AWP | Chromatic Abberation (Candy)"
 BloxFunGui.Tab1Button33_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button33_AssetName.TextScaled = true
 BloxFunGui.Tab1Button33_AssetName.TextSize = 11.000
@@ -15548,7 +15746,7 @@ BloxFunGui.Tab1Button34_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button34_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button34_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button34_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button34_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button34_Script.Image = "rbxassetid://7893097050"
 
 BloxFunGui.Tab1Button34_Roundify_InvisFrame.Name = "Tab1Button34_Roundify_InvisFrame"
 BloxFunGui.Tab1Button34_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button34_Roundify
@@ -15635,7 +15833,7 @@ BloxFunGui.Tab1Button35_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button35_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button35_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button35_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button35_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button35_Script.Image = "rbxassetid://7893071937"
 
 BloxFunGui.Tab1Button35_Roundify_InvisFrame.Name = "Tab1Button35_Roundify_InvisFrame"
 BloxFunGui.Tab1Button35_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button35_Roundify
@@ -15809,7 +16007,7 @@ BloxFunGui.Tab1Button37_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button37_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button37_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button37_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button37_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button37_Script.Image = "rbxassetid://7893071946"
 
 BloxFunGui.Tab1Button37_Roundify_InvisFrame.Name = "Tab1Button37_Roundify_InvisFrame"
 BloxFunGui.Tab1Button37_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button37_Roundify
@@ -15896,7 +16094,7 @@ BloxFunGui.Tab1Button38_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button38_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button38_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button38_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button38_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button38_Script.Image = "rbxassetid://7893071901"
 
 BloxFunGui.Tab1Button38_Roundify_InvisFrame.Name = "Tab1Button38_Roundify_InvisFrame"
 BloxFunGui.Tab1Button38_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button38_Roundify
@@ -15983,7 +16181,7 @@ BloxFunGui.Tab1Button39_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button39_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button39_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button39_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button39_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button39_Script.Image = "rbxassetid://7893071885"
 
 BloxFunGui.Tab1Button39_Roundify_InvisFrame.Name = "Tab1Button39_Roundify_InvisFrame"
 BloxFunGui.Tab1Button39_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button39_Roundify
@@ -16070,7 +16268,7 @@ BloxFunGui.Tab1Button40_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button40_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button40_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button40_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button40_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button40_Script.Image = "rbxassetid://7893071919"
 
 BloxFunGui.Tab1Button40_Roundify_InvisFrame.Name = "Tab1Button40_Roundify_InvisFrame"
 BloxFunGui.Tab1Button40_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button40_Roundify
@@ -16331,7 +16529,7 @@ BloxFunGui.Tab1Button43_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button43_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button43_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button43_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button43_Script.Image = "rbxassetid://7826488873"
+BloxFunGui.Tab1Button43_Script.Image = "rbxassetid://7892953791"
 
 BloxFunGui.Tab1Button43_Roundify_InvisFrame.Name = "Tab1Button43_Roundify_InvisFrame"
 BloxFunGui.Tab1Button43_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button43_Roundify
@@ -16418,7 +16616,7 @@ BloxFunGui.Tab1Button44_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button44_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button44_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button44_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button44_Script.Image = "rbxassetid://7826330132"
+BloxFunGui.Tab1Button44_Script.Image = "rbxassetid://7893071973"
 
 BloxFunGui.Tab1Button44_Roundify_InvisFrame.Name = "Tab1Button44_Roundify_InvisFrame"
 BloxFunGui.Tab1Button44_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button44_Roundify
@@ -16505,7 +16703,7 @@ BloxFunGui.Tab1Button45_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button45_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button45_Script.BorderSizePixel = 0
 BloxFunGui.Tab1Button45_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab1Button45_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab1Button45_Script.Image = "rbxassetid://7826245581"
 
 BloxFunGui.Tab1Button45_Roundify_InvisFrame.Name = "Tab1Button45_Roundify_InvisFrame"
 BloxFunGui.Tab1Button45_Roundify_InvisFrame.Parent = BloxFunGui.Tab1Button45_Roundify
@@ -16528,7 +16726,7 @@ BloxFunGui.Tab1Button45_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button45_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button45_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button45_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button45_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button45_AssetName.Text = "AWP | Twitch"
 BloxFunGui.Tab1Button45_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button45_AssetName.TextScaled = true
 BloxFunGui.Tab1Button45_AssetName.TextSize = 11.000
@@ -16615,7 +16813,7 @@ BloxFunGui.Tab1Button46_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button46_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button46_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button46_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button46_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button46_AssetName.Text = "AWP | Tonight Halloween"
 BloxFunGui.Tab1Button46_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button46_AssetName.TextScaled = true
 BloxFunGui.Tab1Button46_AssetName.TextSize = 11.000
@@ -16702,7 +16900,7 @@ BloxFunGui.Tab1Button47_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button47_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button47_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button47_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button47_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button47_AssetName.Text = "Butterfly Knife | Skelebone"
 BloxFunGui.Tab1Button47_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button47_AssetName.TextScaled = true
 BloxFunGui.Tab1Button47_AssetName.TextSize = 11.000
@@ -16789,7 +16987,7 @@ BloxFunGui.Tab1Button48_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab1Button48_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab1Button48_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab1Button48_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab1Button48_AssetName.Text = "Asset"
+BloxFunGui.Tab1Button48_AssetName.Text = "Bayonet | Skelebone"
 BloxFunGui.Tab1Button48_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab1Button48_AssetName.TextScaled = true
 BloxFunGui.Tab1Button48_AssetName.TextSize = 11.000
@@ -22513,7 +22711,7 @@ BloxFunGui.Tab3Button13_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button13_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button13_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button13_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button13_Script.Image = "rbxassetid://7161134804"
+BloxFunGui.Tab3Button13_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7909060305"
 
 BloxFunGui.Tab3Button13_Roundify_InvisFrame.Name = "Tab3Button13_Roundify_InvisFrame"
 BloxFunGui.Tab3Button13_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button13_Roundify
@@ -22600,7 +22798,7 @@ BloxFunGui.Tab3Button14_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button14_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button14_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button14_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button14_Script.Image = "rbxassetid://7161142905"
+BloxFunGui.Tab3Button14_Script.Image = "rbxassetid://6698503257"
 
 BloxFunGui.Tab3Button14_Roundify_InvisFrame.Name = "Tab3Button14_Roundify_InvisFrame"
 BloxFunGui.Tab3Button14_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button14_Roundify
@@ -25297,7 +25495,7 @@ BloxFunGui.Tab3Button45_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button45_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button45_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button45_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button45_Script.Image = "rbxassetid://7709433906"
+BloxFunGui.Tab3Button45_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7918059384"
 
 BloxFunGui.Tab3Button45_Roundify_InvisFrame.Name = "Tab3Button45_Roundify_InvisFrame"
 BloxFunGui.Tab3Button45_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button45_Roundify
@@ -25471,7 +25669,7 @@ BloxFunGui.Tab3Button47_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button47_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button47_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button47_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button47_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab3Button47_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917516586"
 
 BloxFunGui.Tab3Button47_Roundify_InvisFrame.Name = "Tab3Button47_Roundify_InvisFrame"
 BloxFunGui.Tab3Button47_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button47_Roundify
@@ -25494,7 +25692,7 @@ BloxFunGui.Tab3Button47_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button47_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab3Button47_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab3Button47_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab3Button47_AssetName.Text = "Asset"
+BloxFunGui.Tab3Button47_AssetName.Text = "Netherite Sword"
 BloxFunGui.Tab3Button47_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button47_AssetName.TextScaled = true
 BloxFunGui.Tab3Button47_AssetName.TextSize = 11.000
@@ -25558,7 +25756,7 @@ BloxFunGui.Tab3Button48_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button48_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button48_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button48_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button48_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab3Button48_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917569932"
 
 BloxFunGui.Tab3Button48_Roundify_InvisFrame.Name = "Tab3Button48_Roundify_InvisFrame"
 BloxFunGui.Tab3Button48_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button48_Roundify
@@ -25581,7 +25779,7 @@ BloxFunGui.Tab3Button48_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button48_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab3Button48_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab3Button48_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab3Button48_AssetName.Text = "Asset"
+BloxFunGui.Tab3Button48_AssetName.Text = "Diamond Sword"
 BloxFunGui.Tab3Button48_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button48_AssetName.TextScaled = true
 BloxFunGui.Tab3Button48_AssetName.TextSize = 11.000
@@ -25645,7 +25843,7 @@ BloxFunGui.Tab3Button49_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button49_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button49_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button49_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button49_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab3Button49_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917581809"
 
 BloxFunGui.Tab3Button49_Roundify_InvisFrame.Name = "Tab3Button49_Roundify_InvisFrame"
 BloxFunGui.Tab3Button49_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button49_Roundify
@@ -25668,7 +25866,7 @@ BloxFunGui.Tab3Button49_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button49_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab3Button49_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab3Button49_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab3Button49_AssetName.Text = "Asset"
+BloxFunGui.Tab3Button49_AssetName.Text = "Golden Sword"
 BloxFunGui.Tab3Button49_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button49_AssetName.TextScaled = true
 BloxFunGui.Tab3Button49_AssetName.TextSize = 11.000
@@ -25732,7 +25930,7 @@ BloxFunGui.Tab3Button50_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button50_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button50_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button50_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button50_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab3Button50_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917588241"
 
 BloxFunGui.Tab3Button50_Roundify_InvisFrame.Name = "Tab3Button50_Roundify_InvisFrame"
 BloxFunGui.Tab3Button50_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button50_Roundify
@@ -25755,7 +25953,7 @@ BloxFunGui.Tab3Button50_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button50_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab3Button50_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab3Button50_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab3Button50_AssetName.Text = "Asset"
+BloxFunGui.Tab3Button50_AssetName.Text = "Iron Sword"
 BloxFunGui.Tab3Button50_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button50_AssetName.TextScaled = true
 BloxFunGui.Tab3Button50_AssetName.TextSize = 11.000
@@ -25819,7 +26017,7 @@ BloxFunGui.Tab3Button51_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button51_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button51_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button51_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button51_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab3Button51_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917592314"
 
 BloxFunGui.Tab3Button51_Roundify_InvisFrame.Name = "Tab3Button51_Roundify_InvisFrame"
 BloxFunGui.Tab3Button51_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button51_Roundify
@@ -25842,7 +26040,7 @@ BloxFunGui.Tab3Button51_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button51_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab3Button51_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab3Button51_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab3Button51_AssetName.Text = "Asset"
+BloxFunGui.Tab3Button51_AssetName.Text = "Stone Sword"
 BloxFunGui.Tab3Button51_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button51_AssetName.TextScaled = true
 BloxFunGui.Tab3Button51_AssetName.TextSize = 11.000
@@ -25906,7 +26104,7 @@ BloxFunGui.Tab3Button52_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button52_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button52_Script.BorderSizePixel = 0
 BloxFunGui.Tab3Button52_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab3Button52_Script.Image = "rbxassetid://6645815505"
+BloxFunGui.Tab3Button52_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917607206"
 
 BloxFunGui.Tab3Button52_Roundify_InvisFrame.Name = "Tab3Button52_Roundify_InvisFrame"
 BloxFunGui.Tab3Button52_Roundify_InvisFrame.Parent = BloxFunGui.Tab3Button52_Roundify
@@ -25929,7 +26127,7 @@ BloxFunGui.Tab3Button52_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab3Button52_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab3Button52_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab3Button52_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab3Button52_AssetName.Text = "Asset"
+BloxFunGui.Tab3Button52_AssetName.Text = "Wooden Sword"
 BloxFunGui.Tab3Button52_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab3Button52_AssetName.TextScaled = true
 BloxFunGui.Tab3Button52_AssetName.TextSize = 11.000
@@ -30281,7 +30479,7 @@ BloxFunGui.Tab5Button1_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab5Button1_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab5Button1_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab5Button1_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab5Button1_AssetName.Text = "bhop_easyv2 (Blue)"
+BloxFunGui.Tab5Button1_AssetName.Text = "bhop easy v2 (Blue)"
 BloxFunGui.Tab5Button1_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab5Button1_AssetName.TextScaled = true
 BloxFunGui.Tab5Button1_AssetName.TextSize = 11.000
@@ -30368,7 +30566,7 @@ BloxFunGui.Tab5Button2_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab5Button2_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab5Button2_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab5Button2_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab5Button2_AssetName.Text = "Japan Inferno"
+BloxFunGui.Tab5Button2_AssetName.Text = "Still not fixed" --Inferno | Japan
 BloxFunGui.Tab5Button2_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab5Button2_AssetName.TextScaled = true
 BloxFunGui.Tab5Button2_AssetName.TextSize = 11.000
@@ -42446,7 +42644,7 @@ BloxFunGui.Tab7Button39_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab7Button39_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab7Button39_Script.BorderSizePixel = 0
 BloxFunGui.Tab7Button39_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab7Button39_Script.Image = "rbxassetid://7369017065"
+BloxFunGui.Tab7Button39_Script.Image = "rbxassetid://2194268977"
 
 BloxFunGui.Tab7Button39_Roundify_InvisFrame.Name = "Tab7Button39_Roundify_InvisFrame"
 BloxFunGui.Tab7Button39_Roundify_InvisFrame.Parent = BloxFunGui.Tab7Button39_Roundify
@@ -42469,7 +42667,7 @@ BloxFunGui.Tab7Button39_AssetName.BackgroundTransparency = 1.000
 BloxFunGui.Tab7Button39_AssetName.BorderSizePixel = 0
 BloxFunGui.Tab7Button39_AssetName.Size = UDim2.new(0, 200, 0, 50)
 BloxFunGui.Tab7Button39_AssetName.Font = Enum.Font.Cartoon
-BloxFunGui.Tab7Button39_AssetName.Text = "Scapter lol"
+BloxFunGui.Tab7Button39_AssetName.Text = "ScapGar"
 BloxFunGui.Tab7Button39_AssetName.TextColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab7Button39_AssetName.TextScaled = true
 BloxFunGui.Tab7Button39_AssetName.TextSize = 11.000
@@ -47843,7 +48041,7 @@ BloxFunGui.Tab8Button1_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button1_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button1_Script.BorderSizePixel = 0
 BloxFunGui.Tab8Button1_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab8Button1_Script.Image = "rbxassetid://7373728866"
+BloxFunGui.Tab8Button1_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917876885"
 
 BloxFunGui.Tab8Button1_Roundify_InvisFrame.Name = "Tab8Button1_Roundify_InvisFrame"
 BloxFunGui.Tab8Button1_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button1_Roundify
@@ -47930,7 +48128,7 @@ BloxFunGui.Tab8Button2_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button2_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button2_Script.BorderSizePixel = 0
 BloxFunGui.Tab8Button2_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab8Button2_Script.Image = "rbxassetid://7374164213"
+BloxFunGui.Tab8Button2_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7918031476"
 
 BloxFunGui.Tab8Button2_Roundify_InvisFrame.Name = "Tab8Button2_Roundify_InvisFrame"
 BloxFunGui.Tab8Button2_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button2_Roundify
@@ -48017,7 +48215,7 @@ BloxFunGui.Tab8Button3_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button3_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button3_Script.BorderSizePixel = 0
 BloxFunGui.Tab8Button3_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab8Button3_Script.Image = "rbxassetid://7374187176"
+BloxFunGui.Tab8Button3_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917966739"
 
 BloxFunGui.Tab8Button3_Roundify_InvisFrame.Name = "Tab8Button3_Roundify_InvisFrame"
 BloxFunGui.Tab8Button3_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button3_Roundify
@@ -48104,7 +48302,7 @@ BloxFunGui.Tab8Button4_Script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 BloxFunGui.Tab8Button4_Script.BackgroundTransparency = 1.000
 BloxFunGui.Tab8Button4_Script.BorderSizePixel = 0
 BloxFunGui.Tab8Button4_Script.Size = UDim2.new(0, 100, 0, 100)
-BloxFunGui.Tab8Button4_Script.Image = "rbxassetid://7374293820"
+BloxFunGui.Tab8Button4_Script.Image = "http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=7917724164"
 
 BloxFunGui.Tab8Button4_Roundify_InvisFrame.Name = "Tab8Button4_Roundify_InvisFrame"
 BloxFunGui.Tab8Button4_Roundify_InvisFrame.Parent = BloxFunGui.Tab8Button4_Roundify
@@ -52076,10 +52274,10 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button10_Frame.Tab1But
 end)
 --1/11
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button11_Frame.Tab1Button11_Roundify.Tab1Button11_Roundify_Frame.Tab1Button11_Script.MouseButton1Down:connect(function()
-	--AK47 Weeb
-	game.ReplicatedStorage.Viewmodels["v_AK47"].Handle.TextureID = "rbxassetid://6526384395"
-	game.ReplicatedStorage.Viewmodels["v_AK47"].Bolt.TextureID = "rbxassetid://6526384395"
-	game.ReplicatedStorage.Viewmodels["v_AK47"].Mag.TextureID = "rbxassetid://6526384395"
+	--AK47 Vulcan
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Handle.TextureID = "rbxassetid://6698167994"
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Bolt.TextureID = "rbxassetid://6698170295"
+	game.ReplicatedStorage.Viewmodels["v_AK47"].Mag.TextureID = "rbxassetid://6698169370"
 end)
 --1/12
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button12_Frame.Tab1Button12_Roundify.Tab1Button12_Roundify_Frame.Tab1Button12_Script.MouseButton1Down:connect(function()
@@ -52416,19 +52614,83 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button44_Frame.Tab1But
 end)
 --1/45
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button45_Frame.Tab1Button45_Roundify.Tab1Button45_Roundify_Frame.Tab1Button45_Script.MouseButton1Down:connect(function()
-	print("1/45")
+	--AWP Twitch
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Handle.TextureID = "rbxassetid://7826240654"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Scope.TextureID = "rbxassetid://7826242521"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Mag.TextureID = "rbxassetid://7826240654"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Barrel.TextureID = "rbxassetid://7826240654"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Slide.TextureID = "rbxassetid://7826240654"
+	game.ReplicatedStorage.Viewmodels["v_AWP"]["Slide 2"].TextureID = "rbxassetid://7826240654"
 end)
 --1/46
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button46_Frame.Tab1Button46_Roundify.Tab1Button46_Roundify_Frame.Tab1Button46_Script.MouseButton1Down:connect(function()
-	print("1/46")
+	--AWP Tonight Halloween
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Handle.TextureID = "rbxassetid://6698533624"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Scope.TextureID = "rbxassetid://6698534178"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Mag.TextureID = "rbxassetid://6698533624"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Barrel.TextureID = "rbxassetid://6698533624"
+	game.ReplicatedStorage.Viewmodels["v_AWP"].Slide.TextureID = "rbxassetid://6698533624"
+	game.ReplicatedStorage.Viewmodels["v_AWP"]["Slide 2"].TextureID = "rbxassetid://6698533624"
 end)
 --1/47
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button47_Frame.Tab1Button47_Roundify.Tab1Button47_Roundify_Frame.Tab1Button47_Script.MouseButton1Down:connect(function()
-	print("1/47")
+	--Butterfly Knife Skelebone
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7311301523')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7311301523')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_Butterfly Knife"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["v_Butterfly Knife"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]["Butterfly_LHandle"].TextureID = "rbxassetid://6698522698"
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]["Butterfly_RHandle"].TextureID = "rbxassetid://6698522698"
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]["Butterfly_Blade"].TextureID = "rbxassetid://6698522698"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]["Butterfly_LHandle"].TextureID = "rbxassetid://6698522698"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]["Butterfly_RHandle"].TextureID = "rbxassetid://6698522698"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]["Butterfly_Blade"].TextureID = "rbxassetid://6698522698"
 end)
 --1/48
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button48_Frame.Tab1Button48_Roundify.Tab1Button48_Roundify_Frame.Tab1Button48_Script.MouseButton1Down:connect(function()
-	print("1/48")
+	--Bayonet Skelebone
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7311299522')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7311299522')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_Bayonet"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["v_Bayonet"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]["Handle"].TextureID = "rbxassetid://6698520378"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]["Handle"].TextureID = "rbxassetid://6698520378"
 end)
 --1/49
 game.CoreGui.BloxFunGui.MainFrame1.Tab1ScrollingFrame.Tab1Button49_Frame.Tab1Button49_Roundify.Tab1Button49_Roundify_Frame.Tab1Button49_Script.MouseButton1Down:connect(function()
@@ -53526,27 +53788,171 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button46_Frame.Tab3But
 end)
 --3/47
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button47_Frame.Tab3Button47_Roundify.Tab3Button47_Roundify_Frame.Tab3Button47_Script.MouseButton1Down:connect(function()
-	print("3/47")
+	--Netherite Sword
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"].Handle.TextureID = "rbxassetid://7375049028"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"].Handle.TextureID = "rbxassetid://7375049028"
 end)
 --3/48
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button48_Frame.Tab3Button48_Roundify.Tab3Button48_Roundify_Frame.Tab3Button48_Script.MouseButton1Down:connect(function()
-	print("3/48")
+	--Diamond Sword
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"].Handle.TextureID = "rbxassetid://7911043090"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"].Handle.TextureID = "rbxassetid://7911043090"
 end)
 --3/49
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button49_Frame.Tab3Button49_Roundify.Tab3Button49_Roundify_Frame.Tab3Button49_Script.MouseButton1Down:connect(function()
-	print("3/49")
+	--Golden Sword
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"].Handle.TextureID = "rbxassetid://7911044328"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"].Handle.TextureID = "rbxassetid://7911044328"
 end)
 --3/50
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button50_Frame.Tab3Button50_Roundify.Tab3Button50_Roundify_Frame.Tab3Button50_Script.MouseButton1Down:connect(function()
-	print("3/50")
+	--Iron Sword
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"].Handle.TextureID = "rbxassetid://7911046351"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"].Handle.TextureID = "rbxassetid://7911046351"
 end)
 --3/51
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button51_Frame.Tab3Button51_Roundify.Tab3Button51_Roundify_Frame.Tab3Button51_Script.MouseButton1Down:connect(function()
-	print("3/51")
+	--Stone Sword
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"].Handle.TextureID = "rbxassetid://7911047542"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"].Handle.TextureID = "rbxassetid://7911047542"
 end)
 --3/52
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button52_Frame.Tab3Button52_Roundify.Tab3Button52_Roundify_Frame.Tab3Button52_Script.MouseButton1Down:connect(function()
-	print("3/52")
+	--Wooden Sword
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
+	game.ReplicatedStorage.Viewmodels["v_T Knife"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7917769386')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+		Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+	wait()
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_CT Knife"
+	game.ReplicatedStorage.Viewmodels["SwordMC"].Name = "v_T Knife"
+	wait()
+	game.ReplicatedStorage.Viewmodels["v_CT Knife"].Handle.TextureID = "rbxassetid://7911052511"
+	game.ReplicatedStorage.Viewmodels["v_T Knife"].Handle.TextureID = "rbxassetid://7911052511"
 end)
 --3/53
 game.CoreGui.BloxFunGui.MainFrame1.Tab3ScrollingFrame.Tab3Button53_Frame.Tab3Button53_Roundify.Tab3Button53_Roundify_Frame.Tab3Button53_Script.MouseButton1Down:connect(function()
@@ -53783,16 +54189,18 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab5ScrollingFrame.Tab5Button1_Frame.Tab5Butt
 end)
 --5/2
 game.CoreGui.BloxFunGui.MainFrame1.Tab5ScrollingFrame.Tab5Button2_Frame.Tab5Button2_Roundify.Tab5Button2_Roundify_Frame.Tab5Button2_Script.MouseButton1Down:connect(function()
-	--Japan Inferno
+	--Inferno Japan
+	--[[.
 	game.Workspace.Map["Geometry"]:Destroy()
 	wait()
 	local Model1 = Instance.new("Model", game.Workspace.Map)
-	game:GetObjects('rbxassetid://6584084481')[1].Parent = Model1
+	game:GetObjects('rbxassetid://7842792861')[1].Parent = Model1
 	Model1 = game.Workspace.Map.Model
 	for _, Child in pairs(Model1:GetChildren()) do
 		Child.Parent = Model1.Parent
 	end
 	Model1:Destroy()
+	--]]
 end)
 ----------------------------------------------------------------------------------------------------
 ---Tab6:
@@ -54681,9 +55089,9 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab7ScrollingFrame.Tab7Button38_Frame.Tab7But
 end)
 --7/39
 game.CoreGui.BloxFunGui.MainFrame1.Tab7ScrollingFrame.Tab7Button39_Frame.Tab7Button39_Roundify.Tab7Button39_Roundify_Frame.Tab7Button39_Script.MouseButton1Down:connect(function()
-	game.Players.LocalPlayer.PlayerGui.Menew.MainFrame.PlayerCard.Photo.EquippedPin.Image = "rbxassetid://7369017065"
-	game.Players.LocalPlayer.PlayerGui.Menew.MainFrame.PlayerCard.pinHolder.ImageButton.Image = "rbxassetid://7369017065"
-	game.Players.LocalPlayer.EquippedPin.Value = "http://www.roblox.com/asset/?id=7369017065"
+	game.Players.LocalPlayer.PlayerGui.Menew.MainFrame.PlayerCard.Photo.EquippedPin.Image = "rbxassetid://2194268977"
+	game.Players.LocalPlayer.PlayerGui.Menew.MainFrame.PlayerCard.pinHolder.ImageButton.Image = "rbxassetid://2194268977"
+	game.Players.LocalPlayer.EquippedPin.Value = "http://www.roblox.com/asset/?id=2194268977"
 end)
 --7/40
 game.CoreGui.BloxFunGui.MainFrame1.Tab7ScrollingFrame.Tab7Button40_Frame.Tab7Button40_Roundify.Tab7Button40_Roundify_Frame.Tab7Button40_Script.MouseButton1Down:connect(function()
@@ -55082,37 +55490,6 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button2_Frame.Tab8Butt
  	   Child.Parent = Model2.Parent
 	end
 	Model2:Destroy()
-	wait()
-	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["CSSArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["CSSArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
 end)
 --8/3
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button3_Frame.Tab8Button3_Roundify.Tab8Button3_Roundify_Frame.Tab8Button3_Script.MouseButton1Down:connect(function()
@@ -55146,37 +55523,6 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button3_Frame.Tab8Butt
 		Child.Parent = Model2.Parent
 	end
 	Model2:Destroy()
-	wait()
-	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["CSSArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["CSSArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
 end)
 --8/4
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button4_Frame.Tab8Button4_Roundify.Tab8Button4_Roundify_Frame.Tab8Button4_Script.MouseButton1Down:connect(function()
@@ -55210,37 +55556,6 @@ game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button4_Frame.Tab8Butt
 		Child.Parent = Model2.Parent
 	end
 	Model2:Destroy()
-	wait()
-	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GIGNArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["ECArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["ECArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SASArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SASArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["IDFArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["IDFArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["UTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["UTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GCTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GCTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PCArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PCArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["BDSArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["BDSArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GSGArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GSGArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SPArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["SPArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["WDArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["WDArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["GTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["CSSArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["CSSArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PTArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["PTArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["AAArms"]["Left Arm"].Mesh.TextureId = "rbxassetid://6684681077"
-	game.ReplicatedStorage.Viewmodels["AAArms"]["Right Arm"].Mesh.TextureId = "rbxassetid://6684681077"
 end)
 --8/5
 game.CoreGui.BloxFunGui.MainFrame1.Tab8ScrollingFrame.Tab8Button5_Frame.Tab8Button5_Roundify.Tab8Button5_Roundify_Frame.Tab8Button5_Script.MouseButton1Down:connect(function()
@@ -57461,7 +57776,7 @@ game.CoreGui.BloxFunGui.MainFrame1.TabVmdlsScrollingFrame.TabVmdlsButton35_Frame
 end)
 --Vmdls/36
 game.CoreGui.BloxFunGui.MainFrame1.TabVmdlsScrollingFrame.TabVmdlsButton36_Frame.TabVmdlsButton36_Roundify.TabVmdlsButton36_Roundify_Frame.TabVmdlsButton36_Script.MouseButton1Down:connect(function()
-    --Incendiary Grenade --(Molotov CT)
+    --Incendiary Grenade (Molotov CT)
 	game.ReplicatedStorage.Viewmodels["v_Incendiary Grenade"]:Destroy()
     wait()
     local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
@@ -57540,11 +57855,57 @@ end)
 --Vmdls/42
 game.CoreGui.BloxFunGui.MainFrame1.TabVmdlsScrollingFrame.TabVmdlsButton42_Frame.TabVmdlsButton42_Roundify.TabVmdlsButton42_Roundify_Frame.TabVmdlsButton42_Script.MouseButton1Down:connect(function()
     --Skybox
-	local reset_BFSKY = Instance.new("Sky")
-	reset_BFSKY.Parent = game.Lighting
-	reset_BFSKY.Name = "BFSky"
+	if game.Lighting.Sky.SkyboxLf == "98202161" or game.Lighting.Sky.SkyboxLf == "rbxassetid://98202161" or game.Lighting.Sky.SkyboxRt == "98202146" or game.Lighting.Sky.SkyboxRt == "rbxassetid://98202146" then
+		game.Lighting.Sky:Destroy()
+		if game.Lighting["BFSky"].Name == "BFSky" then
+			game.Lighting["BFSky"]:Destroy()
+			wait()
+			local reset_BFSKY = Instance.new("Sky")
+			reset_BFSKY.Parent = game.Lighting
+			reset_BFSKY.Name = "BFSky"
+		else
+			local reset_BFSKY = Instance.new("Sky")
+			reset_BFSKY.Parent = game.Lighting
+			reset_BFSKY.Name = "BFSky"
+		end
+	else
+		--.
+		if game.Lighting["BFSky"].Name == "BFSky" then --yes, not "elseif"
+			--.
+			game.Lighting["BFSky"]:Destroy()
+			wait()
+			local reset_BFSKY = Instance.new("Sky")
+			reset_BFSKY.Parent = game.Lighting
+			reset_BFSKY.Name = "BFSky"
+		end
+	end
 end)
---Last: 42
+--Vmdls/43
+game.CoreGui.BloxFunGui.MainFrame1.TabVmdlsScrollingFrame.TabVmdlsButton43_Frame.TabVmdlsButton43_Roundify.TabVmdlsButton43_Roundify_Frame.TabVmdlsButton43_Script.MouseButton1Down:connect(function()
+    --C4 Bomb
+	game.ReplicatedStorage.Viewmodels["v_C4"]:Destroy()
+	wait()
+	local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+	game:GetObjects('rbxassetid://7311301986')[1].Parent = Model1
+	Model = game.ReplicatedStorage.Viewmodels.Model
+	for _, Child in pairs(Model:GetChildren()) do
+	    Child.Parent = Model.Parent
+	end
+	Model:Destroy()
+end)
+--Vmdls/44
+game.CoreGui.BloxFunGui.MainFrame1.TabVmdlsScrollingFrame.TabVmdlsButton44_Frame.TabVmdlsButton44_Roundify.TabVmdlsButton44_Roundify_Frame.TabVmdlsButton44_Script.MouseButton1Down:connect(function()
+	--Sounds
+	game.Workspace.Sounds["Explosion"].SoundId = "rbxassetid://6785751038"
+	game.Workspace.Sounds["Rescue"].SoundId = "rbxassetid://393019741"
+	game.Workspace.Sounds["Becky"].SoundId = "rbxassetid://387408611"
+	game.Workspace.Sounds["Beep"].SoundId = "rbxassetid://377025076"
+	game.Workspace.Sounds["Arm"].SoundId = "rbxassetid://5886336706"
+	game.Workspace.Sounds["Defuse"].SoundId = "rbxassetid://5897874147"
+	game.Workspace.Sounds["CT"].SoundId = "rbxassetid://5886335465"
+	game.Workspace.Sounds["T"].SoundId = "rbxassetid://5886334506"
+end)
+--Last: 44
 ----------------------------------------------------------------------------------------------------
 --Join Random Server:
 game.CoreGui.BloxFunGui.MainFrame1.TabSettingsScrollingFrame.RandomServerButton.MouseButton1Down:connect(function()
@@ -57572,6 +57933,25 @@ end)
 local local_BFSKY = Instance.new("Sky")
 local_BFSKY.Parent = game.Lighting
 local_BFSKY.Name = "BFSky"
+----------------------------------------------------------------------------------------------------
+--Halloween Bomb auto-equip (while halloween/Autumn)
+game.ReplicatedStorage.Viewmodels["v_C4"]:Destroy()
+wait()
+local Model1 = Instance.new("Model", game.ReplicatedStorage.Viewmodels)
+game:GetObjects('rbxassetid://7311304400')[1].Parent = Model1
+Model = game.ReplicatedStorage.Viewmodels.Model
+for _, Child in pairs(Model:GetChildren()) do
+    Child.Parent = Model.Parent
+end
+Model:Destroy()
+wait()
+game.ReplicatedStorage.Viewmodels["v_C4Halloween"].Name = "v_C4"
+----------------------------------------------------------------------------------------------------
+--Halloween Sounds auto-spawning (resetable in "Reset Content" option)
+game.Workspace.Sounds["Arm"].SoundId = "rbxassetid://5886336706"
+game.Workspace.Sounds["Defuse"].SoundId = "rbxassetid://5897874147"
+game.Workspace.Sounds["CT"].SoundId = "rbxassetid://5886335465"
+game.Workspace.Sounds["T"].SoundId = "rbxassetid://5886334506"
 ----------------------------------------------------------------------------------------------------
 --Keybind:
 local BFkeybinds = {
