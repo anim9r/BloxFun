@@ -57934,6 +57934,7 @@ local local_BFSKY = Instance.new("Sky")
 local_BFSKY.Parent = game.Lighting
 local_BFSKY.Name = "BFSky"
 ----------------------------------------------------------------------------------------------------
+--[[.
 --Halloween Bomb auto-equip (while halloween/Autumn)
 game.ReplicatedStorage.Viewmodels["v_C4"]:Destroy()
 wait()
@@ -57952,6 +57953,7 @@ game.Workspace.Sounds["Arm"].SoundId = "rbxassetid://5886336706"
 game.Workspace.Sounds["Defuse"].SoundId = "rbxassetid://5897874147"
 game.Workspace.Sounds["CT"].SoundId = "rbxassetid://5886335465"
 game.Workspace.Sounds["T"].SoundId = "rbxassetid://5886334506"
+--]]
 ----------------------------------------------------------------------------------------------------
 --Keybind:
 local BFkeybinds = {
